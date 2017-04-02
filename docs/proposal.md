@@ -1,4 +1,5 @@
-#__EVENT APP__
+# __EVENT APP__  
+
 EventApp is tinder for events. A React Native app with a Python/Django backend. Users will be able to swipe through cool local events (that we scrape from SF FunCheap, and GET from the Meetup API). Chosen events will be displayed on a timeline, where users will be able to add the events to their calendar, or invite friends (imported from their contacts).
 
 ## __MVP Features__
