@@ -1,3 +1,4 @@
+```
 {
 user: {
 	id: 4,
@@ -24,3 +25,4 @@ fetchedEvents : [
 
 
 }
+```
