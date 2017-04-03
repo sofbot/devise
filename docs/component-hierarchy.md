@@ -1,5 +1,5 @@
-* AuthContainer
-  * Auth
+* LoggedOut
+  * GoogleSigninButton
 * TourContainer
   * Tour
 * EventIndex
