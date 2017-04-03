@@ -40,6 +40,6 @@ timestamps      | timestamp | not null
 column name     | data type | details
 ----------------|-----------|-----------------------
 id              | integer   | not null, primary key
-eventId         | integer   | not null, foreign key
+userevent_id    | integer   | not null, foreign key
 inviteeEmail    | text      | not null
 timestamps      | timestamp | not null
