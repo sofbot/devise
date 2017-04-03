@@ -2,21 +2,28 @@
   * GoogleSigninButton
 * TourContainer
   * Tour
+  * TourNav
+* Header
 * EventIndex
   * EventCard
   * EventDetail (expanded event)
 * FriendListContainer
   * FriendList
-* FilterMenu
-* LocationContainer
-  * Location
-* DateTime Container
-  * DateTime
-* Categories Container
-  * Categories
+* FilterView
+  * FilterHeader
+  * FilterMenu
+  * DistanceContainer
+    * Distance
+  * DateTimeContainer
+    * DateTime
+  * CategoryIndex
+    * CategoryContainer
+      * Category
 * Timeline
-  * TimelineEvent
-  * TimelineEventContainer
+  * TimelineHeader
+  * TimelineEventIndex
+    * TimelineEventContainer
+      * TimelineEvent
 
 
 __bonus__  
