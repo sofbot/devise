@@ -24,14 +24,14 @@ EventApp is tinder for events. A React Native app with a Python/Django backend. 
 * [Android Permissions](./permissions.md)  
 
 ## __Implementation Plan__  
-###__Day 1: Auth and Scrape Script__
+### __Day 1: Auth and Scrape Script__
 __Objectives:__ Login with Gmail set up, SF FunCheap data scraper complete, backend set up to store event and user data, `EventIndex` component skeleton laid out.
 __Tasks:__
 * Sofia - EventIndex scaffold
 * Fariba / Sofia - Gmail Auth and handling Permissions
 * Justin - SF Fun Cheap Scrape & Backend setup
 
-###__Day 2 & 3: Swipe Animation and Filtering Events__
+### __Day 2 & 3: Swipe Animation and Filtering Events__
 __Objectives:__ Get a swipe action working, get user location and event filtering  
 
 __Tasks:__
@@ -39,27 +39,27 @@ __Tasks:__
 * Fariba - Frontend filtering & Location grab
 * Justin - Backend filtering & integration (connecting Django backend to React Native frontend)
 
-###__Day 4: Polishing Components__
+### __Day 4: Polishing Components__
 __Objective:__ Complete `EventIndex` component, `EventDetail` component, and all filter components, and set up first interaction flow  
 __Tasks:__  
 * Sofia - first interaction flow for `EventIndex` (alerts when user first swipes left or right)
 * Justin/Fariba - styling components  
 
 
-###__Day 5: Timeline and Friends__
+### __Day 5: Timeline and Friends__
 __Objective:__ Build `Timeline` component with ability to export events via the Google Cal API. Get friends (names and emails from contacts) and display in the `FriendList` component  
 __Tasks:__  
 * Justin / Sofia - Timeline
 * Fariba - FriendList
 
-###__Day 6: Tours__
+### __Day 6: Tours__
 __Objective:__ Complete in app `Tour` component, deploy production web app with Demo  
 __Tasks:__
 * Fariba - `Tour` component
 * Sofia - Web App
 * Justin - Web App Tour
 
-###__Day 7: Final Touches / README__
+### __Day 7: Final Touches / README__
 __Objective:__ Complete all app and web app styles, demos, and production readme
 __Tasks:__
 * Everyone - styles and readme
