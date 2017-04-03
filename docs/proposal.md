@@ -64,8 +64,6 @@ __Objective:__ Complete all app and web app styles, demos, and production readme
 __Tasks:__
 * Everyone - styles and readme
 
-
-
 ## __Bonus Features__  
 * Chat feature
 * Google Map

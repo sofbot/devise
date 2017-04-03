@@ -1,4 +1,4 @@
-__Androud Permissions__  
+__Android Permissions__  
 
 * android.permission.READ_CONTACTS
   * Allows us to read a user's contacts. We will use these to populate the `FriendList`.
