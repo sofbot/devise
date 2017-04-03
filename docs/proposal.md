@@ -33,35 +33,29 @@ __Tasks:__
 
 ### __Day 2 & 3: Swipe Animation and Filtering Events__
 __Objectives:__ Get a swipe action working, get user location and event filtering  
-
-__Tasks:__
 * Sofia - Swipe Animation
 * Fariba - Frontend filtering & Location grab
 * Justin - Backend filtering & integration (connecting Django backend to React Native frontend)
 
 ### __Day 4: Polishing Components__
 __Objective:__ Complete `EventIndex` component, `EventDetail` component, and all filter components, and set up first interaction flow  
-__Tasks:__  
 * Sofia - first interaction flow for `EventIndex` (alerts when user first swipes left or right)
 * Justin/Fariba - styling components  
 
 
 ### __Day 5: Timeline and Friends__
 __Objective:__ Build `Timeline` component with ability to export events via the Google Cal API. Get friends (names and emails from contacts) and display in the `FriendList` component  
-__Tasks:__  
 * Justin / Sofia - Timeline
 * Fariba - FriendList
 
 ### __Day 6: Tours__
-__Objective:__ Complete in app `Tour` component, deploy production web app with Demo  
-__Tasks:__
+__Objective:__ Complete in app `Tour` component, deploy production web app with Demo    
 * Fariba - `Tour` component
 * Sofia - Web App
 * Justin - Web App Tour
 
 ### __Day 7: Final Touches / README__
-__Objective:__ Complete all app and web app styles, demos, and production readme
-__Tasks:__
+__Objective:__ Complete all app and web app styles, demos, and production readme 
 * Everyone - styles and readme
 
 ## __Bonus Features__  
