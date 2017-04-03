@@ -4,7 +4,7 @@
 {
   user: {
     id: 4,
-    firstName: Sally',
+    firstName: 'Sally',
     lastName: 'Smith',
     emailAddress: 'sally@gmail.com',
   },
