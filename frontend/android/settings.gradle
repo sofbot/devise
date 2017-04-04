@@ -1,0 +1,3 @@
+rootProject.name = 'devise'
+
+include ':app'
