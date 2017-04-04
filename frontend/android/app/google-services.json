@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "394507303480",
+    "project_id": "firebase-devise"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394507303480:android:10d3b706fcb2b0fd",
+        "android_client_info": {
+          "package_name": "com.devise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394507303480-i8dnohglp08o0grabirokfsgl23qmbol.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "394507303480-jg5gp65j91gm6upksvocf32dpu5gv2q8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devise",
+            "certificate_hash": "bc67c4053a29761d8428540f6a3457f52db40a49"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNMX-isl8F5qYMkCYfILtqXdJxQSJxiK0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
