@@ -1,0 +1,17 @@
+<!-- {% if events %}
+    <ul>
+    {% for event in events %}
+        <li><a href="/events/{{ event.id }}/">{{ event.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No events are available.</p>
+{% endif %} -->
+
+{% if events %}
+    {% for event in events %}
+        <li><a href="/events/{{ event.id }}/">{{ event.title }}</a></li>
+    {% endfor %}
+{% else %}
+    <p>No events are available.</p>
+{% endif %}
