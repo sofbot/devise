@@ -2,7 +2,6 @@ import * as FacebookAPI from './utils/facebook_api_utils.js';
 
 // Action type constants
 export const RECEIVE_USER = 'RECEIVE_USER';
-export const RECEIVE_ERRORS = 'RECEIVE_ERRORS';
 
 // Actions
 

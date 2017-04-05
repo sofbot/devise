@@ -22,37 +22,24 @@ export default class Devise extends Component {
     super(props);
   }
 
-  _responseInfoCallback(error, result) {
-    console.log("inside responseInfoCallback");
-    console.log(error);
-    console.log(result);
-    console.log(result.toString());
-    if (error) {
-      alert('Error fetching data: ' + error.toString());
-    } else {
-      alert('Success fetching data: ' + result.toString());
-    }
-  }
-
-
-  fetchUserInfo(token){
-    const infoRequest = new GraphRequest(
-      '/me',
-      {
-        accessToken: token,
-        parameters: {
-          fields: {
-            string: 'id,first_name,last_name,friends,picture,email'
-          }
-        }
-      },
-      this._responseInfoCallback
-    );
-    const one = new GraphRequestManager();
-    const two = one.addRequest(infoRequest);
-    console.log("post two", two);
-    const three = two.start();
-  }
+  // fetchUserInfo(token){
+  //   const infoRequest = new GraphRequest(
+  //     '/me',
+  //     {
+  //       accessToken: token,
+  //       parameters: {
+  //         fields: {
+  //           string: 'id,first_name,last_name,friends,picture,email'
+  //         }
+  //       }
+  //     },
+  //     this._responseInfoCallback
+  //   );
+  //   const one = new GraphRequestManager();
+  //   const two = one.addRequest(infoRequest);
+  //   console.log("post two", two);
+  //   const three = two.start();
+  // }
 
   render() {
     return (

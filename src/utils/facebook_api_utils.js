@@ -18,10 +18,6 @@ export const fetchUserFBInfo = token => (
 export const sendUserInfo = (user, token) => {
   fetch('https://mywebsite.com/endpoint/', {
     method: 'POST',
-    headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json',
-    },
     body: JSON.stringify({ //JSON necessary?
       user: user, //refactor?
       token: token,

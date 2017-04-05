@@ -1,8 +1,8 @@
 import React from 'react';
 import FBSDK from 'react-native-fbsdk';
+import { fetchUserFBInfo } from '../actions/facebook_actions.js';
 
-const { LoginButton,  } = FBSDK;
-
+const { LoginButton, AccessToken } = FBSDK;
 
 const FacebookButton = () => {
   return (
@@ -16,6 +16,8 @@ const FacebookButton = () => {
             } else if (result.isCancelled) {
               alert("Login was cancelled");
             } else {
+              const token = AccessToken.getCurrentAccessToken().toString();
+              fetchUserFBInfo(token);
               alert ("Login successful");
             }
           }
