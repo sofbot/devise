@@ -1,34 +1,33 @@
 import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, Image,
-          Navigator, Header } from 'react-native';
-import { EventIndex } from './components/eventIndex';
-import { Container } from 'native-base';
+          Navigator, View } from 'react-native';
+import EventIndex from './components/eventIndex';
+import { Icon, Text } from 'react-native-elements';
 
 export default class App extends Component {
   render() {
 
-  return (
-    <Container>
-      <EventIndex />
-    </Container>
-  );
+    return (
+      <View>
+        <View style={styles.header}>
+          <Icon name="filter-list" />
+          <Text h4>Devise</Text>
+          <Icon name="timeline" />
+        </View>
+        <EventIndex />
+      </View>
+    );
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
+  header: {
+    backgroundColor: 'white',
+    justifyContent: 'space-between',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  img: {
-    opacity: 0.5,
-    width: '100%'
-  },
-  title: {
-    textAlign: 'center',
-    color: '#000000',
-    marginBottom: 5,
-  },
+    alignSelf: 'center',
+    flexDirection: 'row',
+    width: '100%',
+    padding: 10
+  }
 });

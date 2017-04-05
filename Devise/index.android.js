@@ -5,15 +5,17 @@
  */
 
 import React, { Component } from 'react';
-import { AppRegistry } from 'react-native';
-import App from './src/app';
+import { AppRegistry, View, Text } from 'react-native';
 import EventIndex from './src/components/eventIndex';
+import App from './src/app';
 
 
 export default class Devise extends Component {
   render() {
     return (
-      <EventIndex />
+      <View>
+        <App />
+      </View>
     );
   }
 }

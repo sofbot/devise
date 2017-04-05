@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { StyleSheet, Image } from 'react-native';
-import { Button } from 'react-native-elements';
-import { Container, Icon, View, DeckSwiper,
-          Card, CardItem, Thumbnail, Text } from 'native-base';
+import { StyleSheet, Image, View } from 'react-native';
+import { Card, Text } from 'react-native-elements';
 
 const cards = [
     {
@@ -26,46 +24,58 @@ const cards = [
 export default class EventIndex extends Component {
   render() {
     return (
-      <Container>
-          <View>
-            <DeckSwiper
-                dataSource={cards}
-                renderItem={item =>
-                  <Card style={{ elevation: 3 }}>
-                    <CardItem>
-                      <Thumbnail source={item.image} />
-                      <Text>{item.text}</Text>
-                      <Text note>NativeBase</Text>
-                    </CardItem>
-                    <CardItem>
-                      <Image style={{ resizeMode: 'cover', width: null }} source={item.image} />
-                    </CardItem>
-                    <CardItem>
-                      <Icon name="ios-heart" style={{ color: '#ED4A6A' }} />
-                      <Text>{item.name}</Text>
-                    </CardItem>
-                  </Card>
-                }
-              />
-          </View>
-      </Container>
+      <View>
+        <Card
+          title="EVENT"
+          image={require('../../images/prty.png')}
+          imageStyle={styles.image}
+          containerStyle={styles.container}>
+          <Text style={{marginBottom: 10}}>
+            lalala description
+          </Text>
+        </Card>
+      </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    margin: 30,
+    height: '89%',
+    borderRadius: 3
   },
-  img: {
-    opacity: 0.5,
-  },
-  title: {
-    textAlign: 'center',
-    color: '#000000',
-    marginBottom: 5,
-  },
+  image: {
+    height: '85%'
+  }
 });
+
+
+
+
+
+
+
+
+
+// <DeckSwiper
+//     dataSource={cards}
+//     onSwipeRight={() => console.log('swiped right')}
+//     onSwipeLeft={() => console.log('swiped left')}
+//     renderItem={item =>
+//       <Card style={{elevation: 3}}>
+//         <CardItem>
+//           <Thumbnail source={item.image} />
+//           <Text>{item.text}</Text>
+//           <Text note>NativeBase</Text>
+//         </CardItem>
+//         <CardItem>
+//           <Image style={{ resizeMode: 'cover', width: null }} source={item.image} />
+//         </CardItem>
+//         <CardItem>
+//           <Icon name="ios-heart" style={{ color: '#ED4A6A' }} />
+//           <Text>{item.name}</Text>
+//         </CardItem>
+//       </Card>
+//     }
+//   />

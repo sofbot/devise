@@ -4,51 +4,18 @@
  * @flow
  */
 
-import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+ import React, { Component } from 'react';
+ import { AppRegistry } from 'react-native';
+ // import EventIndex from './src/components/eventIndex';
+ import App from './src/app';
 
-import {
-    Button
-} from 'react-native-elements';
 
-export default class Devise extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Discover new and interesting events nearby
-        </Text>
-        <Button
-            raised
-            icon={{name: 'cached'}}
-            title='HELLOS' />
-      </View>
-    );
-  }
-}
+ export default class Devise extends Component {
+   render() {
+     return (
+       <App />
+     );
+   }
+ }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
-
-AppRegistry.registerComponent('Devise', () => Devise);
+ AppRegistry.registerComponent('Devise', () => Devise);
