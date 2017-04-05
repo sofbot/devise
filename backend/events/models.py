@@ -11,8 +11,11 @@ class Event(models.Model):
     title = models.CharField(max_length=100)
     summary = models.CharField(max_length=300)
     description = models.TextField()
+    start_date = models.DateField()
     start_time = models.DateTimeField()
-    end_time = models.DateTimeField()
+    end_time = models.TimeField()
+    end_date = models.DateField()
+    end_time = models.TimeField()
     created_at = models.DateTimeField(auto_now_add=True, editable=False)
 
     def __str__(self):
@@ -30,7 +33,9 @@ class Event(models.Model):
             ['summary'],
             ['description'],
             ['start_time', 'startTime'],
-            ['end_time', 'endTime']]
+            ['start_date', 'startDate'],
+            ['end_time', 'endTime'],
+            ['end_date', 'endDate']]
         obj = {}
         for field_pair in field_pairs:
             if len(field_pair) == 1:
