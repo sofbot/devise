@@ -1,22 +1,17 @@
 import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View,
-  Image
-} from 'react-native';
-import EventIndex from './components/eventIndex';
-
+import { AppRegistry, StyleSheet, Image,
+          Navigator, Header } from 'react-native';
+import { EventIndex } from './components/eventIndex';
+import { Container } from 'native-base';
 
 export default class App extends Component {
   render() {
-    return (
-      <View style={styles.container}>
-         <Text> home home home </Text>
-         <EventIndex />
-      </View>
-    );
+
+  return (
+    <Container>
+      <EventIndex />
+    </Container>
+  );
   }
 }
 
