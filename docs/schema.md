@@ -16,30 +16,30 @@ column name     | data type | details
 ----------------|-----------|-----------------------
 id              | integer   | not null, primary key
 source          | string    | not null
-compositeId     | string    | not null, indexed, unique
-imageUrl        | string    | not null
+custom_id       | string    | not null, indexed, unique
+image_url       | string    | not null
+url             | string    | not null
 title           | string    | not null
 summary         | text      | not null
 description     | text      | not null
-startDate       | date      | not null
-startTime       | time      | not null
-endDate         | date      | not null
-endTime         | time      | not null
-timestamps      | timestamp | not null
+start_time      | datetime  | not null
+end_time        | datetime  | not null
+created_at      | datetime  | not null
 
 ## userevents
 column name     | data type | details
 ----------------|-----------|-----------------------
 id              | integer   | not null, primary key
-userId          | integer   | not null, foreign key
-eventId         | integer   | not null, foreign key
+user_id         | integer   | not null, foreign key
+event_id        | integer   | not null, foreign key
 liked           | boolean   | not null
-timestamps      | timestamp | not null
+seconds_viewed  | integer   | not null
+created_at      | datetime  | not null
 
 ## invitations
 column name     | data type | details
 ----------------|-----------|-----------------------
 id              | integer   | not null, primary key
 userevent_id    | integer   | not null, foreign key
-inviteeEmail    | text      | not null
-timestamps      | timestamp | not null
+user_id         | text      | not null
+created_at      | datetime  | not null
