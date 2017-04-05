@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { StyleSheet, Image, View } from 'react-native';
-import { Card, Text } from 'react-native-elements';
+import { StyleSheet, Image, View, Text } from 'react-native';
+import { Card } from 'react-native-elements';
 
 const cards = [
     {
@@ -26,13 +26,19 @@ export default class EventIndex extends Component {
     return (
       <View>
         <Card
-          title="EVENT"
           image={require('../../images/prty.png')}
           imageStyle={styles.image}
           containerStyle={styles.container}>
-          <Text style={{marginBottom: 10}}>
-            lalala description
-          </Text>
+          <View style={styles.captionContainer}>
+            <View style={styles.captionText}>
+              <Text style={styles.title}>Event Title</Text>
+              <Text style={styles.venue}>Venue or Distance</Text>
+            </View>
+            <View style={styles.captionText}>
+              <Text>4 friends going</Text>
+              <Text>5pm</Text>
+            </View>
+          </View>
         </Card>
       </View>
     );
@@ -46,7 +52,18 @@ const styles = StyleSheet.create({
     borderRadius: 3
   },
   image: {
-    height: '85%'
+    height: '87%'
+  },
+  captionContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center'
+  },
+  captionText: {
+    flexDirection: 'column'
+  },
+  title: {
+    fontWeight: 'bold'
   }
 });
 
