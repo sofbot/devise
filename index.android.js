@@ -15,12 +15,11 @@ import {
 } from 'react-native';
 
 import FBSDK from 'react-native-fbsdk';
-const { LoginButton, AccessToken, GraphRequest, GraphRequestManager } = FBSDK;
+const { LoginButton, AccessToken } = FBSDK;
 
 export default class Devise extends Component {
   constructor(props){
     super(props);
-    this.state = {token: ""};
   }
 
   _responseInfoCallback(error, result) {
@@ -54,25 +53,6 @@ export default class Devise extends Component {
     console.log("post two", two);
     const three = two.start();
   }
-
-
-
-  //    let res = fetch(`https://graph.facebook.com/v2.8/me?fields=id,first_name,last_name,friends,picture&access_token=${token}`);
-  //    console.log(res.toString());
-  //    console.log(res.text());
-  //    console.log(res.text);
-  //    console.log(res.response());
-  //    console.log(res.response);
-  //    console.log(res.response.toString());
-  //    console.log(res.json);
-  //    console.log(res.responseText);
-  //    console.log(res.json());
-  //    console.log(res.type);
-  //    console.log(res.type());
-  //    console.log(res.type.toString());
-  //    console.log(res.url);
-  //   alert(res.toString());
-  // }
 
   render() {
     return (
