@@ -15,7 +15,7 @@ import {
 } from 'react-native';
 
 import FBSDK from 'react-native-fbsdk';
-const { LoginButton, AccessToken } = FBSDK;
+const { LoginButton, AccessToken, GraphRequest, GraphRequestManager } = FBSDK;
 
 export default class Devise extends Component {
   constructor(props){
@@ -23,40 +23,56 @@ export default class Devise extends Component {
     this.state = {token: ""};
   }
 
-  // initUser(token) {
-  //   fetch('https://graph.facebook.com/v2.5/me?fields=email,name,friends&access_token=' + token)
-  //   .then((response) => response.json())
-  //   .then((json) => {
-  //     // Some user object has been set up somewhere, build that user here
-  //     this.user.firstName = json.name;
-  //     this.user.id = json.id;
-  //     this.user.user_friends = json.friends;
-  //     this.user.loading = false;
-  //     this.set(user.loggedIn = true;
-  //     user.avatar = setAvatar(json.id);
-  //   })
-  //   .catch(() => {
-  //     reject('ERROR GETTING DATA FROM FACEBOOK');
-  //   })
-  // }
+  _responseInfoCallback(error, result) {
+    console.log("inside responseInfoCallback");
+    console.log(error);
+    console.log(result);
+    console.log(result.toString());
+    if (error) {
+      alert('Error fetching data: ' + error.toString());
+    } else {
+      alert('Success fetching data: ' + result.toString());
+    }
+  }
+
 
   fetchUserInfo(token){
-     let res = fetch(`https://graph.facebook.com/v2.8/me?fields=id,first_name,last_name,friends,picture&access_token=${token}`);
-     console.log(res.toString());
-     console.log(res.text());
-     console.log(res.text);
-     console.log(res.response());
-     console.log(res.response);
-     console.log(res.response.toString());
-     console.log(res.json);
-     console.log(res.responseText);
-     console.log(res.json());
-     console.log(res.type);
-     console.log(res.type());
-     console.log(res.type.toString());
-     console.log(res.url);
-    alert(res.toString());
+    const infoRequest = new GraphRequest(
+      '/me',
+      {
+        accessToken: token,
+        parameters: {
+          fields: {
+            string: 'id,first_name,last_name,friends,picture,email'
+          }
+        }
+      },
+      this._responseInfoCallback
+    );
+    const one = new GraphRequestManager();
+    const two = one.addRequest(infoRequest);
+    console.log("post two", two);
+    const three = two.start();
   }
+
+
+
+  //    let res = fetch(`https://graph.facebook.com/v2.8/me?fields=id,first_name,last_name,friends,picture&access_token=${token}`);
+  //    console.log(res.toString());
+  //    console.log(res.text());
+  //    console.log(res.text);
+  //    console.log(res.response());
+  //    console.log(res.response);
+  //    console.log(res.response.toString());
+  //    console.log(res.json);
+  //    console.log(res.responseText);
+  //    console.log(res.json());
+  //    console.log(res.type);
+  //    console.log(res.type());
+  //    console.log(res.type.toString());
+  //    console.log(res.url);
+  //   alert(res.toString());
+  // }
 
   render() {
     return (
@@ -73,10 +89,8 @@ export default class Devise extends Component {
               } else if (result.isCancelled) {
                 alert("Login was cancelled");
               } else {
-                AccessToken.getCurrentAccessToken().then(data => {
-                  this.fetchUserInfo(data.accessToken.toString());
-                  }
-                );
+                const token = AccessToken.getCurrentAccessToken().toString();
+                this.fetchUserInfo(token);
               }
             }
           }
