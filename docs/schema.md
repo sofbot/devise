@@ -40,6 +40,6 @@ created_at      | datetime  | not null
 column name     | data type | details
 ----------------|-----------|-----------------------
 id              | integer   | not null, primary key
-userevent_id    | integer   | not null, foreign key
+user_event_id    | integer   | not null, foreign key
 user_id         | text      | not null
 created_at      | datetime  | not null
