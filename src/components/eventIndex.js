@@ -3,6 +3,7 @@ import { StyleSheet, Image, View, Text, PanResponder } from 'react-native';
 import { Card } from 'react-native-elements';
 import Swiper from 'react-native-swiper';
 import SimpleGesture from 'react-native-simple-gesture';
+import { values } from 'lodash';
 
 export default class EventIndex extends Component {
   constructor(props) {
@@ -29,36 +30,26 @@ export default class EventIndex extends Component {
     return (
       <View style={{backgroundColor: 'white'}}>
         <Swiper {...this._panResponder.panHandlers}>
-          <Card
-            image={this.props.events[0].image}
-            imageStyle={styles.image}
-            containerStyle={styles.container}>
-            <View style={styles.captionContainer}>
-              <View style={styles.captionText}>
-                <Text style={styles.title}>{this.props.events[0].title}</Text>
-                <Text style={styles.venue}>{this.props.events[0].venue}</Text>
-              </View>
-              <View style={styles.captionText}>
-                <Text>{this.props.events[0].friends} friends going</Text>
-                <Text>{this.props.events[0].time}</Text>
-              </View>
-            </View>
-          </Card>
-          <Card
-            image={this.props.events[1].image}
-            imageStyle={styles.image}
-            containerStyle={styles.container}>
-            <View style={styles.captionContainer}>
-              <View style={styles.captionText}>
-                <Text style={styles.title}>{this.props.events[1].title}</Text>
-                <Text style={styles.venue}>{this.props.events[1].venue}</Text>
-              </View>
-              <View style={styles.captionText}>
-                <Text>{this.props.events[1].friends} friends going</Text>
-                <Text>{this.props.events[1].time}</Text>
-              </View>
-            </View>
-          </Card>
+          {
+            this.props.events.map((e, idx) => (
+              <Card
+                key={ idx }
+                image={ e.image }
+                imageStyle={ styles.image }
+                containerStyle={ styles.container }>
+                <View style={ styles.captionContainer }>
+                  <View style={ styles.captionText }>
+                    <Text style={ styles.title }> { e.title } </Text>
+                    <Text style={ styles.venue }>{ e.venue }</Text>
+                  </View>
+                  <View style={ styles.captionText }>
+                    <Text>{ e.friends } friends going</Text>
+                    <Text>{ e.time }</Text>
+                  </View>
+                </View>
+              </Card>
+            ))
+          }
         </Swiper>
       </View>
     );
