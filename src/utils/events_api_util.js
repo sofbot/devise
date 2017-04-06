@@ -1,9 +1,9 @@
 export const fetchEvents = () => {
-  return fetch('/api/events');
+  return fetch('/events');
 };
 
 export const recordChoice = swipedEvent => {
-  return fetch('/api/events', {
+  return fetch('userevents', {
     method: 'POST',
     body: JSON.stringify({
       eventId: swipedEvent.id,

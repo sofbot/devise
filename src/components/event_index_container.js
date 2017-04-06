@@ -2,16 +2,21 @@ import EventIndex from './eventIndex';
 import { connect } from 'react-redux';
 import {
   removeEvent,
-  fetchEvents
+  fetchEvents,
+  shiftEventFromAll,
+  addEventToSwipe
 } from '../actions/event_actions';
 
 const mapStateToProps = state => ({
-  events: state.fetchedEvents
+  fetchedEvents: state.fetchedEvents,
+  swipeEvents: state.swipeEvents
 });
 
 const mapDispatchToProps = dispatch => ({
   removeEvent: id => dispatch(removeEvent(id)),
-  fetchEvents: () => dispatch(fetchEvents())
+  fetchEvents: () => dispatch(fetchEvents()),
+  shiftEventFromAll: () => dispatch(shiftEventFromAll()),
+  addEventToSwipe: newEvent => dispatch(addEventToSwipe(newEvent))
 });
 
 export default connect(
