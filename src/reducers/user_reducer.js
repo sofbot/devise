@@ -16,13 +16,13 @@ const UserReducer = (state = defaultState, action) => {
 
   let newState = merge({}, state);
 
-  switch(action.type) {
+  switch(action.type){
     case RECEIVE_USER:
       newState.id = action.user.id;
       newState.firstName = action.user.first_name;
       newState.lastName = action.user.last_name;
       newState.photo = action.user.picture.data.url;
-      newState.friend = action.user.friends.data;
+      newState.friends = action.user.friends.data;
       return newState;
     default:
       return state;
