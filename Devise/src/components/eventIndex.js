@@ -42,7 +42,11 @@ export default class EventIndex extends Component {
       onMoveShouldSetPanResponder: (e, gs) => {
         let sgs = new SimpleGesture(e, gs);
         console.log('swiped', sgs.relativeGestureDistance.x*100, '% of the screen horizontallly');
-        return sgs.isSwipeRight();
+        const right = sgs.isSwipeRight();
+        const left = sgs.isSwipeLeft();
+        const direction = left ? 'left' : 'right';
+        console.log(direction);
+        return direction;
       }
     });
   }
