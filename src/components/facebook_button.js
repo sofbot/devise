@@ -26,3 +26,25 @@ const FacebookButton = () => {
     </View>
   );
 };
+
+export default FacebookButton;
+
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     justifyContent: 'center',
+//     alignItems: 'center',
+//     backgroundColor: '#2f4f4f',
+//   },
+//   welcome: {
+//     fontSize: 75,
+//     textAlign: 'center',
+//     margin: 10,
+//     fontWeight: "900",
+//     color: 'aliceblue'
+//   },
+//   instructions: {
+//     textAlign: 'center',
+//     color: '#333333',
+//     marginBottom: 5,
+//   },
