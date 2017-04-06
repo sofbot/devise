@@ -1,45 +1,88 @@
 import React, { Component } from 'react';
-import { StyleSheet, Image, View, Text } from 'react-native';
+import { StyleSheet, Image, View, Text, PanResponder } from 'react-native';
 import { Card } from 'react-native-elements';
-
-const cards = [
-    {
-        text: 'Card One',
-        name: 'One',
-        image: require('../../images/prty.png'),
-    },
-    {
-        text: 'Card Two',
-        name: 'Two',
-        image: require('../../images/prty.png'),
-    },
-    {
-        text: 'Card Three',
-        name: 'Three',
-        image: require('../../images/prty.png'),
-    },
-
-];
+import Swiper from 'react-native-swiper';
+import SimpleGesture from 'react-native-simple-gesture';
 
 export default class EventIndex extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      current: 0,
+      cards: [
+        {
+          title: 'haus party',
+          image: require('../../images/prty.png'),
+          venue: 'my house',
+          friends: 3,
+          time: '5pm'
+        },
+        {
+          title: 'lisa bday',
+          image: require('../../images/prty.png'),
+          venue: 'your house',
+          friends: 5,
+          time: '10pm'
+        },
+        {
+          title: 'after hrs',
+          image: require('../../images/prty.png'),
+          venue: 'my house',
+          friends: 3,
+          time: '1am'
+        }
+      ]
+    };
+
+  }
+
+  componentWillMount() {
+    this._panResponder = PanResponder.create({
+      onMoveShouldSetPanResponder: (e, gs) => {
+        let sgs = new SimpleGesture(e, gs);
+        console.log('swiped', sgs.relativeGestureDistance.x*100, '% of the screen horizontallly');
+        return sgs.isSwipeRight();
+      }
+    });
+  }
+
+
   render() {
     return (
       <View>
-        <Card
-          image={require('../../images/prty.png')}
-          imageStyle={styles.image}
-          containerStyle={styles.container}>
-          <View style={styles.captionContainer}>
-            <View style={styles.captionText}>
-              <Text style={styles.title}>Event Title</Text>
-              <Text style={styles.venue}>Venue or Distance</Text>
+        <Swiper {...this._panResponder.panHandlers}>
+          <Card
+            image={this.state.cards[0].image}
+            imageStyle={styles.image}
+            containerStyle={styles.container}>
+            <View style={styles.captionContainer}>
+              <View style={styles.captionText}>
+                <Text style={styles.title}>{this.state.cards[0].title}</Text>
+                <Text style={styles.venue}>{this.state.cards[0].venue}</Text>
+              </View>
+              <View style={styles.captionText}>
+                <Text>{this.state.cards[0].friends} friends going</Text>
+                <Text>{this.state.cards[0].time}</Text>
+              </View>
             </View>
-            <View style={styles.captionText}>
-              <Text>4 friends going</Text>
-              <Text>5pm</Text>
+          </Card>
+          <Card
+            image={this.state.cards[1].image}
+            imageStyle={styles.image}
+            containerStyle={styles.container}>
+            <View style={styles.captionContainer}>
+              <View style={styles.captionText}>
+                <Text style={styles.title}>{this.state.cards[1].title}</Text>
+                <Text style={styles.venue}>{this.state.cards[1].venue}</Text>
+              </View>
+              <View style={styles.captionText}>
+                <Text>{this.state.cards[1].friends} friends going</Text>
+                <Text>{this.state.cards[1].time}</Text>
+              </View>
             </View>
-          </View>
-        </Card>
+          </Card>
+        </Swiper>
       </View>
     );
   }
@@ -48,7 +91,7 @@ export default class EventIndex extends Component {
 const styles = StyleSheet.create({
   container: {
     margin: 30,
-    height: '89%',
+    height: '80%',
     borderRadius: 3
   },
   image: {
@@ -66,33 +109,3 @@ const styles = StyleSheet.create({
     fontWeight: 'bold'
   }
 });
-
-
-
-
-
-
-
-
-
-// <DeckSwiper
-//     dataSource={cards}
-//     onSwipeRight={() => console.log('swiped right')}
-//     onSwipeLeft={() => console.log('swiped left')}
-//     renderItem={item =>
-//       <Card style={{elevation: 3}}>
-//         <CardItem>
-//           <Thumbnail source={item.image} />
-//           <Text>{item.text}</Text>
-//           <Text note>NativeBase</Text>
-//         </CardItem>
-//         <CardItem>
-//           <Image style={{ resizeMode: 'cover', width: null }} source={item.image} />
-//         </CardItem>
-//         <CardItem>
-//           <Icon name="ios-heart" style={{ color: '#ED4A6A' }} />
-//           <Text>{item.name}</Text>
-//         </CardItem>
-//       </Card>
-//     }
-//   />
