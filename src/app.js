@@ -11,7 +11,7 @@ export default class App extends Component {
       <View>
         <View style={styles.header}>
           <Icon name="filter-list" />
-          <Text h4>Devise</Text>
+          <Text h4 style={{color: "darkgrey"}}>Devise</Text>
           <Icon name="timeline" />
         </View>
         <EventIndexContainer />

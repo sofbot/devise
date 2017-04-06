@@ -39,8 +39,12 @@ export default class EventIndex extends Component {
                 containerStyle={ styles.container }>
                 <View style={ styles.captionContainer }>
                   <View style={ styles.captionText }>
-                    <Text style={ styles.title }> { e.title } </Text>
-                    <Text style={ styles.venue }>{ e.venue }</Text>
+                    <Text style={ styles.title }
+                      ellipsizeMode='tail'
+                      numberOfLines={1}> { e.title } </Text>
+                    <Text style={ styles.venue }
+                          ellipsizeMode='tail'
+                          numberOfLines={1}>{ e.venue }</Text>
                   </View>
                   <View style={ styles.captionText }>
                     <Text>{ e.friends } friends going</Text>
@@ -60,10 +64,12 @@ const styles = StyleSheet.create({
   container: {
     margin: 30,
     height: '80%',
-    borderRadius: 3
+    borderRadius: 8,
   },
   image: {
-    height: '87%'
+    height: 450,
+    borderTopRightRadius: 8,
+    borderTopLeftRadius: 8,
   },
   captionContainer: {
     flexDirection: 'row',
@@ -74,6 +80,10 @@ const styles = StyleSheet.create({
     flexDirection: 'column'
   },
   title: {
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    width: 200
+  },
+  venue: {
+    width: 200
   }
 });

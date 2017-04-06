@@ -16,7 +16,7 @@ const _defaultState = [
   },
   {
     title: 'lisa bday',
-    image: require('../../images/prty.png'),
+    image: require('../../images/dinnerprty.png'),
     venue: 'parnassus',
     friends: 5,
     description: 'modern dance lesson too',
@@ -24,12 +24,12 @@ const _defaultState = [
     id: 2
   },
   {
-    title: 'after hrs',
-    image: require('../../images/prty.png'),
-    venue: 'my house',
+    title: '50th Annual Cherry Blossom Festival',
+    image: require('../../images/cherryblossomparade.png'),
+    venue: 'Japantown (Post and Buchanan Streets), San Francisco',
     friends: 3,
-    description: 'dont come early',
-    time: '1am',
+    description: 'cherries etc',
+    time: '10am - 5pm',
     id: 3
   }
 ];
