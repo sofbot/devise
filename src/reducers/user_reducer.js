@@ -22,7 +22,7 @@ const UserReducer = (state = defaultState, action) => {
       newState.firstName = action.user.first_name;
       newState.lastName = action.user.last_name;
       newState.photo = action.user.picture.data.url;
-      newState.friend = action.user.friends.data;
+      newState.friends = action.user.friends.data;
       return newState;
     default:
       return state;
