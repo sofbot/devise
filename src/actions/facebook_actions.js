@@ -9,11 +9,9 @@ const receiveUser = user => ({
   user
 });
 
-
 // Action creators
-export const fetchUserFBInfo = token => dispatch => (
-  FacebookAPI.fetchUserFBInfo(token)
-  .then(user => dispatch(receiveUser(user)))
-  .then(user => dispatch(FacebookAPI.sendUserInfo(user,token)))
-  .fail(errors => dispatch(console.log(errors)))
-);
+export const fetchUserFBInfo = user => dispatch => {
+   dispatch(receiveUser(user));
+  // .then(user => dispatch(FacebookAPI.sendUserInfo(user,token)))
+  // .fail(errors => dispatch(console.log("dispatch errors ", errors)))
+};
