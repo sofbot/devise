@@ -10,10 +10,9 @@ class UserEvent(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     event = models.ForeignKey(Event, on_delete=models.CASCADE)
     liked = models.BooleanField()
-    seen_at = models.DateTimeField()
     seconds_viewed = models.IntegerField(default=-1)
-    create_date = models.DateField(auto_now_add=True)
-    create_time = models.TimeField(auto_now_add=True)
+    seen_date = models.DateField(auto_now_add=True)
+    seen_time = models.TimeField(auto_now_add=True)
 
     def __str__(self):
         return self.event.title + ' ' + self.user.email
@@ -24,7 +23,8 @@ class UserEvent(models.Model):
             ['user_id', 'userId'],
             ['event_id', 'eventId'],
             ['seconds_viewed', 'secondsViewed'],
-            ['seen_at', 'seenAt'],
+            ['seen_date', 'seenDate'],
+            ['seen_time', 'seenTime'],
             ['liked']]
         obj = {}
         for field_pair in field_pairs:
@@ -33,7 +33,6 @@ class UserEvent(models.Model):
             original_field, new_field = field_pair
             obj[new_field] = str(getattr(self, original_field))
         return obj
-
 
 class Invitation(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
