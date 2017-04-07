@@ -19,7 +19,8 @@ const EventsReducer = (state = _defaultState, action) => {
   let newState = JSON.parse(JSON.stringify(state));
   switch(action.type) {
     case RECEIVE_EVENTS:
-      if (newState[0] === _defaultState[0]) {
+    // debugger
+      if (newState[0].title === 'Loading Events...') {
         // replace entire slice with action.events on first load
         return action.events;
       } else {

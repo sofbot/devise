@@ -1,4 +1,4 @@
-import { REMOVE_EVENT, ADD_EVENT, ADD_EVENTS } from '../actions/event_actions';
+import { REMOVE_EVENT, ADD_SWIPE_EVENT, ADD_EVENTS } from '../actions/event_actions';
 
 const _defaultState = [
   {
@@ -28,7 +28,7 @@ const SwipeEventsReducer = (state = _defaultState, action) => {
     case REMOVE_EVENT:
       newState.shift();
       return newState;
-    case ADD_EVENT:
+    case ADD_SWIPE_EVENT:
       newState.push(action.nextEvent);
       return newState;
     default:

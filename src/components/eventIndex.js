@@ -10,59 +10,49 @@ export default class EventIndex extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      direction: ''
+      direction: '',
+      currentEvent: {},
+      nextEvent: {}
     }
     this.handleSwipe = this.handleSwipe.bind(this);
-    this.shiftFromAllToSwipe = this.shiftFromAllToSwipe.bind(this);
   }
 
   componentWillMount() {
-    // fetch 10 events and put into allEvents
-    this.props.fetchEvents();
+    // fetch 10 events and put into allEvents.
+    // set currentEvent to first fetched event
+    this.props.fetchEvents().then(() => {
+      this.setState({ currentEvent: this.props.swipeEvents[0] })
+      this.setState({ nextEvent: this.props.fetchedEvents[0] })
+    })
 
-    // this.setState({visibleEvent: this.props.swipeEvents[0]});
-
+    // simplegesture codes - on move, get direction
     this._panResponder = PanResponder.create({
       onMoveShouldSetPanResponder: (e, gs) => {
         let sgs = new SimpleGesture(e, gs);
         const direction = sgs.isSwipeLeft() ? 'left' : 'right';
-        console.log(direction);
         this.setState({ direction: direction })
       },
     });
   }
 
-  shiftFromAllToSwipe() {
-    this.props.removeEvent();
-    this.props.addEventToSwipe(this.props.fetchedEvents[0]);
-    this.props.shiftEventFromAll();
+  handleSwipe() {
+    if (this.state.direction === 'right') {
+      this.props.addTimelineEvent(this.state.currentEvent);
+    }
+    // send data to backend
+    // add user.id to backend
+    this.props.recordChoice(this.state.direction, this.state.currentEvent);
+
+    // remove from swipeEvents pile and reset currentEvent
+    this.props.removeEvent()
+    this.setState({ currentEvent: this.props.swipeEvents[0] })
+    // add next event to swipeEvents and reset nextEvent
+    this.props.addSwipeEvent(this.state.nextEvent)
+    this.props.shiftEventFromAll()
+    this.setState({ nextEvent: this.props.fetchedEvents[0] })
     // check length of fetchedEvents. fetch more if >= 5
   }
 
-  handleSwipe() {
-    console.log(this.state.direction);
-    switch (this.state.direction) {
-      case 'left':
-        alert('left');
-        this.shiftFromAllToSwipe();
-        break;
-      case 'right':
-        alert('right');
-        this.shiftFromAllToSwipe();
-        break;
-      default:
-        console.log('hello from the swiper error log');
-    }
-
-
-
-    if (this.state.direction === 'left') {
-      alert('left');
-
-    } else if (this.state.direction === 'right') {
-
-    }
-  }
 
   render() {
     return (

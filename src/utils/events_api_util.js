@@ -3,12 +3,22 @@
    */
 export const fetchEvents = () => fetch('http://10.0.2.2:8000/events');
 
-export const recordChoice = swipedEvent => {
-  return fetch('userevents', {
+export const recordChoice = (direction, swipedEvent) => {
+  switch(direction) {
+    case 'right':
+      swipedEvent.liked = true;
+      break;
+    case 'left':
+      swipedEvent.liked = false;
+      break;
+  }
+
+  return fetch('http://10.0.2.2:8000/userevents/', {
     method: 'POST',
     body: JSON.stringify({
-      eventId: swipedEvent.id,
-      liked: swipedEvent.liked
+      eventId: swipedEvent.customId,
+      liked: swipedEvent.liked,
+      secondsViewed: 1
     })
   });
 };

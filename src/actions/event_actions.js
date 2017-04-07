@@ -2,7 +2,7 @@ import * as EventUtil from '../utils/events_api_util';
 export const RECEIVE_EVENTS = 'RECEIVE_EVENTS';
 export const REMOVE_EVENT = 'REMOVE_EVENT';
 export const SHIFT_EVENT = 'SHIFT_EVENT';
-export const ADD_EVENT = 'ADD_EVENT';
+export const ADD_SWIPE_EVENT = 'ADD_SWIPE_EVENT';
 export const ADD_EVENTS = 'ADD_EVENTS';
 
 export const removeEvent = () => ({
@@ -18,8 +18,8 @@ export const receiveEvents = events => ({
   events
 });
 
-export const addEventToSwipe = nextEvent => ({
-  type: 'ADD_EVENT',
+export const addSwipeEvent = nextEvent => ({
+  type: 'ADD_SWIPE_EVENT',
   nextEvent
 });
 
