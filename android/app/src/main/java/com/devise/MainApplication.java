@@ -14,6 +14,8 @@ import com.facebook.CallbackManager;
 import com.facebook.appevents.AppEventsLogger;
 import com.facebook.reactnative.androidsdk.FBSDKPackage;
 
+import com.joshblour.reactnativepermissions.ReactNativePermissionsPackage;
+
 
 import java.util.Arrays;
 import java.util.List;
@@ -38,8 +40,9 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new VectorIconsPackage(),
-              new FBSDKPackage(mCallbackManager)
+          new VectorIconsPackage(),
+          new FBSDKPackage(mCallbackManager),
+          new ReactNativePermissionsPackage()
       );
     }
   };

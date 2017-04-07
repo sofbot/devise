@@ -319,37 +319,42 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1370026159345-3');
 	<div class="post" id="post-136365">
 
 	<span id="map"><a href="http://sf.funcheap.com/">Home</a> &raquo; Today</span>
-	<h1 class="title">Today: April 5, 2017</h1>
+	<h1 class="title">Today: April 6, 2017</h1>
 	<div style="clear:both;"></div>
 
 	<div class="entry clearfloat">
 
     </div>
-<div class="clearfloat" style="padding: 10px 0 0 0;border-bottom:none;">            <span class="left"><a href="/2017/04/04/">< Tuesday, April 4</a></span>
-         	<span class="right"><a href="/2017/04/06/">Thursday, April 6 ></a></span>
+<div class="clearfloat" style="padding: 10px 0 0 0;border-bottom:none;">            <span class="left"><a href="/2017/04/05/">< Wednesday, April 5</a></span>
+         	<span class="right"><a href="/2017/04/07/">Friday, April 7 ></a></span>
          	<div style="clear:both"></div>
-<div class='archive_date_title' style='background-color:white;margin:0px;margin-bottom:4px;padding:0px;'><h3 style='background-color:black;color:white;margin:0px;padding:3px;font: 16px Arial;font-weight:bold;'>Wednesday<span style='font-weight:normal;'>, April 5</span></h3></div><div class="tanbox left" style="background-color:white;">
-	<span class="title"><a href="http://sf.funcheap.com/monhtly-lululemon-flow-jo-complimentary-yoga-coffee-tickets-wed-apr-5-2017-700-eventbrite/" rel="bookmark" title="Lululemon Flow &#038; Jo: Complimentary Vinyasa Yoga &#038; Coffee | SF">Lululemon Flow &#038; Jo: Complimentary Vinyasa Yoga &#038; Coffee | SF</a></span>
-	<div class="meta archive-meta">Wednesday, April 5 &#150; 7:00 am | 
+<div class='archive_date_title' style='background-color:white;margin:0px;margin-bottom:4px;padding:0px;'><h3 style='background-color:black;color:white;margin:0px;padding:3px;font: 16px Arial;font-weight:bold;'>Thursday<span style='font-weight:normal;'>, April 6</span></h3></div><div class="tanbox left" style="background-color:white;">
+	<span class="title"><a href="http://sf.funcheap.com/walk-work-day-2/" rel="bookmark" title="Walk to Work Day 2017: Free Coffee &#038; Free Breakfast Snacks | SF">Walk to Work Day 2017: Free Coffee &#038; Free Breakfast Snacks | SF</a></span>
+	<div class="meta archive-meta">Thursday, April 6 &#150; 7:30 am | 
 
 
 <span class="cost">Cost:</span> <a class="tt">FREE* 
 		<div class="tooltip">
                 <div class="top"></div>
-                <div class="middle">*Free but an RSVP is required.</div>
+                <div class="middle">*Free, but you must walk at least 15 minutes of your commute. Everything offered is while supplies last. Must hubs are open from 7:30-10:30 am.</div>
                 <div class="bottom"></div>
-                </div></a> | <span>111 Minna Gallery</span> </div>
+                </div></a> | <span>All Over San Francisco</span> </div>
 
-<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/monhtly-lululemon-flow-jo-complimentary-yoga-coffee-tickets-wed-apr-5-2017-700-eventbrite/" rel="bookmark" title="Lululemon Flow & Jo: Complimentary Vinyasa Yoga & Coffee | SF"><img src="http://cdn.funcheap.com/wp-content/uploads/2017/03/MG_44941-175x130.jpg" alt="Lululemon Flow & Jo: Complimentary Vinyasa Yoga & Coffee | SF" class="left" /></a></div><p>Join Lululemon Grant Ave for their monthly complimentary yoga class and coffee at 111 Minna Gallery. Start the day with a gentle vinyasa flow, and leave centered and present. Top it off with a hot cup of joe courtesy of Red Door Coffee. Each month ...</p></div>
+<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/walk-work-day-2/" rel="bookmark" title="Walk to Work Day 2017: Free Coffee & Free Breakfast Snacks | SF"><img src="http://cdn.funcheap.com/wp-content/uploads/2016/03/945898_10153205507640863_4972442755793693070_n1-175x130.jpg" alt="Walk to Work Day 2017: Free Coffee & Free Breakfast Snacks | SF" class="left" /></a></div>San Francisco was the nation’s first city to officially launch Walk to Work Day  &#8211; walking just 15 minutes of your commute counts and your efforts be rewarded with some free goodies.
+Be a part of this fun and festive day of encouragement celebrating the most healthy, ...</div>
 <div class="tanbox left" style="background-color:white;">
-	<span class="title"><a href="http://sf.funcheap.com/free-belgian-waffle-wednesday-sf-36/" rel="bookmark" title="Free Belgian Waffle Wednesday | SF">Free Belgian Waffle Wednesday | SF</a></span>
-	<div class="meta archive-meta">Wednesday, April 5 &#150; 9:00 am | 
+	<span class="title"><a href="http://sf.funcheap.com/oakland-earth-expo/" rel="bookmark" title="Oakland Earth Expo 2017: Demos, Giveaways &#038; Food Trucks | Oakland">Oakland Earth Expo 2017: Demos, Giveaways &#038; Food Trucks | Oakland</a></span>
+	<div class="meta archive-meta">Thursday, April 6 &#150; 10:00 am | 
 
 
-<span class="cost">Cost: FREE</span> | <span>Capital One 360 Café</span> </div>
+<span class="cost">Cost: FREE</span> | <span>Frank H. Ogawa Plaza</span> </div>
 
-<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/free-belgian-waffle-wednesday-sf-36/" rel="bookmark" title="Free Belgian Waffle Wednesday | SF"><img src="http://cdn.funcheap.com/wp-content/uploads/2013/08/download-175x130.jpg" alt="Free Belgian Waffle Wednesday | SF" class="left" /></a></div>This Wednesday, they will be giving away Salted Caramel Belgian Waffles.
-</div>
+<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/oakland-earth-expo/" rel="bookmark" title="Oakland Earth Expo 2017: Demos, Giveaways & Food Trucks | Oakland"><img src="http://cdn.funcheap.com/wp-content/uploads/2017/03/16178487_1536032486426294_1424532529736636137_o1-175x130.jpg" alt="Oakland Earth Expo 2017: Demos, Giveaways & Food Trucks | Oakland" class="left" /></a></div>Renew your commitment to a cleaner, greener, healthier Oakland and you at the Oakland Earth Expo highlighting transportation, environmental health, waste reduction, water, energy, urban design, urban nature and community themes.
+22nd Annual Oakland Earth Expo 
+Thursday, April 6, 2017 | 10 am to 2 pm
+Frank Ogawa Plaza, Oakland
+FREE
+Approximately ...</div>
 		<div class="tanbox left" style="background-color:white;padding-bottom:10px;">
 			<p>
                 <!-- FunCheap_Archive_Listing -->
@@ -360,159 +365,66 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1370026159345-3');
                 </div>
 			</p>
 		</div>
-	<div class="tanbox left" style="background-color:white;">
-	<span class="title"><a href="http://sf.funcheap.com/bay-area-discovery-museum-free-admission-day-42/" rel="bookmark" title="Bay Area Discovery Museum | Free Admission Day">Bay Area Discovery Museum | Free Admission Day</a></span>
-	<div class="meta archive-meta">Wednesday, April 5 &#150; All Day | 
-
-
-<span class="cost">Cost: FREE</span> | <span>Bay Area Discovery Museum (Fort Baker)</span> </div>
-
-<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/bay-area-discovery-museum-free-admission-day-42/" rel="bookmark" title="Bay Area Discovery Museum | Free Admission Day"><img src="http://cdn.funcheap.com/wp-content/uploads/2013/07/12265745_10154334298768448_1620007696864919502_o-175x130.jpg" alt="Bay Area Discovery Museum | Free Admission Day" class="left" /></a></div><p>The Bay Area Discovery Museum is a one-of-a-kind indoor and outdoor children&#8217;s museum at the foot of the Golden Gate Bridge. The Museum is the only children’s museum in the U.S. to be located in a national park and is known for its emphasis on creativity through ...</p></div>
-<div class="tanbox left" style="background-color:white;">
-	<span class="title"><a href="http://sf.funcheap.com/free-first-wednesday-uc-berkeley-botanical-garden-27/" rel="bookmark" title="Free First Wednesday | UC Berkeley Botanical Garden">Free First Wednesday | UC Berkeley Botanical Garden</a></span>
-	<div class="meta archive-meta">Wednesday, April 5 &#150; All Day | 
-
-
-<span class="cost">Cost: FREE</span> | <span>UC Berkeley Botanical Garden</span> </div>
-
-<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/free-first-wednesday-uc-berkeley-botanical-garden-27/" rel="bookmark" title="Free First Wednesday | UC Berkeley Botanical Garden"><img src="http://cdn.funcheap.com/wp-content/uploads/2015/01/1982338_10153900897815241_686291682_n-175x130.jpg" alt="Free First Wednesday | UC Berkeley Botanical Garden" class="left" /></a></div><p>Enjoy free admission to the UC Botanical Garden on the first Wednesday of every month month from 9 am to 5 pm year round. Established in 1890, the Garden, which is open to the public year round, has over 13,000 different kinds of plants from ...</p></div>
-<div class="tanbox left" style="background-color:white;">
-	<span class="title"><a href="http://sf.funcheap.com/sf-zoo-free-admission-day-35/" rel="bookmark" title="SF Zoo Free Admission Day">SF Zoo Free Admission Day</a></span>
-	<div class="meta archive-meta">Wednesday, April 5 &#150; 10:00 am | 
+	<div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">10:00 am</td><td><span class="title2"><a href="http://sf.funcheap.com/pez-museum-free-admission-day-burlingame-43/" rel="bookmark" title="Pez Museum: Free Admission Day | Burlingame">Pez Museum: Free Admission Day | Burlingame</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;">
+	<span class="title"><a href="http://sf.funcheap.com/free-first-thursdays-at-berkeley-art-museum-east-bay-3/" rel="bookmark" title="Free First Thursdays at Berkeley Art Museum | East Bay">Free First Thursdays at Berkeley Art Museum | East Bay</a></span>
+	<div class="meta archive-meta">Thursday, April 6 &#150; 11:00 am | 
 
 
 <span class="cost">Cost:</span> <a class="tt">FREE* 
 		<div class="tooltip">
                 <div class="top"></div>
-                <div class="middle">*Free admission offer only valid to San Francisco residents with valid ID, subject to capacity. Admission into the zoo ends one hour before closing time for non-members. (For members admission ends 30 minutes before closing time.)</div>
+                <div class="middle">*Free admission to galleries. Film programs are excluded</div>
                 <div class="bottom"></div>
-                </div></a> | <span>San Francisco Zoo</span> </div>
+                </div></a> | <span>Berkeley Art Museum / Pacific Film Archive</span> </div>
 
-<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/sf-zoo-free-admission-day-35/" rel="bookmark" title="SF Zoo Free Admission Day"><img src="http://cdn.funcheap.com/wp-content/uploads/2013/05/sfzoo21-175x130.jpg" alt="SF Zoo Free Admission Day" class="left" /></a></div><p>The San Francisco Zoo, Northern California’s largest zoological park and conservation center, periodically offers free admission for San Francisco residents. This urban oasis, nestled against the Pacific Ocean, provides a comfortable climate all year round.  You’ll enjoy seeing the 250 different animal species in naturalistic surroundings, ...</p></div>
+<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/free-first-thursdays-at-berkeley-art-museum-east-bay-3/" rel="bookmark" title="Free First Thursdays at Berkeley Art Museum | East Bay"><img src="http://cdn.funcheap.com/wp-content/uploads/2013/07/BAMPFA-Addison-St_PhotoIwanBaan1-175x130.jpg" alt="Free First Thursdays at Berkeley Art Museum | East Bay" class="left" /></a></div><p>The UC Berkeley Art Museum is the visual arts center of the University of California, Berkeley. Through art and film programs, collections, and research resources, the University aspires to be locally connected and globally relevant, engaging audiences from the campus, community, and beyond. Through art and ...</p></div>
 <div class="tanbox left" style="background-color:white;">
-	<span class="title"><a href="http://sf.funcheap.com/1-books-media-sale-sf-main-library/" rel="bookmark" title="Season Opening: $1 Book Sale | SF Main Library">Season Opening: $1 Book Sale | SF Main Library</a></span>
-	<div class="meta archive-meta">Wednesday, April 5 &#150; 11:00 am | 
-
-
-<span class="cost">Cost:</span> <a class="tt">$1* 
-		<div class="tooltip">
-                <div class="top"></div>
-                <div class="middle">*$1 for books &amp; media. Free entrance.</div>
-                <div class="bottom"></div>
-                </div></a> | <span>San Francisco Main Public Library</span> </div>
-
-<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/1-books-media-sale-sf-main-library/" rel="bookmark" title="Season Opening: $1 Book Sale | SF Main Library"><img src="http://cdn.funcheap.com/wp-content/uploads/2012/07/photo-4-175x130.jpg" alt="Season Opening: $1 Book Sale | SF Main Library" class="left" /></a></div><p>Starting this April, the San Francisco Public Library host weekly Wednesday Steps Sales, located at the Larkin Street entrance to the Main Library. All books and media are just $1 or less each and all proceeds from Steps Sales benefit the San Francisco Public Library. ...</p></div>
-<div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">11:00 am</td><td><span class="title2"><a href="http://sf.funcheap.com/glbt-history-museum-free-first-wednesdays-castro-42/" rel="bookmark" title="GLBT History Museum: Free First Wednesdays | Castro">GLBT History Museum: Free First Wednesdays | Castro</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">12:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/free-guided-shuttle-tour-history-nature-hidden-nooks-presidio-39/" rel="bookmark" title="Free Guided Shuttle Tour: History, Nature &amp; Hidden Nooks | Presidio">Free Guided Shuttle Tour: History, Nature &amp; Hidden Nooks | Presidio</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">FREE*<div class="tooltip">
-             <div class="top"></div>
-             <div class="middle">*Free, but an RSVP is required. Call (415) 561-2793 or email presidio@presidiotrust.gov.   Space is limited. Reservations are limited to four people per party.</div>
-             <div class="bottom"></div>
-             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">12:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/sculpture-exhibition-opening-day-san-rafael/" rel="bookmark" title="&#8220;A Sculpture Exhibition&#8221; Opening Day | San Rafael">&#8220;A Sculpture Exhibition&#8221; Opening Day | San Rafael</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">12:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/chinese-calligraphy-workshop-traditional-experimental-techniques-oakland/" rel="bookmark" title="Chinese Calligraphy Workshop: Traditional &#038; Experimental Techniques | Oakland">Chinese Calligraphy Workshop: Traditional &#038; Experimental Techniques | Oakland</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">FREE*<div class="tooltip">
-             <div class="top"></div>
-             <div class="middle">*Free but an RSVP is required.</div>
-             <div class="bottom"></div>
-             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">12:30 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/yerba-buena-island-bioblitz-collect-data-app-sf/" rel="bookmark" title="Yerba Buena Island Bioblitz: Collect Data With An App  | SF">Yerba Buena Island Bioblitz: Collect Data With An App  | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">1:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/shibori-tie-dye-learn-acrylic-paints-sf/" rel="bookmark" title="Shibori Tie Dye: Learn With Acrylic Paints | SF">Shibori Tie Dye: Learn With Acrylic Paints | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">FREE*<div class="tooltip">
-             <div class="top"></div>
-             <div class="middle">*Free but an RSVP is required.</div>
-             <div class="bottom"></div>
-             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;">
-	<span class="title"><a href="http://sf.funcheap.com/sfs-open-streets-octavia-experiment-open-house-hayes-valley/" rel="bookmark" title="SF&#8217;s &#8220;Open Streets&#8221; Octavia Experiment Open House | Hayes Valley">SF&#8217;s &#8220;Open Streets&#8221; Octavia Experiment Open House | Hayes Valley</a></span>
-	<div class="meta archive-meta">Wednesday, April 5 &#150; 4:00 pm | 
+	<span class="title"><a href="http://sf.funcheap.com/future-octavia-walk-n-talk-hayes-valley/" rel="bookmark" title="The Future of Octavia &#8220;Walk &#8216;n&#8217; Talk&#8221; | Hayes Valley">The Future of Octavia &#8220;Walk &#8216;n&#8217; Talk&#8221; | Hayes Valley</a></span>
+	<div class="meta archive-meta">Thursday, April 6 &#150; 11:30 am | 
 
 
 <span class="cost">Cost: FREE</span> | <span>Proxy SF</span> </div>
 
-<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/sfs-open-streets-octavia-experiment-open-house-hayes-valley/" rel="bookmark" title="SF's "Open Streets" Octavia Experiment Open House | Hayes Valley"><img src="http://cdn.funcheap.com/wp-content/uploads/2017/03/IMG_17281-175x130.jpg" alt="SF's "Open Streets" Octavia Experiment Open House | Hayes Valley" class="left" /></a></div><p>From Friday, March 31 to Friday, April 7, 2017 the SFMTA is closing off a small segment of northbound Octavia Street, from Linden to Hayes streets, for the Octavia Open Street events that will experiment with opening this block for people who want to walk ...</p></div>
-<div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">5:30 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/resilience-biology-stress-science-hope-film-screening-sf/" rel="bookmark" title="&#8220;Resilience: The Biology of Stress &#038; The Science of Hope&#8221; Film Screening | SF">&#8220;Resilience: The Biology of Stress &#038; The Science of Hope&#8221; Film Screening | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">FREE*<div class="tooltip">
-             <div class="top"></div>
-             <div class="middle">*Free but an RSVP is required.</div>
-             <div class="bottom"></div>
-             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">5:30 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/free-laughter-yoga-class-ucsf-53/" rel="bookmark" title="Free Laughter Yoga Class | UCSF">Free Laughter Yoga Class | UCSF</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">5:30 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/wednesday-street-fest-night-live-musci-food-trucks-fun-walnut-creek/" rel="bookmark" title="First Wednesday Street Fest: Live Music, Food Trucks &#038; Fun | Walnut Creek">First Wednesday Street Fest: Live Music, Food Trucks &#038; Fun | Walnut Creek</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">5:30 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/rainbow-family-night-lgbtq-parents-support-group-berkeley/" rel="bookmark" title="Rainbow Family Night: LGBTQ Parents Support Group | Berkeley">Rainbow Family Night: LGBTQ Parents Support Group | Berkeley</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">FREE*<div class="tooltip">
-             <div class="top"></div>
-             <div class="middle">*Free but an RSVP is required. There is also a suggested donation of $10 per adult however no one is turned away for lack of funds. </div>
-             <div class="bottom"></div>
-             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">6:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/national-poetry-month-local-poets-showcase-sf-main-library/" rel="bookmark" title="National Poetry Month Local Poets Showcase | SF Main Library">National Poetry Month Local Poets Showcase | SF Main Library</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;">
-	<span class="title"><a href="http://sf.funcheap.com/burma-superstar-book-release-happy-hour-green-apple-books-music/" rel="bookmark" title="&#8220;Burma Superstar&#8221; Book Release &#038; Happy Hour | Green Apple Books &#038; Music">&#8220;Burma Superstar&#8221; Book Release &#038; Happy Hour | Green Apple Books &#038; Music</a></span>
-	<div class="meta archive-meta">Wednesday, April 5 &#150; 6:00 pm | 
+<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/future-octavia-walk-n-talk-hayes-valley/" rel="bookmark" title="The Future of Octavia "Walk 'n' Talk" | Hayes Valley"><img src="http://cdn.funcheap.com/wp-content/uploads/2017/03/142-marketoctaviacorner-175x130.jpg" alt="The Future of Octavia "Walk 'n' Talk" | Hayes Valley" class="left" /></a></div><p>From Friday, March 31 to Friday, April 7, 2017 the SFMTA is closing off a small segment of northbound Octavia Street, from Linden to Hayes streets, for the Octavia Open Street events that will experiment with opening this block for people who want to walk ...</p></div>
+<div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">12:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/wallace-gromit-double-day-humor-art-exhibit-sf-library/" rel="bookmark" title="Mister Roberts (1955) Film Showing &#038; Humor Art Exhibit | SF Library">Mister Roberts (1955) Film Showing &#038; Humor Art Exhibit | SF Library</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;">
+	<span class="title"><a href="http://sf.funcheap.com/2017-macys-flower-show-union-square-2/" rel="bookmark" title="Floral Demo w/ Florist Susie Nadler | Macy&#8217;s Flower Show">Floral Demo w/ Florist Susie Nadler | Macy&#8217;s Flower Show</a></span>
+	<div class="meta archive-meta">Thursday, April 6 &#150; 2:00 pm | 
 
 
-<span class="cost">Cost: FREE</span> | <span>Green Apple Books and Music</span> </div>
+<span class="cost">Cost: FREE</span> | <span>Macy's (Union Square)</span> </div>
 
-<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/burma-superstar-book-release-happy-hour-green-apple-books-music/" rel="bookmark" title=""Burma Superstar" Book Release & Happy Hour | Green Apple Books & Music"><img src="http://cdn.funcheap.com/wp-content/uploads/2017/03/burma-175x130.jpg" alt=""Burma Superstar" Book Release & Happy Hour | Green Apple Books & Music" class="left" /></a></div>Please join Green Apple Books on 506 Clement Street on Wednesday, as they welcome co-author and owner of the Burma Superstar franchise Desmond Tan to celebrate the release of the cookbook &#8220;Burma Superstar: Addictive Recipes from the Crossroads of Southeast Asia.&#8221;
-This special Happy Hour event will ...</div>
-<div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">6:30 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/opera-101-brush-opera-knowledge-sf/" rel="bookmark" title="OPERA 101: Brush Up On Opera Knowledge | SF">OPERA 101: Brush Up On Opera Knowledge | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">FREE*<div class="tooltip">
-             <div class="top"></div>
-             <div class="middle">*Free but an RSVP is required.</div>
-             <div class="bottom"></div>
-             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">6:30 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/drink-draw-art-event-raffle-the-knockout-34/" rel="bookmark" title="Drink &amp; Draw Art Event &amp; Raffle | The Knockout">Drink &amp; Draw Art Event &amp; Raffle | The Knockout</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">6:30 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/a-year-right-here-book-launch-omnivore-books/" rel="bookmark" title="&#8220;A Year Right Here&#8221; Book Launch | Omnivore Books">&#8220;A Year Right Here&#8221; Book Launch | Omnivore Books</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">6:30 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/ocean-acidification-impact-california-coast-dr-tessa-hill/" rel="bookmark" title="&#8220;Ocean Acidification &#038; Its Impact on the California Coast&#8221; Lecture | Tiburon">&#8220;Ocean Acidification &#038; Its Impact on the California Coast&#8221; Lecture | Tiburon</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">FREE*<div class="tooltip">
-             <div class="top"></div>
-             <div class="middle">*Free but an RSVP is required.</div>
-             <div class="bottom"></div>
-             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">7:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/rotten-city-comedy-standup-pizza-shop-attic-emeryville/" rel="bookmark" title="Rotten City Comedy: Standup In A Pizza Shop Attic | Emeryville">Rotten City Comedy: Standup In A Pizza Shop Attic | Emeryville</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">FREE*<div class="tooltip">
-             <div class="top"></div>
-             <div class="middle">*Free but an RSVP is required.</div>
-             <div class="bottom"></div>
-             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">7:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/deep-dive-lecture-jefferson-airplane-band/" rel="bookmark" title="Deep Dive Lecture on the Jefferson Airplane | Berkeley">Deep Dive Lecture on the Jefferson Airplane | Berkeley</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">7:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/funny-dames-dudes-drink-eat-laugh-orinda/" rel="bookmark" title="Funny Dames &#038; Dudes: Drink, Eat &#038; Laugh | Orinda">Funny Dames &#038; Dudes: Drink, Eat &#038; Laugh | Orinda</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">FREE*<div class="tooltip">
-             <div class="top"></div>
-             <div class="middle">*Free but an RSVP is required.</div>
-             <div class="bottom"></div>
-             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">7:30 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/moonlight-comedy-stand-up-under-the-stars-oakland-11/" rel="bookmark" title="&#8220;Moonlight Comedy&#8221;: Stand Up Under the Stars | Oakland">&#8220;Moonlight Comedy&#8221;: Stand Up Under the Stars | Oakland</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">8:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/baked-beliefs-an-improv-comedy-show-sf-9/" rel="bookmark" title="Baked Beliefs: An Improv Comedy Show | SF">Baked Beliefs: An Improv Comedy Show | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">$5*<div class="tooltip">
-             <div class="top"></div>
-             <div class="middle">*$5 or free for Endgames Improv students.</div>
-             <div class="bottom"></div>
-             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">8:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/the-dirty-show-comedy-night-sf-14/" rel="bookmark" title="&#8220;The Dirty Show&#8221; Comedy Night | SF">&#8220;The Dirty Show&#8221; Comedy Night | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">8:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/bowling-alley-comedy-show-east-bay-27-2-2/" rel="bookmark" title="Bowling Alley Comedy Show | East Bay">Bowling Alley Comedy Show | East Bay</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">8:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/world-class-comedy-wednesdays-marina-25/" rel="bookmark" title="World Class Comedy Wednesdays | Marina">World Class Comedy Wednesdays | Marina</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">FREE*<div class="tooltip">
-             <div class="top"></div>
-             <div class="middle">*Use promo code FUNCHEAP for free tickets. Otherwise $15.</div>
-             <div class="bottom"></div>
-             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">8:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/jacques-greene-techno-producer-dj-swedish-american-hall/" rel="bookmark" title="Win Tix: Jacques Greene: Techno Producer / DJ | Swedish American Hall">Win Tix: Jacques Greene: Techno Producer / DJ | Swedish American Hall</a></span></td><td style="width:66px">&nbsp;&nbsp;WIN</td></tr></table></div>    <div class="tanbox see-more" style="margin-top:-8px;">
-   	<a href="/2017/04/05/">> See more events for April 5<br/></a>
-   	</div>
-           <div class="recurring clearfloat" style="width:571px;margin-top:10px;text-align:left;background-color:lightgrey;">       		<div class='archive_date_title' style='background-color:white;margin:0px;margin-bottom:4px;padding:0px;'><h3 style='background-color:black;color:white;margin:0px;padding:3px;line-height:14px;'>Every Wednesday</h3></div>
-
-       
-	<div class="tanbox left">
-		<span class="title"><a href="http://sf.funcheap.com/event-series/series-outdoor-workout/" rel="bookmark" title="Free Outdoor Workout: Stairs, Core &#038; Endurance | Pac Heights">Free Outdoor Workout: Stairs, Core &#038; Endurance | Pac Heights</a></span>
-		<div class="meta archive-meta">Every Wednesday &#150; 6:30 am | 
+<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/2017-macys-flower-show-union-square-2/" rel="bookmark" title="Floral Demo w/ Florist Susie Nadler | Macy's Flower Show"><img src="http://cdn.funcheap.com/wp-content/uploads/2017/03/1486714143_SusieNadlerHeadshot1-175x130.jpg" alt="Floral Demo w/ Florist Susie Nadler | Macy's Flower Show" class="left" /></a></div>Susie Nadler is the lead floral designer at Flora Grubb Gardens, a nursery and garden oasis in the Bayview district of San Francisco. Inspired by colors, textures and forms of plants and flowers in their natural habitats, Susie is widely known for marrying locally grown ...</div>
+<div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">4:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/drawing-circle-paper-pencils-erasers-south-sf/" rel="bookmark" title="Show Your Style At Drawing Circle | South SF">Show Your Style At Drawing Circle | South SF</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;">
+	<span class="title"><a href="http://sf.funcheap.com/tech-crawl-delicious-eats-freeflowing-libations-sf/" rel="bookmark" title="Tech Crawl, Delicious Eats &#038; Free-Flowing Libations | SF">Tech Crawl, Delicious Eats &#038; Free-Flowing Libations | SF</a></span>
+	<div class="meta archive-meta">Thursday, April 6 &#150; 4:00 pm | 
 
 
-<span class="cost">Cost: FREE</span> | <span>Kezar Stadium</span> </div>
-
-	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/series-outdoor-workout/" rel="bookmark" title="Free Outdoor Workout: Stairs, Core & Endurance | Pac Heights"><img src="http://cdn.funcheap.com/wp-content/uploads/2013/06/Alta-Plaza-Park-3-175x130.jpg" alt="Free Outdoor Workout: Stairs, Core & Endurance | Pac Heights" class="left" /></a></div>
-		<p>Every Wednesday morning at 6:30 am, gather at Alta Plaza Park for a free badass workout and a chance to meet fellow fitness enthusiasts in your city.<br />
-The half hour workouts are different each week, but consist of  boot camp style workouts like running hills, core &#8230;</p>
-	</div>
-	
-	<div class="tanbox left">
-		<span class="title"><a href="http://sf.funcheap.com/event-series/heart-city-farmers-market-plaza/" rel="bookmark" title="&#8220;Heart of the City&#8221; Wednesday Farmers Market | UN Plaza">&#8220;Heart of the City&#8221; Wednesday Farmers Market | UN Plaza</a></span>
-		<div class="meta archive-meta">Every Wednesday &#150; All Day | 
-
-
-<span class="cost">Cost: FREE</span> | <span>United Nations Plaza (about Civic Center BART)</span> </div>
-
-	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/heart-city-farmers-market-plaza/" rel="bookmark" title=""Heart of the City" Wednesday Farmers Market | UN Plaza"><img src="http://cdn.funcheap.com/wp-content/uploads/2012/08/Market-Landscape-Small-175x130.jpg" alt=""Heart of the City" Wednesday Farmers Market | UN Plaza" class="left" /></a></div>
-		<p>Heart of the City Farmers Market is a uniquely independent, farmer-operated, nonprofit farmers market located year round on Sundays and Wednesdays in San Francisco&#8217;s United Nations Plaza, rain or shine. Nearly 30 local farmers and artisan food vendors provide a wide selection of fresh local produce, &#8230;</p>
-	</div>
-	
-	<div class="tanbox left">
-		<span class="title"><a href="http://sf.funcheap.com/event-series/1-books-media-sale-sf-main-library/" rel="bookmark" title="$1 Book Sale | SF Main Library">$1 Book Sale | SF Main Library</a></span>
-		<div class="meta archive-meta">Every Wednesday &#150; 11:00 am | 
-
-
-<span class="cost">Cost:</span> <a class="tt">$1* 
+<span class="cost">Cost:</span> <a class="tt">$10* 
 		<div class="tooltip">
                 <div class="top"></div>
-                <div class="middle">*$1 for books &amp; media. Free entrance.</div>
+                <div class="middle">*RSVP required, Use code funcheap50 for half off the ticket price</div>
                 <div class="bottom"></div>
-                </div></a></div>
+                </div></a> | <span>All Over San Francisco</span> </div>
 
-	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/1-books-media-sale-sf-main-library/" rel="bookmark" title="$1 Book Sale | SF Main Library"><img src="http://cdn.funcheap.com/wp-content/uploads/2014/07/photo-4-175x130.jpg" alt="$1 Book Sale | SF Main Library" class="left" /></a></div>
-		<p>Starting this April, the San Francisco Public Library host weekly Wednesday Steps Sales, located at the Larkin Street entrance to the Main Library.<br />
-All books and media are just $1 or less each and all proceeds from Steps Sales benefit the San Francisco Public Library.<br />
-Please be &#8230;</p>
-	</div>
-	
-	<div class="tanbox left">
-		<span class="title"><a href="http://sf.funcheap.com/event-series/stitch-drop-meet-people-stitch-sf/" rel="bookmark" title="Stitch In: Come By, Meet People &#038; Stitch | SF">Stitch In: Come By, Meet People &#038; Stitch | SF</a></span>
-		<div class="meta archive-meta">Every Wednesday &#150; 11:00 am | 
+<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/tech-crawl-delicious-eats-freeflowing-libations-sf/" rel="bookmark" title="Tech Crawl, Delicious Eats & Free-Flowing Libations | SF"><img src="http://cdn.funcheap.com/wp-content/uploads/2017/03/CSlquOLU8AAQh4F1-175x130.jpg" alt="Tech Crawl, Delicious Eats & Free-Flowing Libations | SF" class="left" /></a></div>For the second year in a row, Betts Recruiting is leading a tech-thirsty charge through the silicon-lined neighborhoods of San Francisco, once again cultivating hundreds of industry connections and experiences to remember.
+There will be no lines, no covers, just a small up front fee of ...</div>
+<div class="tanbox left" style="background-color:white;">
+	<span class="title"><a href="http://sf.funcheap.com/live-pop-music-concert-yuna-world-food-fair-uc-berkeley/" rel="bookmark" title="&#8220;Perspectives&#8221; Multicultural Arts Fest w/ Headliner Yuna | UC Berkeley">&#8220;Perspectives&#8221; Multicultural Arts Fest w/ Headliner Yuna | UC Berkeley</a></span>
+	<div class="meta archive-meta">Thursday, April 6 &#150; 4:30 pm | 
+
+
+<span class="cost">Cost:</span> <a class="tt">FREE* 
+		<div class="tooltip">
+                <div class="top"></div>
+                <div class="middle">*Free admission but bring money for food and drinks. Please note that this is for CAL students only, ID is required.</div>
+                <div class="bottom"></div>
+                </div></a> | <span>UC Berkeley - Lower Sproul</span> </div>
+
+<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/live-pop-music-concert-yuna-world-food-fair-uc-berkeley/" rel="bookmark" title=""Perspectives" Multicultural Arts Fest w/ Headliner Yuna | UC Berkeley"><img src="http://cdn.funcheap.com/wp-content/uploads/2017/03/yuna-rect-175x130.jpg" alt=""Perspectives" Multicultural Arts Fest w/ Headliner Yuna | UC Berkeley" class="left" /></a></div>For over a decade, Perspectives has been the largest and most collaborative multicultural performing arts festival held on campus at UC Berkeley.
+This year, they&#8217;re bringing the Perspectives festival back with a bang, featuring Yuna as their headlining act. The Malaysian-born pop vocalist and guitarist has been ...</div>
+<div class="tanbox left" style="background-color:white;">
+	<span class="title"><a href="http://sf.funcheap.com/board-match-nonprofits-fair-soma/" rel="bookmark" title="The Board Match: 2017 Non-Profit &#038; Volunteering Fair | Union Square">The Board Match: 2017 Non-Profit &#038; Volunteering Fair | Union Square</a></span>
+	<div class="meta archive-meta">Thursday, April 6 &#150; 5:00 pm | 
 
 
 <span class="cost">Cost:</span> <a class="tt">FREE* 
@@ -520,151 +432,309 @@ Please be &#8230;</p>
                 <div class="top"></div>
                 <div class="middle">*Free, but an RSVP is required.</div>
                 <div class="bottom"></div>
-                </div></a> | <span>San Francisco School of Needlework and Design</span> </div>
+                </div></a> | <span>Hilton SF (Union Square)</span> </div>
 
-	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/stitch-drop-meet-people-stitch-sf/" rel="bookmark" title="Stitch In: Come By, Meet People & Stitch | SF"><img src="http://cdn.funcheap.com/wp-content/uploads/2016/05/knit-175x130.jpg" alt="Stitch In: Come By, Meet People & Stitch | SF" class="left" /></a></div>
-		<p>These free events give you the opportunity to stitch in an inspiring environment with fellow enthusiasts. Bring along your projects, embroidery, knitting or even darning, and enjoy the company of others and their vast needlework library at your leisure.<br />
-Free Stitch Ins meet every Wednesday from &#8230;</p>
-	</div>
-	
-	<div class="tanbox left">
-		<span class="title"><a href="http://sf.funcheap.com/event-series/autodesk-design-gallery-open-house-tour-embarcadero/" rel="bookmark" title="Autodesk Design Gallery &#038; Tour | Embarcadero">Autodesk Design Gallery &#038; Tour | Embarcadero</a></span>
-		<div class="meta archive-meta">Every Wednesday &#150; 12:00 pm | 
-
-
-<span class="cost">Cost: FREE</span></div>
-
-	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/autodesk-design-gallery-open-house-tour-embarcadero/" rel="bookmark" title="Autodesk Design Gallery & Tour | Embarcadero"><img src="http://cdn.funcheap.com/wp-content/uploads/2013/02/autodesk-gallery-175x130.png" alt="Autodesk Design Gallery & Tour | Embarcadero" class="left" /></a></div>
-		<p>The Autodesk Gallery at One Market in San Francisco celebrates the design process that takes a great idea and turns it into a reality.<br />
-With more than 20 different exhibits regularly on display that showcase the innovative work of Autodesk customers, the gallery illustrates the role &#8230;</p>
-	</div>
-	
-	<div class="tanbox left">
-		<span class="title"><a href="http://sf.funcheap.com/event-series/karma-cinema-month-parkway-theater/" rel="bookmark" title="&#8220;Karma Cinema&#8221;: Pay-What-You-Wish Movie Night | The New Parkway">&#8220;Karma Cinema&#8221;: Pay-What-You-Wish Movie Night | The New Parkway</a></span>
-		<div class="meta archive-meta">Every Wednesday &#150; All Day | 
+<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/board-match-nonprofits-fair-soma/" rel="bookmark" title="The Board Match: 2017 Non-Profit & Volunteering Fair | Union Square"><img src="http://cdn.funcheap.com/wp-content/uploads/2016/02/o1-175x130.jpg" alt="The Board Match: 2017 Non-Profit & Volunteering Fair | Union Square" class="left" /></a></div>Looking for ways to give your time, talent, and energy in a meaningful way? Join a nonprofit board.
+The Board Match is a job-fair style event featuring around 150 Bay Area nonprofits whose reps talk to interested candidates about volunteering to serve on their organization’s board of ...</div>
+<div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">6:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/lower-polk-tl-art-walk-trendyloin-25/" rel="bookmark" title="Lower Polk / TL Art Walk | Trendyloin">Lower Polk / TL Art Walk | Trendyloin</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">6:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/first-thursday-art-party-at-the-phoenix-hotel-sf-9/" rel="bookmark" title="First Thursday Art Party at the Phoenix Hotel | SF">First Thursday Art Party at the Phoenix Hotel | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">FREE*<div class="tooltip">
+             <div class="top"></div>
+             <div class="middle">*Free, but an RSVP is required.</div>
+             <div class="bottom"></div>
+             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">6:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/voyage-sustainability-presidio/" rel="bookmark" title="Voyage To Sustainability | The Presidio">Voyage To Sustainability | The Presidio</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">FREE*<div class="tooltip">
+             <div class="top"></div>
+             <div class="middle">*Free but an RSVP is required.</div>
+             <div class="bottom"></div>
+             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;">
+	<span class="title"><a href="http://sf.funcheap.com/exploratorium-dark-cannabis-pier-15/" rel="bookmark" title="Exploratorium After Dark: Cannabis | Pier 15">Exploratorium After Dark: Cannabis | Pier 15</a></span>
+	<div class="meta archive-meta">Thursday, April 6 &#150; 6:00 pm | 
 
 
-<span class="cost">Cost:</span> <a class="tt">$1* 
+<span class="cost">Cost:</span> <a class="tt">$15* 
 		<div class="tooltip">
                 <div class="top"></div>
-                <div class="middle">*Pay-What-You-Want for your movie tickets every Wednesday night and 20% will be donated to a local nonprofit.</div>
+                <div class="middle">*$15 General; $10 Members; Free for Lab Members ($10 Add-On Ticket for the Tactile Dome) Adults Only (18+)</div>
                 <div class="bottom"></div>
-                </div></a> | <span>The New Parkway Theater</span> </div>
+                </div></a> | <span>Exploratorium</span> </div>
 
-	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/karma-cinema-month-parkway-theater/" rel="bookmark" title=""Karma Cinema": Pay-What-You-Wish Movie Night | The New Parkway"><img src="http://cdn.funcheap.com/wp-content/uploads/2013/07/KARMA-CINEMA_logo_FINAL-175x130.jpeg" alt=""Karma Cinema": Pay-What-You-Wish Movie Night | The New Parkway" class="left" /></a></div>
-		<p>Time to get generous; The New Parkway Theater is letting you pay-what-you-wish for a movie ticket every Wednesday night.<br />
-Theater doors open at 6 pm every Wednesday and every movie (albeit a few exceptions like private events) will be offered on a sliding scale of a penny (if &#8230;</p>
-	</div>
-	
-	<div class="tanbox left">
-		<span class="title"><a href="http://sf.funcheap.com/event-series/dandelion-chocolate-free-factory-tour-guided-tasting-sf/" rel="bookmark" title="Dandelion Chocolate: Factory Tour &#038; Guided Tasting | SF">Dandelion Chocolate: Factory Tour &#038; Guided Tasting | SF</a></span>
-		<div class="meta archive-meta">Every Wednesday &#150; 6:10 pm | 
+<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/exploratorium-dark-cannabis-pier-15/" rel="bookmark" title="Exploratorium After Dark: Cannabis | Pier 15"><img src="http://cdn.funcheap.com/wp-content/uploads/2017/03/Cannabis_DSC_219_Square-175x130.jpg" alt="Exploratorium After Dark: Cannabis | Pier 15" class="left" /></a></div>Come and join them as they discuss one of the most controversial topics there is, Cannabis.
+</div>
+<div class="tanbox left" style="background-color:white;">
+	<span class="title"><a href="http://sf.funcheap.com/collectible-nightlife-california-academy-sciences/" rel="bookmark" title="Collectible NightLife | California Academy of Sciences">Collectible NightLife | California Academy of Sciences</a></span>
+	<div class="meta archive-meta">Thursday, April 6 &#150; 6:00 pm | 
+
+
+<span class="cost">Cost:</span> <a class="tt">$15* 
+		<div class="tooltip">
+                <div class="top"></div>
+                <div class="middle">*Tickets are $15 ($12 for Academy members)</div>
+                <div class="bottom"></div>
+                </div></a> | <span>California Academy of Sciences</span> </div>
+
+<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/collectible-nightlife-california-academy-sciences/" rel="bookmark" title="Collectible NightLife | California Academy of Sciences"><img src="http://cdn.funcheap.com/wp-content/uploads/2017/03/skulls_pr_exhibit_images_web_ready-8180-175x130.jpg" alt="Collectible NightLife | California Academy of Sciences" class="left" /></a></div>Show them yours and they’ll show you theirs—collections that is. This week, NightLife salutes the time-tested art and science of collecting. From life forms discovered at the darkest depths of the ocean to space objects collected after crashing through the atmosphere—they’ve got it all.
+</div>
+<div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">6:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/alumni-startup-pitch-night-cocktail-reception-mountain-view/" rel="bookmark" title="Alumni Startup Pitch Night &#038; Cocktail Reception | Mountain View">Alumni Startup Pitch Night &#038; Cocktail Reception | Mountain View</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;">
+	<span class="title"><a href="http://sf.funcheap.com/extraordinary-playscapes-power-designs-play-opening-reception-sf-main-library/" rel="bookmark" title="Design Museum&#8217;s &#8220;Extraordinary Playscapes&#8221; Launch Party | SF Main Library">Design Museum&#8217;s &#8220;Extraordinary Playscapes&#8221; Launch Party | SF Main Library</a></span>
+	<div class="meta archive-meta">Thursday, April 6 &#150; 6:00 pm | 
+
+
+<span class="cost">Cost:</span> <a class="tt">FREE* 
+		<div class="tooltip">
+                <div class="top"></div>
+                <div class="middle">*Free but an RSVP is required.</div>
+                <div class="bottom"></div>
+                </div></a> | <span>San Francisco Main Public Library</span> </div>
+
+<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/extraordinary-playscapes-power-designs-play-opening-reception-sf-main-library/" rel="bookmark" title="Design Museum's "Extraordinary Playscapes" Launch Party | SF Main Library"><img src="http://cdn.funcheap.com/wp-content/uploads/2017/03/playcube-175x130.jpg" alt="Design Museum's "Extraordinary Playscapes" Launch Party | SF Main Library" class="left" /></a></div>Design Museum’s Extraordinary Playscapes is landing in San Francisco on April 6th. This national exhibit has traveled from Boston to Portland and is arriving in SF this April. They are bringing the power of play to the city, including their exhibit home base in the San Francisco ...</div>
+<div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">6:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/down-and-out-in-the-new-economy-sf-main-library/" rel="bookmark" title="Down &#038; Out in the New Economy | SF Main Library">Down &#038; Out in the New Economy | SF Main Library</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">6:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/gathers-spring-house-clothing-line-debut-champagne-free-bath-salts-sf/" rel="bookmark" title="Gather&#8217;s Spring In House Clothing Line Debut: Champagne &#038; Free Bath Salts | SF">Gather&#8217;s Spring In House Clothing Line Debut: Champagne &#038; Free Bath Salts | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;">
+	<span class="title"><a href="http://sf.funcheap.com/free-community-veggie-dinner-fresh-garden-farmers-market-meal-usf/" rel="bookmark" title="Free Community Veggie Dinner: Fresh Garden &#038; Farmers Market Meal | USF">Free Community Veggie Dinner: Fresh Garden &#038; Farmers Market Meal | USF</a></span>
+	<div class="meta archive-meta">Thursday, April 6 &#150; 6:00 pm | 
+
+
+<span class="cost">Cost:</span> <a class="tt">FREE* 
+		<div class="tooltip">
+                <div class="top"></div>
+                <div class="middle">*Donations encouraged</div>
+                <div class="bottom"></div>
+                </div></a> | <span>St. Cyprian’s Episcopal Church</span> </div>
+
+<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/free-community-veggie-dinner-fresh-garden-farmers-market-meal-usf/" rel="bookmark" title="Free Community Veggie Dinner: Fresh Garden & Farmers Market Meal | USF"><img src="http://cdn.funcheap.com/wp-content/uploads/2013/02/602866_553746878026506_1830560946_n1-175x130.jpg" alt="Free Community Veggie Dinner: Fresh Garden & Farmers Market Meal | USF" class="left" /></a></div><p>Do you love fresh, organic, homemade food? Please come out and celebrate with other veggie lovers and enjoy some great food with amazing company. All are welcome to a free community-created dinner gleaned from the USF Garden and neighborhood farmers&#8217; markets. Eat with others in ...</p></div>
+<div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">6:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/origins-design-night-autodesk-tech-showcase-sf/" rel="bookmark" title="Win Tix: Origins &#8220;Design Night&#8221; Autodesk Tech Showcase | SF">Win Tix: Origins &#8220;Design Night&#8221; Autodesk Tech Showcase | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;WIN</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">7:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/shipwreck-presents-george-orwells-1984-sf/" rel="bookmark" title="Shipwreck Presents: George Orwell&#8217;s &#8220;1984&#8221; | SF">Shipwreck Presents: George Orwell&#8217;s &#8220;1984&#8221; | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">$10*<div class="tooltip">
+             <div class="top"></div>
+             <div class="middle">*$10 in advance, $12 at the door, tickets available now on brownpapertickets.com</div>
+             <div class="bottom"></div>
+             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">7:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/tending-the-fire-book-release-city-lights/" rel="bookmark" title="&#8220;Tending the Fire&#8221; Book Release | City Lights">&#8220;Tending the Fire&#8221; Book Release | City Lights</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">7:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/stomping-grounds-celebration-asian-american-activism-sf/" rel="bookmark" title="Stomping Grounds: A Celebration Of Asian American Activism | SF">Stomping Grounds: A Celebration Of Asian American Activism | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">7:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/sacred-harp-singing-acappella-singing-for-everyone-sf-3/" rel="bookmark" title="Sacred Harp Singing: Acappella Singing For Everyone | SF">Sacred Harp Singing: Acappella Singing For Everyone | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">7:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/dancing-decades-dancing-trivia-prizes-san-jose/" rel="bookmark" title="Dancing Through The Decades: Dancing, Trivia &#038; Prizes | San Jose">Dancing Through The Decades: Dancing, Trivia &#038; Prizes | San Jose</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">7:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/urinetown-musical-opening-night-berkeley-playhouse/" rel="bookmark" title="Win Tix: Urinetown, The Musical: Opening Night | Berkeley Playhouse">Win Tix: Urinetown, The Musical: Opening Night | Berkeley Playhouse</a></span></td><td style="width:66px">&nbsp;&nbsp;WIN</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">7:30 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/restoring-tidal-wetlands-face-accelerating-climate-change-sf/" rel="bookmark" title="Restoring Tidal Wetlands In The Face Of Accelerating Climate Change | SF">Restoring Tidal Wetlands In The Face Of Accelerating Climate Change | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;">
+	<span class="title"><a href="http://sf.funcheap.com/west-1848-west-farce-north-bay/" rel="bookmark" title="Win Tix: &#8220;Way Out West&#8221; 1848 Old West Farce | North Bay">Win Tix: &#8220;Way Out West&#8221; 1848 Old West Farce | North Bay</a></span>
+	<div class="meta archive-meta">Thursday, April 6 &#150; 7:30 pm | 
+
+
+<span class="cost">Cost:</span> <a class="tt">WIN* 
+		<div class="tooltip">
+                <div class="top"></div>
+                <div class="middle">*Thursdays, Fridays, Saturdays &amp; Sundays: $20 GA ($15 for under the age of 25).   Preview Night - Thursday, April 6th- $10 minimum donation suggested at the door.</div>
+                <div class="bottom"></div>
+                </div></a> | <span>Marin Art & Garden Center</span> </div>
+
+<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/west-1848-west-farce-north-bay/" rel="bookmark" title=""Way Out West" 1848 Old West Farce | North Bay"><img src="http://cdn.funcheap.com/wp-content/uploads/2017/03/WayOutWest-Photo-copy-563x372-1-175x130.jpg" alt=""Way Out West" 1848 Old West Farce | North Bay" class="left" /><span class="badge-enter-contest">Enter to Win</span></a></div>Picture yourself in San Francisco back in 1848, it&#8217;s a super dusty, one-horse town run by a corrupt mayor and a posse of misfit officials. A letter arrives stating that a Government Inspector is on his way, incognito, to look over the town and the ...</div>
+<div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">8:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/the-setups-storytelling-comedy-night-beer-basement-2/" rel="bookmark" title="The Setup&#8217;s &#8220;Storytelling&#8221; Comedy Night | Beer Basement">The Setup&#8217;s &#8220;Storytelling&#8221; Comedy Night | Beer Basement</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">$5*<div class="tooltip">
+             <div class="top"></div>
+             <div class="middle">*Normally $10 use code FUNCHEAP for $5 tickets. 21+</div>
+             <div class="bottom"></div>
+             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">8:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/new-filmmakers-open-screening-mission-dist-25/" rel="bookmark" title="New Filmmakers Open Screening | Mission Dist.">New Filmmakers Open Screening | Mission Dist.</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;">
+	<span class="title"><a href="http://sf.funcheap.com/human-bowling-live-band-karaoke-fire-peach-aclu-fundrager-sf/" rel="bookmark" title="ACLU &#8220;FundRager&#8221;: Trump Pie Throwing &#038; Human Bowling | PianoFight">ACLU &#8220;FundRager&#8221;: Trump Pie Throwing &#038; Human Bowling | PianoFight</a></span>
+	<div class="meta archive-meta">Thursday, April 6 &#150; 8:00 pm | 
 
 
 <span class="cost">Cost:</span> <a class="tt">$5* 
 		<div class="tooltip">
                 <div class="top"></div>
-                <div class="middle">*$5 and reservations are required</div>
+                <div class="middle">*Sliding scale donation of $5-15. Some activities require additional donations.</div>
+                <div class="bottom"></div>
+                </div></a> | <span>PianoFight</span> </div>
+
+<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/human-bowling-live-band-karaoke-fire-peach-aclu-fundrager-sf/" rel="bookmark" title="ACLU "FundRager": Trump Pie Throwing & Human Bowling | PianoFight"><img src="http://cdn.funcheap.com/wp-content/uploads/2017/03/whipped-cream-814216_960_7201-175x130.jpg" alt="ACLU "FundRager": Trump Pie Throwing & Human Bowling | PianoFight" class="left" /></a></div>Face it, &#8220;We The People&#8221; need a break from all the protests, marches and rallies, if only for one night. If you feel like you want to contribute to the cause for equal rights but don’t quite know how to do it, FundRager is the ...</div>
+<div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">8:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/senses-fail-2/" rel="bookmark" title="Win Tix: NJ&#8217;s Post-Hardcore Rockers &#8220;Senses Fail&#8221; | Great American Music Hall">Win Tix: NJ&#8217;s Post-Hardcore Rockers &#8220;Senses Fail&#8221; | Great American Music Hall</a></span></td><td style="width:66px">&nbsp;&nbsp;WIN</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">8:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/comedian-reggie-steele/" rel="bookmark" title="Win Tix: Reggie Steele (NBC) | The Punch Line">Win Tix: Reggie Steele (NBC) | The Punch Line</a></span></td><td style="width:66px">&nbsp;&nbsp;WIN</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">8:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/hellafunny-haight-street-milk-bar-20/" rel="bookmark" title="HellaFunny on Haight Street | Milk Bar">HellaFunny on Haight Street | Milk Bar</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">FREE*<div class="tooltip">
+             <div class="top"></div>
+             <div class="middle">*Use promo code HELLAFUNNY for free tickets. Otherwise, it's $15.</div>
+             <div class="bottom"></div>
+             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">8:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/wonderfest-magic-quantum-entanglement-sf/" rel="bookmark" title="Wonderfest: Magic vs. Quantum Entanglement | SF">Wonderfest: Magic vs. Quantum Entanglement | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">9:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/comedy-gold-free-stand-up-comedy-showcase-sf-2/" rel="bookmark" title="Comedy Gold: Free Stand-Up Comedy Showcase | SF">Comedy Gold: Free Stand-Up Comedy Showcase | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div>    <div class="tanbox see-more" style="margin-top:-8px;">
+   	<a href="/2017/04/06/">> See more events for April 6<br/></a>
+   	</div>
+           <div class="recurring clearfloat" style="width:571px;margin-top:10px;text-align:left;background-color:lightgrey;">       		<div class='archive_date_title' style='background-color:white;margin:0px;margin-bottom:4px;padding:0px;'><h3 style='background-color:black;color:white;margin:0px;padding:3px;line-height:14px;'>Every Thursday</h3></div>
+
+       
+	<div class="tanbox left">
+		<span class="title"><a href="http://sf.funcheap.com/event-series/north-face-mountain-athletics-free-training-sf-2/" rel="bookmark" title="The North Face: Mountain Athletics Free Training | SF">The North Face: Mountain Athletics Free Training | SF</a></span>
+		<div class="meta archive-meta">Every Thursday &#150; 6:30 pm | 
+
+
+<span class="cost">Cost:</span> <a class="tt">FREE* 
+		<div class="tooltip">
+                <div class="top"></div>
+                <div class="middle">*Free but an RSVP is required.</div>
                 <div class="bottom"></div>
                 </div></a></div>
 
-	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/dandelion-chocolate-free-factory-tour-guided-tasting-sf/" rel="bookmark" title="Dandelion Chocolate: Factory Tour & Guided Tasting | SF"><img src="http://cdn.funcheap.com/wp-content/uploads/2015/03/enhanced-buzz-7667-1359481226-31-175x130.jpg" alt="Dandelion Chocolate: Factory Tour & Guided Tasting | SF" class="left" /></a></div>
-		<p>Mmmm&#8230; chocolate! Four days a week, Dandelion Chocolates offer $5 factory tours (with tastings) and they&#8217;ll send you off with a hot chocolate gift card so you can end your experience on an extra chocolatey note. These tours can book up months in advance (especially for &#8230;</p>
+	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/north-face-mountain-athletics-free-training-sf-2/" rel="bookmark" title="The North Face: Mountain Athletics Free Training | SF"><img src="http://cdn.funcheap.com/wp-content/uploads/2016/11/bitly-photo-e1480219854927-175x130.jpg" alt="The North Face: Mountain Athletics Free Training | SF" class="left" /></a></div>
+		<p>Join Mountain Athletics: A free, goal oriented workout program training in the outdoors to prepare you for your outdoor pursuits like skiing, snowboarding, camping and hiking. They&#8217;re a fun community helping each other achieve #itrainfor goals.<br />
+Check them out every Thursday at The Yard at Mission Rock &#8230;</p>
 	</div>
 	
 	<div class="tanbox left">
-		<span class="title"><a href="http://sf.funcheap.com/event-series/musical-wednesdays-singalong-edge-castro/" rel="bookmark" title="&#8220;Musical Wednesdays&#8221; Sing-Along At The Edge | Castro">&#8220;Musical Wednesdays&#8221; Sing-Along At The Edge | Castro</a></span>
-		<div class="meta archive-meta">Every Wednesday &#150; 7:00 pm | 
+		<span class="title"><a href="http://sf.funcheap.com/event-series/trivia-thursday-pub-quiz-movie-theater-parkway/" rel="bookmark" title="Trivia Thursday: Pub Quiz in a Movie Theater | The New Parkway">Trivia Thursday: Pub Quiz in a Movie Theater | The New Parkway</a></span>
+		<div class="meta archive-meta">Every Thursday &#150; 7:30 pm | 
 
 
-<span class="cost">Cost: FREE</span> | <span>The Edge</span> </div>
+<span class="cost">Cost:</span> <a class="tt">FREE* 
+		<div class="tooltip">
+                <div class="top"></div>
+                <div class="middle">*Let the Box Office know you are there for Trivia Night and they will send you to the Mezzanine Level.</div>
+                <div class="bottom"></div>
+                </div></a> | <span>The New Parkway Theater</span> </div>
 
-	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/musical-wednesdays-singalong-edge-castro/" rel="bookmark" title=""Musical Wednesdays" Sing-Along At The Edge | Castro"><img src="http://cdn.funcheap.com/wp-content/uploads/2014/02/broadway_magazine_bye_bye_birdie_-_funk_-_honestly_sincere__874-175x130.jpg" alt=""Musical Wednesdays" Sing-Along At The Edge | Castro" class="left" /></a></div>
-		<p>Start your week singing with Musical Mondays or get over the hump with Musical Wednesdays at The Edge in the Castro, where they play all of your favorite musicals to sing and drink along with a different theme each week from 7 pm to 2 am every &#8230;</p>
+	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/trivia-thursday-pub-quiz-movie-theater-parkway/" rel="bookmark" title="Trivia Thursday: Pub Quiz in a Movie Theater | The New Parkway"><img src="http://cdn.funcheap.com/wp-content/uploads/2013/03/The-Parkway1-175x130.jpg" alt="Trivia Thursday: Pub Quiz in a Movie Theater | The New Parkway" class="left" /></a></div>
+		<p>Thursday Night at The New Parkway is Trivia Night.  <br />
+This is a chance for you and your friends to compete and win prizes (like free beer and movie passes) if you can answer questions correctly about a range of topics that often include movie history, famous &#8230;</p>
 	</div>
 	
 	<div class="tanbox left">
-		<span class="title"><a href="http://sf.funcheap.com/event-series/roots-rum-reggae/" rel="bookmark" title="“Roots, Rum &#038; Reggae” Live Reggae Night | Peninsula">“Roots, Rum &#038; Reggae” Live Reggae Night | Peninsula</a></span>
-		<div class="meta archive-meta">Every Wednesday &#150; 8:00 pm | 
+		<span class="title"><a href="http://sf.funcheap.com/event-series/90s-dj-thursday-party-1999-sf/" rel="bookmark" title="&#8217;90s DJ Thursday: Party Like It&#8217;s 1999 | SF">&#8217;90s DJ Thursday: Party Like It&#8217;s 1999 | SF</a></span>
+		<div class="meta archive-meta">Every Thursday &#150; 8:00 pm | 
 
 
 <span class="cost">Cost: FREE</span></div>
 
-	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/roots-rum-reggae/" rel="bookmark" title="“Roots, Rum & Reggae” Live Reggae Night | Peninsula"><img src="http://cdn.funcheap.com/wp-content/uploads/2016/01/Screen-Shot-2016-02-03-at-5.01.15-PM-175x130.png" alt="“Roots, Rum & Reggae” Live Reggae Night | Peninsula" class="left" /></a></div>
-		<p>The Historic 7 Mile House will be hosts a weekly Wednesday reggae night appropriately called “Roots Rum &amp; Reggae”, and will feature the Bay Area’s best reggae bands on a rotating schedule.<br />
-Check out the 7 Mile House calendar for details on this week&#8217;s band.<br />
-The event &#8230;</p>
+	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/90s-dj-thursday-party-1999-sf/" rel="bookmark" title="'90s DJ Thursday: Party Like It's 1999 | SF"><img src="http://cdn.funcheap.com/wp-content/uploads/2013/01/prince-175x130.png" alt="'90s DJ Thursday: Party Like It's 1999 | SF" class="left" /></a></div>
+		<p>Every Thursday night, Raven Bar &amp; Lounge is partying like it&#8217;s 1999 with DJ Mark Andrus bringing you back in time, but not too far back.<br />
+There is no cover charge and the fun starts at 9 pm.</p>
 	</div>
 	
 	<div class="tanbox left">
-		<span class="title"><a href="http://sf.funcheap.com/event-series/free-live-jazz-show/" rel="bookmark" title="Free Live Jazz &#038; Latin Jazz Nights |  Cigar Bar">Free Live Jazz &#038; Latin Jazz Nights |  Cigar Bar</a></span>
-		<div class="meta archive-meta">Every Wednesday &#150; 8:00 pm | 
+		<span class="title"><a href="http://sf.funcheap.com/event-series/outlaw-order-counmcttry-jamboree/" rel="bookmark" title="The Outlaw Order: Country DJs &#038; Line Dancing | SF">The Outlaw Order: Country DJs &#038; Line Dancing | SF</a></span>
+		<div class="meta archive-meta">Every Thursday &#150; 8:00 pm | 
+
+
+<span class="cost">Cost: FREE</span> | <span>Fiddler's Green</span> </div>
+
+	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/outlaw-order-counmcttry-jamboree/" rel="bookmark" title="The Outlaw Order: Country DJs & Line Dancing | SF"><img src="http://cdn.funcheap.com/wp-content/uploads/2012/02/twang-175x130.png" alt="The Outlaw Order: Country DJs & Line Dancing | SF" class="left" /></a></div>
+		<p>The Outlaw Order: Dirty Roots &amp; Dirty Boots is your San Francisco HQ for country music disk jockeys, line dancing lessons, beer guzzlin&#8217;, boot scootin&#8217;, shit kickin&#8217;, 2 steppin&#8217;, whiskey sippin&#8217;, rump shakin&#8217; and hell raisin&#8217;. A nothing-fancy, fun and casual place to hang out with fellow &#8230;</p>
+	</div>
+	
+	<div class="tanbox left">
+		<span class="title"><a href="http://sf.funcheap.com/event-series/punt-1x-night-school/" rel="bookmark" title="Night School: Laugh Harder, Get Smarter | SF">Night School: Laugh Harder, Get Smarter | SF</a></span>
+		<div class="meta archive-meta">Every Thursday &#150; 8:00 pm | 
+
+
+<span class="cost">Cost: $5</span> | <span>Stagewerx Theatre</span> </div>
+
+	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/punt-1x-night-school/" rel="bookmark" title="Night School: Laugh Harder, Get Smarter | SF"><img src="http://cdn.funcheap.com/wp-content/uploads/2016/04/group-of-people-laughing-2171-175x130.jpg" alt="Night School: Laugh Harder, Get Smarter | SF" class="left" /></a></div>
+		<p>EndGames Improv brings you Night School, an improv show happening every Thursday night at 8 pm.<br />
+Nerd out with a special guest lecturer as they distill a master’s degree worth of material into a mini-Ted talk that inspires improvised comedy. Previous guests include an Oscar nominated filmmaker, Mega-Robot &#8230;</p>
+	</div>
+	
+	<div class="tanbox left">
+		<span class="title"><a href="http://sf.funcheap.com/event-series/free-live-jazz-music-local-artists-sf/" rel="bookmark" title="Free Live Jazz Music From Local Artists | SF">Free Live Jazz Music From Local Artists | SF</a></span>
+		<div class="meta archive-meta">Every Thursday &#150; 8:00 pm | 
 
 
 <span class="cost">Cost: FREE</span> | <span>Cigar Bar & Grill</span> </div>
 
-	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/free-live-jazz-show/" rel="bookmark" title="Free Live Jazz & Latin Jazz Nights |  Cigar Bar"><img src="http://cdn.funcheap.com/wp-content/uploads/2016/04/14907139_10153986543166074_1985218540925167658_n1-175x130.png" alt="Free Live Jazz & Latin Jazz Nights |  Cigar Bar" class="left" /></a></div>
-		<p>Join the Cigar Bar &amp; Grill every Wednesday &amp; Thursday evening for a free Jazz show (both traditional jazz and latin jazz) by local Bay Area musicians.<br />
-Shows start at 8pm. Enjoy great food, drinks &amp; Jazz. For complete line-up and more information please visit their website.<br />
-Live &#8230;</p>
+	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/free-live-jazz-music-local-artists-sf/" rel="bookmark" title="Free Live Jazz Music From Local Artists | SF"><img src="http://cdn.funcheap.com/wp-content/uploads/2016/04/live_jazz_miami1-175x130.jpg" alt="Free Live Jazz Music From Local Artists | SF" class="left" /></a></div>
+		<p>Join them every Wednesday &amp; Thursday evening for a free Jazz show by local Bay Area musicians.<br />
+Shows start at 8pm. Enjoy great food, drinks &amp; Jazz. For complete line-up and more information please visit their website.</p>
 	</div>
 	
 	<div class="tanbox left">
-		<span class="title"><a href="http://sf.funcheap.com/event-series/comedy-cellar-showcase-hyde-st-sf/" rel="bookmark" title="&#8220;Comedy Cellar&#8221; Free Stand-Up Showcase | SF">&#8220;Comedy Cellar&#8221; Free Stand-Up Showcase | SF</a></span>
-		<div class="meta archive-meta">Every Wednesday &#150; 8:00 pm | 
+		<span class="title"><a href="http://sf.funcheap.com/event-series/hellafunny-haight-street-opening-night-laughtacular-oakland/" rel="bookmark" title="HellaFunny on Haight Street | Milk Bar">HellaFunny on Haight Street | Milk Bar</a></span>
+		<div class="meta archive-meta">Every Thursday &#150; 8:00 pm | 
 
 
 <span class="cost">Cost:</span> <a class="tt">FREE* 
 		<div class="tooltip">
                 <div class="top"></div>
-                <div class="middle">*When you use the promo code FUNCHEAP. Otherwise, it's $5.</div>
+                <div class="middle">*Use promo code HELLAFUNNY for free tickets. Otherwise, it's $15.</div>
                 <div class="bottom"></div>
-                </div></a> | <span>Ales Unlimited: Beer Basement</span> </div>
+                </div></a></div>
 
-	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/comedy-cellar-showcase-hyde-st-sf/" rel="bookmark" title=""Comedy Cellar" Free Stand-Up Showcase | SF"><img src="http://cdn.funcheap.com/wp-content/uploads/2016/10/IMG_0182-175x130.jpg" alt=""Comedy Cellar" Free Stand-Up Showcase | SF" class="left" /></a></div>
-		<p>Every Wednesday, the newest stand-up showcase in San Francisco comes to the legendary basement of 222 Hyde. Your hosts, Christian Reyes, Joey Avery &amp; Torio Van Grol present you with a fresh lineup of the best local acts mixed with touring headliners from out of &#8230;</p>
+	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/hellafunny-haight-street-opening-night-laughtacular-oakland/" rel="bookmark" title="HellaFunny on Haight Street | Milk Bar"><img src="http://cdn.funcheap.com/wp-content/uploads/2016/10/13071687_10207401556291213_2320926378770134007_o1-1-175x130.jpg" alt="HellaFunny on Haight Street | Milk Bar" class="left" /></a></div>
+		<p>Come out to #HellaFunny at Milk Bar located in the heart of the Upper Haight to see some of SF’s best rising comedic talent.<br />
+The lineup changes every week, but expect to see comics that have performed at Cobbs, SF Sketchfest, the Punchline and featured on &#8230;</p>
 	</div>
 	
 	<div class="tanbox left">
-		<span class="title"><a href="http://sf.funcheap.com/event-series/rock-paper-scissors-tournament-pub-crawl-sf/" rel="bookmark" title="Rock Paper Scissors Tournament Pub Crawl | SF">Rock Paper Scissors Tournament Pub Crawl | SF</a></span>
-		<div class="meta archive-meta">Every Wednesday &#150; 8:30 pm | 
+		<span class="title"><a href="http://sf.funcheap.com/event-series/setups-storytelling-comedy-night-beer-basement/" rel="bookmark" title="The Setup&#8217;s &#8220;Storytelling&#8221; Comedy Night | Beer Basement">The Setup&#8217;s &#8220;Storytelling&#8221; Comedy Night | Beer Basement</a></span>
+		<div class="meta archive-meta">Every Thursday &#150; 8:00 pm | 
+
+
+<span class="cost">Cost:</span> <a class="tt">$5* 
+		<div class="tooltip">
+                <div class="top"></div>
+                <div class="middle">*Normally $10 use code FUNCHEAP for $5 tickets. 21+</div>
+                <div class="bottom"></div>
+                </div></a> | <span>The Beer Basement, 222 Hyde Street, San Francisco, CA 94102</span> </div>
+
+	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/setups-storytelling-comedy-night-beer-basement/" rel="bookmark" title="The Setup's "Storytelling" Comedy Night | Beer Basement"><img src="http://cdn.funcheap.com/wp-content/uploads/2017/02/TheSetupRichard-175x130.jpg" alt="The Setup's "Storytelling" Comedy Night | Beer Basement" class="left" /></a></div>
+		<p>Every Thursday The Setup presents : A Funny Thing Happened, San Francisco’s only weekly storytelling show bringing you bestselling authors, Emmy-Award winning writers, TED speakers, stars of The Moth Radio hour, Snap Judgment and accomplished comedic voices in an intimate setting right in the heart of &#8230;</p>
+	</div>
+	
+	<div class="tanbox left">
+		<span class="title"><a href="http://sf.funcheap.com/event-series/class-84-dance-party-cheap-drinks-soma/" rel="bookmark" title="&#8220;Class of &#8217;84&#8221; Dance Party &#038; Cheap Drinks | SoMa">&#8220;Class of &#8217;84&#8221; Dance Party &#038; Cheap Drinks | SoMa</a></span>
+		<div class="meta archive-meta">Every Thursday &#150; 9:00 pm | 
 
 
 <span class="cost">Cost:</span> <a class="tt">FREE* 
 		<div class="tooltip">
                 <div class="top"></div>
-                <div class="middle">*Free with a drink special purchase.</div>
+                <div class="middle">*Free before 9:30 pm. $7 after</div>
                 <div class="bottom"></div>
-                </div></a> | <span>Monroe</span> </div>
+                </div></a> | <span>The Cat Club</span> </div>
 
-	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/rock-paper-scissors-tournament-pub-crawl-sf/" rel="bookmark" title="Rock Paper Scissors Tournament Pub Crawl | SF"><img src="http://cdn.funcheap.com/wp-content/uploads/2012/07/25065_537690819576499_724280650_n1-175x130.jpg" alt="Rock Paper Scissors Tournament Pub Crawl | SF" class="left" /></a></div>
-		<p>Try your hand (literally) at the Rock Paper Scissors Tournament Pub Crawl starting in North Beach.<br />
-Get lubricated on $3.50 drink specials, and compete in Rock Paper Scissors tournament qualifying rounds while moving from bar to bar. The tournament champ wins a $25 bar tab. Meet new people while earning points to &#8230;</p>
+	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/class-84-dance-party-cheap-drinks-soma/" rel="bookmark" title=""Class of '84" Dance Party & Cheap Drinks | SoMa"><img src="http://cdn.funcheap.com/wp-content/uploads/2015/08/10636801_938507072831344_4459313822480408802_o-175x130.jpg" alt=""Class of '84" Dance Party & Cheap Drinks | SoMa" class="left" /></a></div>
+		<p>Every Thursday at the Cat Club it&#8217;s the best of the &#8217;80s in two rooms. The coolest music and the best crowd in town with DJs Damon and Mr Washington spin &#8217;80s pop, rock, and one hit wonders in the front room:, along with DJ &#8230;</p>
 	</div>
 	
 	<div class="tanbox left">
-		<span class="title"><a href="http://sf.funcheap.com/event-series/house-dj-party-free-champagne-soma/" rel="bookmark" title="&#8220;Housepitality&#8221; DJ Party &#038; Free Champagne | SoMa">&#8220;Housepitality&#8221; DJ Party &#038; Free Champagne | SoMa</a></span>
-		<div class="meta archive-meta">Every Wednesday &#150; 9:00 pm | 
+		<span class="title"><a href="http://sf.funcheap.com/event-series/comedians-at-rail/" rel="bookmark" title="Free Laughs On Thursday Nights | San Carlos">Free Laughs On Thursday Nights | San Carlos</a></span>
+		<div class="meta archive-meta">Every Thursday &#150; 9:00 pm | 
+
+
+<span class="cost">Cost: FREE</span> | <span>Carlos Club</span> </div>
+
+	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/comedians-at-rail/" rel="bookmark" title="Free Laughs On Thursday Nights | San Carlos"><img src="http://cdn.funcheap.com/wp-content/uploads/2016/06/comedy1-175x130.jpg" alt="Free Laughs On Thursday Nights | San Carlos" class="left" /></a></div>
+		<p>Join Kevin Wong, host and Bay Area comic, for Comedians at Rail every Thursday at 9 pm for free comedy at the Rail Club in San Carlos, CA.<br />
+Featured performers have appeared at The Punch Line, Cobbs, San Jose Improv, Tommy T&#8217;s, and all around the Bay Area.<br />
+Stop &#8230;</p>
+	</div>
+	
+	<div class="tanbox left">
+		<span class="title"><a href="http://sf.funcheap.com/event-series/depeche-mode-night-cat-club/" rel="bookmark" title="&#8220;The Best of &#8217;80s&#8221; Thursday Dance Nights | Cat Club">&#8220;The Best of &#8217;80s&#8221; Thursday Dance Nights | Cat Club</a></span>
+		<div class="meta archive-meta">Every Thursday &#150; 9:00 pm | 
 
 
 <span class="cost">Cost:</span> <a class="tt">FREE* 
 		<div class="tooltip">
                 <div class="top"></div>
-                <div class="middle">*Most Houspitality nights are free before 11 pm with an RSVP required (otherwise, it's $5 before 11 pm or $10 after). On select nights when they book a well known headliner, the price may go up to $5 before 11 pm, or $10 all night. </div>
+                <div class="middle">*Sign-up for free entry before 10 pm and $7 after.</div>
                 <div class="bottom"></div>
-                </div></a> | <span>1192 Folsom</span> </div>
+                </div></a> | <span>The Cat Club</span> </div>
 
-	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/house-dj-party-free-champagne-soma/" rel="bookmark" title=""Housepitality" DJ Party & Free Champagne | SoMa"><img src="http://cdn.funcheap.com/wp-content/uploads/2012/08/f8-housepitality-175x130.jpg" alt=""Housepitality" DJ Party & Free Champagne | SoMa" class="left" /></a></div>
-		<p>Housepitality SF gives you a reason to come out dancing every Wednesday night with world-class artists and free champagne.<br />
-Enjoy free champagne from 9-10 pm and $5 Jameson (with mention of Housepitality discount). The RSVP list closes at 6 pm on the day of the show.<br />
-Housepitality DJ Night<br />
-Every Wednesday &#8230;</p>
+	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/depeche-mode-night-cat-club/" rel="bookmark" title=""The Best of '80s" Thursday Dance Nights | Cat Club"><img src="http://cdn.funcheap.com/wp-content/uploads/2016/09/221-RoaringNights3-JP-1024x6841-175x130.jpg" alt=""The Best of '80s" Thursday Dance Nights | Cat Club" class="left" /></a></div>
+		<p>Come and indulge yourself and be around other fans and see and listen to all the great music.<br />
+The event happens every Thursday. Sign-up for free entry before 10 pm and $7 after.</p>
+	</div>
+	
+	<div class="tanbox left">
+		<span class="title"><a href="http://sf.funcheap.com/event-series/no-scrubs-90s-dance-party-live-painting-free-cotton-candy-milk-bar/" rel="bookmark" title="&#8220;Throwback Thursdays&#8221;: Music Video Dance Party &#038; Free Pizza | Milk Bar">&#8220;Throwback Thursdays&#8221;: Music Video Dance Party &#038; Free Pizza | Milk Bar</a></span>
+		<div class="meta archive-meta">Every Thursday &#150; 10:00 pm | 
+
+
+<span class="cost">Cost:</span> <a class="tt">FREE* 
+		<div class="tooltip">
+                <div class="top"></div>
+                <div class="middle">*Free - Use code NOSCRUBS for free tix; otherwise it's $5 online or $10 at the door</div>
+                <div class="bottom"></div>
+                </div></a></div>
+
+	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/no-scrubs-90s-dance-party-live-painting-free-cotton-candy-milk-bar/" rel="bookmark" title=""Throwback Thursdays": Music Video Dance Party & Free Pizza | Milk Bar"><img src="http://cdn.funcheap.com/wp-content/uploads/2016/09/a4293268ecd47e673ba3d18eecc274b81-175x130.jpg" alt=""Throwback Thursdays": Music Video Dance Party & Free Pizza | Milk Bar" class="left" /></a></div>
+		<p>TLC had some of the best music videos. The &#8217;90s era of music was amazing. Come to Milk Bar to watch some throw backs.<br />
+Do you remember when MTV used to play music videos? Remember getting out of school or work and heading home to watch &#8230;</p>
+	</div>
+	
+	<div class="tanbox left">
+		<span class="title"><a href="http://sf.funcheap.com/event-series/craiglist-missed-connections-improv-original-jokes-pianofight/" rel="bookmark" title="Craiglist Missed Connections: Improv &#038; Original Jokes | PianoFight">Craiglist Missed Connections: Improv &#038; Original Jokes | PianoFight</a></span>
+		<div class="meta archive-meta">Every Thursday &#150; 10:00 pm | 
+
+
+<span class="cost">Cost: FREE</span> | <span>PianoFight</span> </div>
+
+	<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/event-series/craiglist-missed-connections-improv-original-jokes-pianofight/" rel="bookmark" title="Craiglist Missed Connections: Improv & Original Jokes | PianoFight"><img src="http://cdn.funcheap.com/wp-content/uploads/2016/10/the-laughter-factory_supper_club1-175x130.jpg" alt="Craiglist Missed Connections: Improv & Original Jokes | PianoFight" class="left" /></a></div>
+		<p>PianoFight&#8217;s house team, Original Jokes takes the stage to improvise based off a Craigslist missed connection that is picked by the audience. Combine that with a PianoFight selected improv team opening the show for double the hilarity and you have one hilarious show.<br />
+This show is &#8230;</p>
 	</div>
 	
        	</div>
 
-               <span class="left"><a href="/2017/04/04/">< Tuesday, April 4</a></span>
-     	<span class="right"><a href="/2017/04/06/">Thursday, April 6 ></a></span>
+               <span class="left"><a href="/2017/04/05/">< Wednesday, April 5</a></span>
+     	<span class="right"><a href="/2017/04/07/">Friday, April 7 ></a></span>
      	<div style="clear:both"></div>
 
   	</div>
@@ -727,25 +797,25 @@ Join the <b>100,000+</b> San Franciscans and get our picks for the best  Bay Are
 				}
 			</script>
 		<div id='toplytics-widget-3'></div><ol>		<li>
+		<a href="http://sf.funcheap.com/permit-list-summer-love-event-ggpdeyoung-museum/" title="&#8220;Summer of Love&#8221; Opening Day Celebration | de Young">&#8220;Summer of Love&#8221; Opening Day Celebration | de Young</a>
+		</li>		<li>
+		<a href="http://sf.funcheap.com/walk-work-day-2/" title="Walk to Work Day 2017: Free Coffee &#038; Free Breakfast Snacks | SF">Walk to Work Day 2017: Free Coffee &#038; Free Breakfast Snacks | SF</a>
+		</li>		<li>
 		<a href="http://sf.funcheap.com/cherry-blossom-festival-japantown-3/" title="2017 Cherry Blossom Festival: Saturday | Japantown">2017 Cherry Blossom Festival: Saturday | Japantown</a>
 		</li>		<li>
 		<a href="http://sf.funcheap.com/berkeley-bay-festival-berkeley/" title="2017 Berkeley Bay Festival | Free Boat Rides, Live Music &#038; Adventure Playground">2017 Berkeley Bay Festival | Free Boat Rides, Live Music &#038; Adventure Playground</a>
 		</li>		<li>
-		<a href="http://sf.funcheap.com/sf-zoo-free-admission-day-35/" title="SF Zoo Free Admission Day">SF Zoo Free Admission Day</a>
-		</li>		<li>
-		<a href="http://sf.funcheap.com/walk-work-day-2/" title="Walk to Work Day 2017: Free Coffee &#038; Free Breakfast Snacks | SF">Walk to Work Day 2017: Free Coffee &#038; Free Breakfast Snacks | SF</a>
-		</li>		<li>
-		<a href="http://sf.funcheap.com/free-belgian-waffle-wednesday-sf-36/" title="Free Belgian Waffle Wednesday | SF">Free Belgian Waffle Wednesday | SF</a>
+		<a href="http://sf.funcheap.com/free-sailboat-ride-day-cal-sailing-club-berkeley-37/" title="Free Sailboat Ride Day: Cal Sailing Club | Berkeley">Free Sailboat Ride Day: Cal Sailing Club | Berkeley</a>
 		</li>		<li>
 		<a href="http://sf.funcheap.com/420-park-gigantic-gathering-hippie-hill-golden-gate-park/" title="420 in the Park: Gigantic Gathering at Hippie Hill | Golden Gate Park">420 in the Park: Gigantic Gathering at Hippie Hill | Golden Gate Park</a>
 		</li>		<li>
-		<a href="http://sf.funcheap.com/permit-list-summer-love-event-ggpdeyoung-museum/" title="&#8220;Summer of Love&#8221; Opening Day Celebration | de Young">&#8220;Summer of Love&#8221; Opening Day Celebration | de Young</a>
+		<a href="http://sf.funcheap.com/grilled-cheese-day-food-truck-bash-soma/" title="National Grilled Cheese Day 2017 | SoMa">National Grilled Cheese Day 2017 | SoMa</a>
+		</li>		<li>
+		<a href="http://sf.funcheap.com/oakland-earth-expo/" title="Oakland Earth Expo 2017: Demos, Giveaways &#038; Food Trucks | Oakland">Oakland Earth Expo 2017: Demos, Giveaways &#038; Food Trucks | Oakland</a>
 		</li>		<li>
 		<a href="http://sf.funcheap.com/park-easter-celebration-hunky-jesus-contest-mission-dist/" title="2017 Easter In the Park: Hunky Jesus &#038; Foxy Mary Contests | Golden Gate Park">2017 Easter In the Park: Hunky Jesus &#038; Foxy Mary Contests | Golden Gate Park</a>
 		</li>		<li>
-		<a href="http://sf.funcheap.com/earth-day-festival-san-francisco/" title="San Francisco Earth Day 2017 Festival &#038; Climate Rally | Civic Center">San Francisco Earth Day 2017 Festival &#038; Climate Rally | Civic Center</a>
-		</li>		<li>
-		<a href="http://sf.funcheap.com/holi-festival-colors-cupertino/" title="Holi Festival of Colors | Cupertino">Holi Festival of Colors | Cupertino</a>
+		<a href="http://sf.funcheap.com/sunday-streets-huge-block-party-bayview-dogpatch/" title="&#8220;Sunday Streets&#8221; Huge Block Party &#038; Summer of Love Bash | Bayview &#038; Dogpatch">&#8220;Sunday Streets&#8221; Huge Block Party &#038; Summer of Love Bash | Bayview &#038; Dogpatch</a>
 		</li></ol><h3>Funcheap on Facebook</h3>			<div class="textwidget"><iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FFunCheapSF%2F327396872503&amp;width=300&amp;height=220&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=true" scrolling="no" frameborder="0" style="border:none;height:220px;overflow:none;" allowTransparency="true"></iframe></div>
 		</div>
 
@@ -913,7 +983,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1370026159345-5');
         });
     </script><script type='text/javascript'>
 /* <![CDATA[ */
-var FcAjaxVenueSearch = {"ajaxurl":"http:\/\/sf.funcheap.com\/wp-admin\/admin-ajax.php","fc_nonce":"17bcb532e2"};
+var FcAjaxVenueSearch = {"ajaxurl":"http:\/\/sf.funcheap.com\/wp-admin\/admin-ajax.php","fc_nonce":"27fbb76387"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://cdn.funcheap.com/wp-content/plugins/fc-venue-search/scripts/jquery.autocomplete.min.js?ver=1'></script>
@@ -934,7 +1004,7 @@ var emailL10n = {"ajax_url":"https:\/\/sf.funcheap.com\/wp-admin\/admin-ajax.php
 <li id="menu-item-22531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22531"><a href="http://sf.funcheap.com/about/contact/">Contact Us</a></li>
 </ul></div></ul>
 <br/><br/><div class="right">Powered by <a href="http://wordpress.org/">WordPress</a> |  <a rel="nofollow" href="https://sf.funcheap.com/wp-login.php">Log in</a> | <a href="http://sf.funcheap.com/feed/">Entries (RSS)</a> | <a href="http://sf.funcheap.com/comments/feed/">Comments (RSS)</a> | <a href="http://colorlabsproject.com/themes/arthemia-premium/" target="_blank">Arthemia Premium</a> theme by <a href="http://colorlabsproject.com" target="_blank">Colorlabs Project</a></div>
-<!-- 81 queries. 4.682 seconds. -->
+<!-- 70 queries. 2.044 seconds. -->
 </div>
 
 

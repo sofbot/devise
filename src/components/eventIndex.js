@@ -3,26 +3,28 @@ import { StyleSheet, Image, View, Text, PanResponder, Animated } from 'react-nat
 import { Card } from 'react-native-elements';
 import Swiper from 'react-native-swiper';
 import SimpleGesture from 'react-native-simple-gesture';
-import { values } from 'lodash';
+
+import { PermissionsUtil } from './permissions';
 
 export default class EventIndex extends Component {
   constructor(props) {
     super(props);
-    console.log(this.props);
+    this.state = {
+      direction: ''
+    }
     this.handleSwipe = this.handleSwipe.bind(this);
     this.shiftFromAllToSwipe = this.shiftFromAllToSwipe.bind(this);
   }
 
   componentWillMount() {
     // fetch 10 events and put into allEvents
-    // this.props.fetchEvents();
+    this.props.fetchEvents();
 
     // this.setState({visibleEvent: this.props.swipeEvents[0]});
 
     this._panResponder = PanResponder.create({
       onMoveShouldSetPanResponder: (e, gs) => {
         let sgs = new SimpleGesture(e, gs);
-        console.log('swiped', sgs.relativeGestureDistance.x*100, '% of the screen horizontallly');
         const direction = sgs.isSwipeLeft() ? 'left' : 'right';
         console.log(direction);
         this.setState({ direction: direction })
@@ -39,12 +41,26 @@ export default class EventIndex extends Component {
 
   handleSwipe() {
     console.log(this.state.direction);
+    switch (this.state.direction) {
+      case 'left':
+        alert('left');
+        this.shiftFromAllToSwipe();
+        break;
+      case 'right':
+        alert('right');
+        this.shiftFromAllToSwipe();
+        break;
+      default:
+        console.log('hello from the swiper error log');
+    }
+
+
+
     if (this.state.direction === 'left') {
       alert('left');
-      this.shiftFromAllToSwipe();
+
     } else if (this.state.direction === 'right') {
-      alert('right');
-      this.shiftFromAllToSwipe();
+
     }
   }
 
@@ -57,7 +73,7 @@ export default class EventIndex extends Component {
               this.props.swipeEvents.map((e, idx) => (
                 <Card
                   key={ idx }
-                  image={ e.image }
+                  image={{ uri: e.imageUrl }}
                   imageStyle={ styles.image }
                   containerStyle={ styles.container }>
                   <View style={ styles.captionContainer }>

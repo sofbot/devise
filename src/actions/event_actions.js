@@ -28,11 +28,16 @@ export const addEvents = events => ({
   events
 });
 
-export const fetchEvents = () => dispatch => (
+export const fetchEvents = () => dispatch => {
+  return (
   EventUtil.fetchEvents()
-    .then((events => {
-      const topTwo = events.splice(0, 2);
+    .then(events => events.json())
+    .then(jsonEvents => {
+      const topTwo = jsonEvents.splice(0, 2);
       dispatch(addEvents(topTwo));
-      dispatch(receiveEvents(events));
-    }, err => console.log(err)))
-);
+      return jsonEvents;
+    })
+    .then(remainingEvents => dispatch(receiveEvents(remainingEvents)))
+    .catch(err => console.log(err))
+  );
+};

@@ -6,7 +6,7 @@ import {
 const _defaultState = [
   {
     title: 'Loading Events...',
-    image: require('../../images/loading.gif'),
+    imageUrl: 'http://cdn.playbuzz.com/cdn/fa79aecc-8ac9-4994-8118-1485d8c0c5fd/e8ff9782-8612-40a4-8804-8e41343a0f52.jpg',
     venue: '',
     friends: 100, // number of friends also going
     time: '',

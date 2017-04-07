@@ -3097,6 +3097,10 @@ react-native-keyboard-aware-scroll-view@0.2.7:
   dependencies:
     react-timer-mixin "^0.13.3"
 
+react-native-permissions@^0.2.7:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-0.2.7.tgz#92eae05894ed99235707e20ecb8fbf7d765752ae"
+
 react-native-scrollable-tab-view@^0.7.1:
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/react-native-scrollable-tab-view/-/react-native-scrollable-tab-view-0.7.3.tgz#1900615390b1735b01d18b36ff10f113c3625a79"
@@ -3979,7 +3983,11 @@ whatwg-encoding@^1.0.1:
   dependencies:
     iconv-lite "0.4.13"
 
-whatwg-fetch@>=0.10.0, whatwg-fetch@^1.0.0:
+whatwg-fetch@>=0.10.0, whatwg-fetch@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz#9c84ec2dcf68187ff00bc64e1274b442176e1c84"
+
+whatwg-fetch@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-1.1.1.tgz#ac3c9d39f320c6dce5339969d054ef43dd333319"
 
