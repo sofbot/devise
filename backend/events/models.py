@@ -24,6 +24,7 @@ class Event(models.Model):
     url = models.CharField(max_length=200)
     title = models.CharField(max_length=100)
     location = models.CharField(max_length=100)
+    address = models.CharField(max_length=100)
     summary = models.CharField(max_length=1000)
     free = models.BooleanField()
     description = models.TextField(null=True, blank=True)
@@ -44,6 +45,7 @@ class Event(models.Model):
             'source',
             'description',
             'location',
+            'address',
             'free',
             'start_time',
             'start_date',
@@ -64,6 +66,8 @@ class Event(models.Model):
             ['summary'],
             ['description'],
             ['location'],
+            ['address'],
+            ['free'],
             ['start_time', 'startTime'],
             ['start_date', 'startDate'],
             ['end_time', 'endTime'],

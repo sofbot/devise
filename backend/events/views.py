@@ -25,6 +25,22 @@ def get_page(url):
     return BeautifulSoup(content, 'html.parser')
 
 
+def detail_event(url):
+    page = get_page(url)
+    event_div = page.find("div", class_="post")
+    image_url = event_div.find("img")['src']
+    print(image_url)
+    # if "image_url" not in event:
+    #     event["image_url"] = image_url
+
+    # needed
+    # [DONE] image
+    # address
+    # end time
+    # description (optional)
+    
+    return None
+
 def div_event(div, event, date_str):
     title_span = div.find(class_="title")
     atag = title_span.a
@@ -155,6 +171,9 @@ class EventView(View):
             print("USED DB EVENTS")
             events = Event.objects.filter(start_date__contains=date)
         print("========================================================")
+        for event in events:
+            detail_event(event.url)
+
         data = json.dumps([event.dict() for event in events])
         return HttpResponse(data, content_type='application/json')
 
