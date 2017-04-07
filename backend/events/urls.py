@@ -1,8 +1,7 @@
 from django.conf.urls import url
 
-from .views import EventView, pull
+from .views import EventView
 
 urlpatterns = [
-    url(r'^pull$', pull),
     url(r'^$', EventView.as_view()),
 ]

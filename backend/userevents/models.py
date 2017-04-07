@@ -10,9 +10,10 @@ class UserEvent(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     event = models.ForeignKey(Event, on_delete=models.CASCADE)
     liked = models.BooleanField()
-    seen_at = models.TimeField()
+    seen_at = models.DateTimeField()
     seconds_viewed = models.IntegerField(default=-1)
-    created_at = models.DateTimeField(auto_now_add=True)
+    create_date = models.DateField(auto_now_add=True)
+    create_time = models.TimeField(auto_now_add=True)
 
     def __str__(self):
         return self.event.title + ' ' + self.user.email
@@ -37,7 +38,8 @@ class UserEvent(models.Model):
 class Invitation(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     userevent = models.ForeignKey(UserEvent, on_delete=models.CASCADE)
-    created_at = models.DateTimeField(auto_now_add=True)
+    create_date = models.DateField(auto_now_add=True)
+    create_time = models.TimeField(auto_now_add=True)
 
     def __str__(self):
         return str(self.userevent) + ' ' + self.user.email

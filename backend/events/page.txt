@@ -329,27 +329,21 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1370026159345-3');
          	<span class="right"><a href="/2017/04/06/">Thursday, April 6 ></a></span>
          	<div style="clear:both"></div>
 <div class='archive_date_title' style='background-color:white;margin:0px;margin-bottom:4px;padding:0px;'><h3 style='background-color:black;color:white;margin:0px;padding:3px;font: 16px Arial;font-weight:bold;'>Wednesday<span style='font-weight:normal;'>, April 5</span></h3></div><div class="tanbox left" style="background-color:white;">
-	<span class="title"><a href="http://sf.funcheap.com/monhtly-lululemon-flow-jo-complimentary-yoga-coffee-tickets-wed-apr-5-2017-700-eventbrite/" rel="bookmark" title="Lululemon Flow &#038; Jo: Complimentary Vinyasa Yoga &#038; Coffee | SF">Lululemon Flow &#038; Jo: Complimentary Vinyasa Yoga &#038; Coffee | SF</a></span>
-	<div class="meta archive-meta">Wednesday, April 5 &#150; 7:00 am | 
+	<span class="title"><a href="http://sf.funcheap.com/golden-gate-park-birthday/" rel="bookmark" title="Golden Gate Park&#8217;s 147th Birthday | SF">Golden Gate Park&#8217;s 147th Birthday | SF</a></span>
+	<div class="meta archive-meta">Wednesday, April 5 &#150; All Day | 
 
 
-<span class="cost">Cost:</span> <a class="tt">FREE* 
-		<div class="tooltip">
-                <div class="top"></div>
-                <div class="middle">*Free but an RSVP is required.</div>
-                <div class="bottom"></div>
-                </div></a> | <span>111 Minna Gallery</span> </div>
+<span class="cost">Cost: FREE</span> | <span>Golden Gate Park</span> </div>
 
-<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/monhtly-lululemon-flow-jo-complimentary-yoga-coffee-tickets-wed-apr-5-2017-700-eventbrite/" rel="bookmark" title="Lululemon Flow & Jo: Complimentary Vinyasa Yoga & Coffee | SF"><img src="http://cdn.funcheap.com/wp-content/uploads/2017/03/MG_44941-175x130.jpg" alt="Lululemon Flow & Jo: Complimentary Vinyasa Yoga & Coffee | SF" class="left" /></a></div><p>Join Lululemon Grant Ave for their monthly complimentary yoga class and coffee at 111 Minna Gallery. Start the day with a gentle vinyasa flow, and leave centered and present. Top it off with a hot cup of joe courtesy of Red Door Coffee. Each month ...</p></div>
+<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/golden-gate-park-birthday/" rel="bookmark" title="Golden Gate Park's 147th Birthday | SF"><img src="http://cdn.funcheap.com/wp-content/uploads/2016/04/ggpark-175x130.jpg" alt="Golden Gate Park's 147th Birthday | SF" class="left" /></a></div>Golden Gate Park, one of the world’s most iconic parks, turns 147 years old. (We think it should have been April 4th, but SF Rec Park &#8220;celebrates&#8221; it on April 5 in 2017). Nearly a century-and-a-half ago, park engineer William Hammond Hall and master gardener John ...</div>
 <div class="tanbox left" style="background-color:white;">
-	<span class="title"><a href="http://sf.funcheap.com/free-belgian-waffle-wednesday-sf-36/" rel="bookmark" title="Free Belgian Waffle Wednesday | SF">Free Belgian Waffle Wednesday | SF</a></span>
-	<div class="meta archive-meta">Wednesday, April 5 &#150; 9:00 am | 
+	<span class="title"><a href="http://sf.funcheap.com/bay-area-discovery-museum-free-admission-day-42/" rel="bookmark" title="Bay Area Discovery Museum | Free Admission Day">Bay Area Discovery Museum | Free Admission Day</a></span>
+	<div class="meta archive-meta">Wednesday, April 5 &#150; All Day | 
 
 
-<span class="cost">Cost: FREE</span> | <span>Capital One 360 Café</span> </div>
+<span class="cost">Cost: FREE</span> | <span>Bay Area Discovery Museum (Fort Baker)</span> </div>
 
-<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/free-belgian-waffle-wednesday-sf-36/" rel="bookmark" title="Free Belgian Waffle Wednesday | SF"><img src="http://cdn.funcheap.com/wp-content/uploads/2013/08/download-175x130.jpg" alt="Free Belgian Waffle Wednesday | SF" class="left" /></a></div>This Wednesday, they will be giving away Salted Caramel Belgian Waffles.
-</div>
+<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/bay-area-discovery-museum-free-admission-day-42/" rel="bookmark" title="Bay Area Discovery Museum | Free Admission Day"><img src="http://cdn.funcheap.com/wp-content/uploads/2013/07/12265745_10154334298768448_1620007696864919502_o-175x130.jpg" alt="Bay Area Discovery Museum | Free Admission Day" class="left" /></a></div><p>The Bay Area Discovery Museum is a one-of-a-kind indoor and outdoor children&#8217;s museum at the foot of the Golden Gate Bridge. The Museum is the only children’s museum in the U.S. to be located in a national park and is known for its emphasis on creativity through ...</p></div>
 		<div class="tanbox left" style="background-color:white;padding-bottom:10px;">
 			<p>
                 <!-- FunCheap_Archive_Listing -->
@@ -361,14 +355,6 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1370026159345-3');
 			</p>
 		</div>
 	<div class="tanbox left" style="background-color:white;">
-	<span class="title"><a href="http://sf.funcheap.com/bay-area-discovery-museum-free-admission-day-42/" rel="bookmark" title="Bay Area Discovery Museum | Free Admission Day">Bay Area Discovery Museum | Free Admission Day</a></span>
-	<div class="meta archive-meta">Wednesday, April 5 &#150; All Day | 
-
-
-<span class="cost">Cost: FREE</span> | <span>Bay Area Discovery Museum (Fort Baker)</span> </div>
-
-<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/bay-area-discovery-museum-free-admission-day-42/" rel="bookmark" title="Bay Area Discovery Museum | Free Admission Day"><img src="http://cdn.funcheap.com/wp-content/uploads/2013/07/12265745_10154334298768448_1620007696864919502_o-175x130.jpg" alt="Bay Area Discovery Museum | Free Admission Day" class="left" /></a></div><p>The Bay Area Discovery Museum is a one-of-a-kind indoor and outdoor children&#8217;s museum at the foot of the Golden Gate Bridge. The Museum is the only children’s museum in the U.S. to be located in a national park and is known for its emphasis on creativity through ...</p></div>
-<div class="tanbox left" style="background-color:white;">
 	<span class="title"><a href="http://sf.funcheap.com/free-first-wednesday-uc-berkeley-botanical-garden-27/" rel="bookmark" title="Free First Wednesday | UC Berkeley Botanical Garden">Free First Wednesday | UC Berkeley Botanical Garden</a></span>
 	<div class="meta archive-meta">Wednesday, April 5 &#150; All Day | 
 
@@ -376,45 +362,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1370026159345-3');
 <span class="cost">Cost: FREE</span> | <span>UC Berkeley Botanical Garden</span> </div>
 
 <div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/free-first-wednesday-uc-berkeley-botanical-garden-27/" rel="bookmark" title="Free First Wednesday | UC Berkeley Botanical Garden"><img src="http://cdn.funcheap.com/wp-content/uploads/2015/01/1982338_10153900897815241_686291682_n-175x130.jpg" alt="Free First Wednesday | UC Berkeley Botanical Garden" class="left" /></a></div><p>Enjoy free admission to the UC Botanical Garden on the first Wednesday of every month month from 9 am to 5 pm year round. Established in 1890, the Garden, which is open to the public year round, has over 13,000 different kinds of plants from ...</p></div>
-<div class="tanbox left" style="background-color:white;">
-	<span class="title"><a href="http://sf.funcheap.com/sf-zoo-free-admission-day-35/" rel="bookmark" title="SF Zoo Free Admission Day">SF Zoo Free Admission Day</a></span>
-	<div class="meta archive-meta">Wednesday, April 5 &#150; 10:00 am | 
-
-
-<span class="cost">Cost:</span> <a class="tt">FREE* 
-		<div class="tooltip">
-                <div class="top"></div>
-                <div class="middle">*Free admission offer only valid to San Francisco residents with valid ID, subject to capacity. Admission into the zoo ends one hour before closing time for non-members. (For members admission ends 30 minutes before closing time.)</div>
-                <div class="bottom"></div>
-                </div></a> | <span>San Francisco Zoo</span> </div>
-
-<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/sf-zoo-free-admission-day-35/" rel="bookmark" title="SF Zoo Free Admission Day"><img src="http://cdn.funcheap.com/wp-content/uploads/2013/05/sfzoo21-175x130.jpg" alt="SF Zoo Free Admission Day" class="left" /></a></div><p>The San Francisco Zoo, Northern California’s largest zoological park and conservation center, periodically offers free admission for San Francisco residents. This urban oasis, nestled against the Pacific Ocean, provides a comfortable climate all year round.  You’ll enjoy seeing the 250 different animal species in naturalistic surroundings, ...</p></div>
-<div class="tanbox left" style="background-color:white;">
-	<span class="title"><a href="http://sf.funcheap.com/1-books-media-sale-sf-main-library/" rel="bookmark" title="Season Opening: $1 Book Sale | SF Main Library">Season Opening: $1 Book Sale | SF Main Library</a></span>
-	<div class="meta archive-meta">Wednesday, April 5 &#150; 11:00 am | 
-
-
-<span class="cost">Cost:</span> <a class="tt">$1* 
-		<div class="tooltip">
-                <div class="top"></div>
-                <div class="middle">*$1 for books &amp; media. Free entrance.</div>
-                <div class="bottom"></div>
-                </div></a> | <span>San Francisco Main Public Library</span> </div>
-
-<div class="thumbnail-wrapper"><a href="http://sf.funcheap.com/1-books-media-sale-sf-main-library/" rel="bookmark" title="Season Opening: $1 Book Sale | SF Main Library"><img src="http://cdn.funcheap.com/wp-content/uploads/2012/07/photo-4-175x130.jpg" alt="Season Opening: $1 Book Sale | SF Main Library" class="left" /></a></div><p>Starting this April, the San Francisco Public Library host weekly Wednesday Steps Sales, located at the Larkin Street entrance to the Main Library. All books and media are just $1 or less each and all proceeds from Steps Sales benefit the San Francisco Public Library. ...</p></div>
-<div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">11:00 am</td><td><span class="title2"><a href="http://sf.funcheap.com/glbt-history-museum-free-first-wednesdays-castro-42/" rel="bookmark" title="GLBT History Museum: Free First Wednesdays | Castro">GLBT History Museum: Free First Wednesdays | Castro</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">12:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/free-guided-shuttle-tour-history-nature-hidden-nooks-presidio-39/" rel="bookmark" title="Free Guided Shuttle Tour: History, Nature &amp; Hidden Nooks | Presidio">Free Guided Shuttle Tour: History, Nature &amp; Hidden Nooks | Presidio</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">FREE*<div class="tooltip">
-             <div class="top"></div>
-             <div class="middle">*Free, but an RSVP is required. Call (415) 561-2793 or email presidio@presidiotrust.gov.   Space is limited. Reservations are limited to four people per party.</div>
-             <div class="bottom"></div>
-             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">12:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/sculpture-exhibition-opening-day-san-rafael/" rel="bookmark" title="&#8220;A Sculpture Exhibition&#8221; Opening Day | San Rafael">&#8220;A Sculpture Exhibition&#8221; Opening Day | San Rafael</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">12:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/chinese-calligraphy-workshop-traditional-experimental-techniques-oakland/" rel="bookmark" title="Chinese Calligraphy Workshop: Traditional &#038; Experimental Techniques | Oakland">Chinese Calligraphy Workshop: Traditional &#038; Experimental Techniques | Oakland</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">FREE*<div class="tooltip">
-             <div class="top"></div>
-             <div class="middle">*Free but an RSVP is required.</div>
-             <div class="bottom"></div>
-             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">12:30 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/yerba-buena-island-bioblitz-collect-data-app-sf/" rel="bookmark" title="Yerba Buena Island Bioblitz: Collect Data With An App  | SF">Yerba Buena Island Bioblitz: Collect Data With An App  | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">1:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/shibori-tie-dye-learn-acrylic-paints-sf/" rel="bookmark" title="Shibori Tie Dye: Learn With Acrylic Paints | SF">Shibori Tie Dye: Learn With Acrylic Paints | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;<a class="tt">FREE*<div class="tooltip">
-             <div class="top"></div>
-             <div class="middle">*Free but an RSVP is required.</div>
-             <div class="bottom"></div>
-             </div></a></td></tr></table></div><div class="tanbox left" style="background-color:white;">
+<div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">11:00 am</td><td><span class="title2"><a href="http://sf.funcheap.com/glbt-history-museum-free-first-wednesdays-castro-42/" rel="bookmark" title="GLBT History Museum: Free First Wednesdays | Castro">GLBT History Museum: Free First Wednesdays | Castro</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">12:00 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/sculpture-exhibition-opening-day-san-rafael/" rel="bookmark" title="&#8220;A Sculpture Exhibition&#8221; Opening Day | San Rafael">&#8220;A Sculpture Exhibition&#8221; Opening Day | San Rafael</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;padding:3px 0;"><table width="100%"><tr><td style="width:66px">12:30 pm</td><td><span class="title2"><a href="http://sf.funcheap.com/yerba-buena-island-bioblitz-collect-data-app-sf/" rel="bookmark" title="Yerba Buena Island Bioblitz: Collect Data With An App  | SF">Yerba Buena Island Bioblitz: Collect Data With An App  | SF</a></span></td><td style="width:66px">&nbsp;&nbsp;FREE</td></tr></table></div><div class="tanbox left" style="background-color:white;">
 	<span class="title"><a href="http://sf.funcheap.com/sfs-open-streets-octavia-experiment-open-house-hayes-valley/" rel="bookmark" title="SF&#8217;s &#8220;Open Streets&#8221; Octavia Experiment Open House | Hayes Valley">SF&#8217;s &#8220;Open Streets&#8221; Octavia Experiment Open House | Hayes Valley</a></span>
 	<div class="meta archive-meta">Wednesday, April 5 &#150; 4:00 pm | 
 
@@ -729,21 +677,21 @@ Join the <b>100,000+</b> San Franciscans and get our picks for the best  Bay Are
 		<div id='toplytics-widget-3'></div><ol>		<li>
 		<a href="http://sf.funcheap.com/cherry-blossom-festival-japantown-3/" title="2017 Cherry Blossom Festival: Saturday | Japantown">2017 Cherry Blossom Festival: Saturday | Japantown</a>
 		</li>		<li>
-		<a href="http://sf.funcheap.com/berkeley-bay-festival-berkeley/" title="2017 Berkeley Bay Festival | Free Boat Rides, Live Music &#038; Adventure Playground">2017 Berkeley Bay Festival | Free Boat Rides, Live Music &#038; Adventure Playground</a>
-		</li>		<li>
-		<a href="http://sf.funcheap.com/sf-zoo-free-admission-day-35/" title="SF Zoo Free Admission Day">SF Zoo Free Admission Day</a>
+		<a href="http://sf.funcheap.com/permit-list-summer-love-event-ggpdeyoung-museum/" title="&#8220;Summer of Love&#8221; Opening Day Celebration | de Young">&#8220;Summer of Love&#8221; Opening Day Celebration | de Young</a>
 		</li>		<li>
 		<a href="http://sf.funcheap.com/walk-work-day-2/" title="Walk to Work Day 2017: Free Coffee &#038; Free Breakfast Snacks | SF">Walk to Work Day 2017: Free Coffee &#038; Free Breakfast Snacks | SF</a>
 		</li>		<li>
-		<a href="http://sf.funcheap.com/free-belgian-waffle-wednesday-sf-36/" title="Free Belgian Waffle Wednesday | SF">Free Belgian Waffle Wednesday | SF</a>
+		<a href="http://sf.funcheap.com/berkeley-bay-festival-berkeley/" title="2017 Berkeley Bay Festival | Free Boat Rides, Live Music &#038; Adventure Playground">2017 Berkeley Bay Festival | Free Boat Rides, Live Music &#038; Adventure Playground</a>
 		</li>		<li>
 		<a href="http://sf.funcheap.com/420-park-gigantic-gathering-hippie-hill-golden-gate-park/" title="420 in the Park: Gigantic Gathering at Hippie Hill | Golden Gate Park">420 in the Park: Gigantic Gathering at Hippie Hill | Golden Gate Park</a>
-		</li>		<li>
-		<a href="http://sf.funcheap.com/permit-list-summer-love-event-ggpdeyoung-museum/" title="&#8220;Summer of Love&#8221; Opening Day Celebration | de Young">&#8220;Summer of Love&#8221; Opening Day Celebration | de Young</a>
 		</li>		<li>
 		<a href="http://sf.funcheap.com/park-easter-celebration-hunky-jesus-contest-mission-dist/" title="2017 Easter In the Park: Hunky Jesus &#038; Foxy Mary Contests | Golden Gate Park">2017 Easter In the Park: Hunky Jesus &#038; Foxy Mary Contests | Golden Gate Park</a>
 		</li>		<li>
 		<a href="http://sf.funcheap.com/earth-day-festival-san-francisco/" title="San Francisco Earth Day 2017 Festival &#038; Climate Rally | Civic Center">San Francisco Earth Day 2017 Festival &#038; Climate Rally | Civic Center</a>
+		</li>		<li>
+		<a href="http://sf.funcheap.com/grilled-cheese-day-food-truck-bash-soma/" title="National Grilled Cheese Day 2017 | SoMa">National Grilled Cheese Day 2017 | SoMa</a>
+		</li>		<li>
+		<a href="http://sf.funcheap.com/exploratorium-dark-cannabis-pier-15/" title="Exploratorium After Dark: Cannabis | Pier 15">Exploratorium After Dark: Cannabis | Pier 15</a>
 		</li>		<li>
 		<a href="http://sf.funcheap.com/holi-festival-colors-cupertino/" title="Holi Festival of Colors | Cupertino">Holi Festival of Colors | Cupertino</a>
 		</li></ol><h3>Funcheap on Facebook</h3>			<div class="textwidget"><iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FFunCheapSF%2F327396872503&amp;width=300&amp;height=220&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=true" scrolling="no" frameborder="0" style="border:none;height:220px;overflow:none;" allowTransparency="true"></iframe></div>
@@ -913,7 +861,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1370026159345-5');
         });
     </script><script type='text/javascript'>
 /* <![CDATA[ */
-var FcAjaxVenueSearch = {"ajaxurl":"http:\/\/sf.funcheap.com\/wp-admin\/admin-ajax.php","fc_nonce":"17bcb532e2"};
+var FcAjaxVenueSearch = {"ajaxurl":"http:\/\/sf.funcheap.com\/wp-admin\/admin-ajax.php","fc_nonce":"6e52829f25"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://cdn.funcheap.com/wp-content/plugins/fc-venue-search/scripts/jquery.autocomplete.min.js?ver=1'></script>
@@ -934,7 +882,7 @@ var emailL10n = {"ajax_url":"https:\/\/sf.funcheap.com\/wp-admin\/admin-ajax.php
 <li id="menu-item-22531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22531"><a href="http://sf.funcheap.com/about/contact/">Contact Us</a></li>
 </ul></div></ul>
 <br/><br/><div class="right">Powered by <a href="http://wordpress.org/">WordPress</a> |  <a rel="nofollow" href="https://sf.funcheap.com/wp-login.php">Log in</a> | <a href="http://sf.funcheap.com/feed/">Entries (RSS)</a> | <a href="http://sf.funcheap.com/comments/feed/">Comments (RSS)</a> | <a href="http://colorlabsproject.com/themes/arthemia-premium/" target="_blank">Arthemia Premium</a> theme by <a href="http://colorlabsproject.com" target="_blank">Colorlabs Project</a></div>
-<!-- 81 queries. 4.682 seconds. -->
+<!-- 65 queries. 6.517 seconds. -->
 </div>
 
 
