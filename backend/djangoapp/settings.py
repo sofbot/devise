@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'polls.apps.PollsConfig',
     'events.apps.EventsConfig',
     'userevents.apps.UsereventsConfig',
     'django.contrib.admin',
@@ -111,6 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
+# needed for datetime to work
 TIME_ZONE = 'America/Los_Angeles'
 
 USE_I18N = True
