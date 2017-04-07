@@ -43,7 +43,7 @@ class InvitationForm(ModelForm):
 class InvitationView(View):
     def get(self, request, userevent_id):
         userevent = UserEvent.objects.get(id=userevent_id)
-        invitations = userevent.invitation_set.order_by('created_at')[:10]
+        invitations = userevent.invitation_set.order_by('create_date')[:10]
         data = json.dumps([invitation.dict() for invitation in invitations])
         return HttpResponse(data, content_type='application/json')
 
