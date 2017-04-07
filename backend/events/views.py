@@ -25,6 +25,23 @@ def get_page(url):
     return BeautifulSoup(content, 'html.parser')
 
 
+def detail_event(event):
+    if 'image_url' not in event:
+        page = get_page(event['url'])
+        event_div = page.find("div", class_="post")
+        image_url = event_div.find("img")['src']
+        if image_url:
+            event['image_url'] = image_url
+
+        # needed
+        # [DONE] image
+        # categories
+        # address
+        # end time
+        # description (optional)
+
+    return event
+
 def div_event(div, event, date_str):
     title_span = div.find(class_="title")
     atag = title_span.a
@@ -59,8 +76,8 @@ def div_event(div, event, date_str):
     if cost_tag is None:
         cost_tag = time_cost_loc.contents[1]
 
-    start_time = time_cost_loc.contents[0].strip()[0:-2].split("  ")[-1].strip()
-    if start_time == "All Day":
+    date_time = time_cost_loc.contents[0].strip()[0:-2]
+    if "All Day" in date_time:
         full_date = date_str + " 12:01 am"
         time = datetime.datetime.strptime(full_date, '%b %d %Y %I:%M %p')
         event['start_time'] = time.time()
@@ -68,6 +85,7 @@ def div_event(div, event, date_str):
         time = datetime.datetime.strptime(full_date, '%b %d %Y %I:%M %p')
         event['end_time'] = time.time()
     else:
+        start_time = date_time.split("  ")[-1].strip()
         full_date = date_str + start_time
         time = datetime.datetime.strptime(full_date, '%b %d %Y %I:%M %p')
         event['start_time'] = time.time()
@@ -84,11 +102,19 @@ def div_event(div, event, date_str):
 
 def table_event(div, event, date_str, table_tr):
     atag = table_tr.contents[1].a
-    time_str = table_tr.contents[0].get_text()
-    full_date = date_str+time_str
-    used_time = datetime.datetime.strptime(full_date, '%b %d %Y %I:%M %p')
+    time_str = table_tr.contents[0].contents[0].strip()
+    if "All Day" in time_str:
+        full_date = date_str + " 12:01 am"
+        time = datetime.datetime.strptime(full_date, '%b %d %Y %I:%M %p')
+        event['start_time'] = time.time()
+        full_date = date_str + " 11:59 pm"
+        time = datetime.datetime.strptime(full_date, '%b %d %Y %I:%M %p')
+        event['end_time'] = time.time()
+    else:
+        full_date = date_str + " " + time_str
+        time = datetime.datetime.strptime(full_date, '%b %d %Y %I:%M %p')
+        event['start_time'] = time.time()
     title, location = list(map(str.strip, atag['title'].split("|")))
-    event['start_time'] = used_time.time()
     event['title'] = title
     event['url'] = atag['href']
     event['custom_id'] += event['url'].split("/")[-2]
@@ -104,8 +130,8 @@ def event_summary_to_Event(div, start_date, source):
         'custom_id': source + "_",
         'start_date': start_date,
         'end_date': start_date,
-        'image_url': '',
-        'description': ''
+        'description': '',
+        'address': ''
         }
     date_str = start_date.strftime('%b %d %Y ')
     if table_tr == None:
@@ -130,6 +156,34 @@ def get_event_dicts_sffc(date):
     return event_dicts
 
 class EventView(View):
+    def make_data_new_events(self, event_dicts, date):
+        events = []
+        success = True
+        for event_dict in event_dicts:
+            try:
+                # check to see if we already have the event in the db
+                found_event = Event.objects.get(custom_id=event_dict['custom_id'])
+                events.append(found_event)
+            except:
+                event_dict = detail_event(event_dict)
+                form = EventForm(event_dict)
+                try:
+                    new_event = form.save()
+                    events.append(new_event)
+                except:
+                    print("ERROR in making event")
+                    event_dict = Event(**event_dict).dict()
+                    data = {'errors': form.errors, 'event':event_dict}
+                    success = False
+                    break
+
+        if success:
+            data = [event.dict() for event in events]
+            new_query = EventQuery(source='sffc', date=date)
+            new_query.save()
+        return data
+
+
     def get(self, request):
         date = datetime.date.today()
         today = datetime.date.today()
@@ -139,23 +193,18 @@ class EventView(View):
             date__contains=date,
             create_date__contains=today
             )
+        print("========================================================")
         print(queries)
         if len(queries) == 0:
             print("STORED NEW EVENTS")
-            events = []
             event_dicts = get_event_dicts_sffc(date)
-            for event_dict in event_dicts:
-                form = EventForm(event_dict)
-                print(form.errors)
-                new_event = form.save()
-                events.append(new_event)
-            new_query = EventQuery(source='sffc', date=date)
-            new_query.save()
+            data = self.make_data_new_events(event_dicts, date)
         else:
             print("USED DB EVENTS")
             events = Event.objects.filter(start_date__contains=date)
-        print("========================================================")
-        data = json.dumps([event.dict() for event in events])
+            data = [event.dict() for event in events]
+
+        data = json.dumps(data)
         return HttpResponse(data, content_type='application/json')
 
     def post(self, request):
@@ -170,7 +219,6 @@ class EventView(View):
             except:
             # i.e. Add error message from e to form
                 data = json.dumps({'errors': form.errors})
-            pass
         else:
             data = json.dumps({'errors': form.errors})
         return HttpResponse(data, content_type='application/json')
