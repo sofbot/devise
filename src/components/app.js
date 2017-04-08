@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, Image, Navigator, View }
   from 'react-native';
-import EventIndex from './eventIndex';
+import EventIndexContainer from './event_index_container';
 import { Icon, Text } from 'react-native-elements';
 
 export default class App extends Component {
@@ -18,7 +18,7 @@ export default class App extends Component {
           <Text h4>Devise</Text>
           <Icon name="timeline" />
         </View>
-        <EventIndex />
+        <EventIndexContainer />
       </View>
 
     );

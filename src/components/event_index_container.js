@@ -1,6 +1,6 @@
 import EventIndex from './eventIndex';
 import { connect } from 'react-redux';
-import { recordChoice } from '../utils/events_api_util';
+import { recordChoice } from '../utils/event_api_utils';
 import { addTimelineEvent } from '../actions/timeline_actions';
 import {
   removeEvent,
