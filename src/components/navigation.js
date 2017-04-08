@@ -27,7 +27,6 @@ export default class Navigation extends React.Component {
   render() {
     // alert (!this.state.loggedIn);
     return (
-
         <Router>
           <Scene key="root" hideNavBar={true}>
             <Scene key="auth" component={Auth} title="Auth"
