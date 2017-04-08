@@ -34,7 +34,6 @@ class UserEvent(models.Model):
             obj[new_field] = str(getattr(self, original_field))
         return obj
 
-
 class Invitation(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     userevent = models.ForeignKey(UserEvent, on_delete=models.CASCADE)
