@@ -16,7 +16,7 @@ class FacebookButton extends React.Component {
   }
 
   redirect(){
-    Actions.app();
+    Actions.events();
   }
 
   fBRequest(){

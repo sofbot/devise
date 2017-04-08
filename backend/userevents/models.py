@@ -7,19 +7,22 @@ from events.models import Event
 
 # Create your models here.
 class UserEvent(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    # user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user_id = models.IntegerField(default=-1)
     event = models.ForeignKey(Event, on_delete=models.CASCADE)
     liked = models.BooleanField()
     seconds_viewed = models.IntegerField(default=-1)
     seen_date = models.DateField(auto_now_add=True)
     seen_time = models.TimeField(auto_now_add=True)
 
+    class Meta:
+        unique_together = ('user_id', 'event')
+
     def __str__(self):
-        return self.event.title + ' ' + self.user.email
+        return self.event.title + ' ' + str(self.user_id)
 
     def dict(self):
         field_pairs = [
-            ['id'],
             ['user_id', 'userId'],
             ['event_id', 'eventId'],
             ['seconds_viewed', 'secondsViewed'],

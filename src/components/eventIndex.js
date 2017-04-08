@@ -4,6 +4,7 @@ import { StyleSheet, Image, View, Text,
 import { Card } from 'react-native-elements';
 import Swiper from 'react-native-swiper';
 import SimpleGesture from 'react-native-simple-gesture';
+import Loading from './loading';
 
 import { PermissionsUtil } from './permissions';
 
@@ -106,6 +107,7 @@ export default class EventIndex extends Component {
 
     return (
       <View style={styles.background}>
+        <Loading visible={this.state.visible}/>
         <Swiper {...this._panResponder.panHandlers}
           autoplay={this.state.autoplay}
           ref='swiper'
@@ -119,6 +121,7 @@ export default class EventIndex extends Component {
 
 const styles = StyleSheet.create({
   background: {
+    flex: 1,
     backgroundColor: 'white',
     height: '100%'
   },

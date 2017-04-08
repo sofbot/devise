@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { AppRegistry, StyleSheet, Image, Navigator, View }
+import { StyleSheet, Image, View }
   from 'react-native';
 import EventIndexContainer from './event_index_container';
 import { Icon, Text } from 'react-native-elements';
