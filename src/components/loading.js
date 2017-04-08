@@ -27,7 +27,7 @@ class Loading extends Component {
         visible={this.state.animating}
         textStyle={{color: '#FFF'}}
         cancelable={true}
-        overlayColor={'rgba(0, 0, 0, 0.25)'}/>
+        overlayColor={'rgba(0, 0, 0, 0.5)'}/>
       </View>
     );
   }
