@@ -1,16 +1,9 @@
 import * as EventUtil from '../utils/event_api_utils';
 export const RECEIVE_EVENTS = 'RECEIVE_EVENTS';
 export const REMOVE_EVENT = 'REMOVE_EVENT';
-export const SHIFT_EVENT = 'SHIFT_EVENT';
-export const ADD_SWIPE_EVENT = 'ADD_SWIPE_EVENT';
-export const ADD_EVENTS = 'ADD_EVENTS';
 
 export const removeEvent = () => ({
   type: 'REMOVE_EVENT'
-});
-
-export const shiftEventFromAll = () => ({
-  type: 'SHIFT_EVENT'
 });
 
 export const receiveEvents = events => ({
@@ -18,26 +11,9 @@ export const receiveEvents = events => ({
   events
 });
 
-export const addSwipeEvent = nextEvent => ({
-  type: 'ADD_SWIPE_EVENT',
-  nextEvent
-});
-
-export const addEvents = events => ({
-  type: 'ADD_EVENTS',
-  events
-});
-
-export const fetchEvents = () => dispatch => {
-  return (
+export const fetchEvents = () => dispatch => (
   EventUtil.fetchEvents()
-    .then(events => events.json())
-    .then(jsonEvents => {
-      const topTwo = jsonEvents.splice(0, 2);
-      dispatch(addEvents(topTwo));
-      return jsonEvents;
-    })
-    .then(remainingEvents => dispatch(receiveEvents(remainingEvents)))
-    .catch(err => console.log(err))
-  );
-};
+  .then(rawEvents => rawEvents.json())
+  .then(events => dispatch(receiveEvents(events)))
+  .catch(err => console.log(err))
+);

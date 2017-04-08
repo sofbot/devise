@@ -13,32 +13,19 @@ export default class Navigation extends React.Component {
   }
 
   componentDidMount(){
-    alert("props in Navigation " + this.props.user.id);
+    // alert("props in Navigation " + this.props.user.id);
     console.log("componenet Did Moutn ", this.props.user);
     if (this.props.user && this.props.user.id) {
       this.loggedIn();
     }
   }
 
-  // componentWillReceiveProps(){
-  //   alert("new props");
-  // }
-  //
-  // componentWillUpdate(){
-  //   alert("will update");
-  // }
-  //
-  // componentDidUpdate(){
-  //   alert("did update");
-  // }
-
   loggedIn(){
-    // alert("changing logged in");
     this.setState({ loggedIn: true});
   }
 
   render() {
-    alert (!this.state.loggedIn);
+    // alert (!this.state.loggedIn);
     return (
 
         <Router>
