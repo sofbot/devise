@@ -45,11 +45,10 @@ export default class EventIndex extends Component {
 
     // remove from swipeEvents pile and reset currentEvent
     this.props.removeEvent();
-    this.setState({ currentEvent: this.props.swipeEvents[0] }, () => {
-      // add next event to swipeEvents and reset nextEvent
-      this.props.addSwipeEvent(this.state.nextEvent);
-      this.props.shiftEventFromAll();
-    });
+    this.setState({ currentEvent: this.props.swipeEvents[0] });
+    // add next event to swipeEvents and reset nextEvent
+    this.props.addSwipeEvent(this.state.nextEvent);
+    this.props.shiftEventFromAll();
     this.setState({ nextEvent: this.props.fetchedEvents[0] });
     // check length of fetchedEvents. fetch more if >= 5
   }

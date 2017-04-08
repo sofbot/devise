@@ -3,6 +3,8 @@ import { AppRegistry, StyleSheet, Image, Navigator, View }
   from 'react-native';
 import EventIndexContainer from './event_index_container';
 import { Icon, Text } from 'react-native-elements';
+import { Actions } from 'react-native-router-flux';
+
 
 export default class App extends Component {
   constructor(props) {
@@ -16,7 +18,7 @@ export default class App extends Component {
         <View style={styles.header}>
           <Icon name="filter-list" />
           <Text h4>Devise</Text>
-          <Icon name="timeline" />
+          <Icon name="timeline" onPress={ Actions.timeline } />
         </View>
         <EventIndexContainer />
       </View>
