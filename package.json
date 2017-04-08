@@ -18,9 +18,11 @@
 		"react-native": "0.43.0",
 		"react-native-elements": "^0.10.3",
 		"react-native-fbsdk": "^0.5.0",
+		"react-native-router-flux": "^3.38.0",
 		"react-native-simple-gesture": "^0.0.2",
 		"react-native-swiper": "^1.5.4",
 		"react-native-vector-icons": "^4.0.0",
+		"react-redux": "^5.0.3",
 		"redux": "^3.6.0",
 		"redux-logger": "^3.0.1",
 		"redux-thunk": "^2.2.0"

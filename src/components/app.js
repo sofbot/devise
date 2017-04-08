@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
-import { AppRegistry, StyleSheet, Image,
-          Navigator, View } from 'react-native';
-import EventIndex from './components/eventIndex';
+import { AppRegistry, StyleSheet, Image, Navigator, View }
+  from 'react-native';
+import EventIndex from './eventIndex';
 import { Icon, Text } from 'react-native-elements';
 
 export default class App extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
 
     return (
@@ -16,6 +20,7 @@ export default class App extends Component {
         </View>
         <EventIndex />
       </View>
+
     );
   }
 }
