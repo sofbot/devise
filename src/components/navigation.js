@@ -3,6 +3,7 @@ import { Router, Scene } from 'react-native-router-flux';
 import { View, Text } from 'react-native';
 import App from './app.js';
 import Auth from './auth.js';
+import TimelineContainer from './timeline_container';
 
 export default class Navigation extends React.Component {
   constructor(props){
@@ -19,20 +20,20 @@ export default class Navigation extends React.Component {
     }
   }
 
-  componentWillReceiveProps(){
-    alert("new props");
-  }
-
-  componentWillUpdate(){
-    alert("will update");
-  }
-
-  componentDidUpdate(){
-    alert("did update");
-  }
+  // componentWillReceiveProps(){
+  //   alert("new props");
+  // }
+  //
+  // componentWillUpdate(){
+  //   alert("will update");
+  // }
+  //
+  // componentDidUpdate(){
+  //   alert("did update");
+  // }
 
   loggedIn(){
-    alert("changing logged in");
+    // alert("changing logged in");
     this.setState({ loggedIn: true});
   }
 
@@ -46,6 +47,7 @@ export default class Navigation extends React.Component {
               initial={!this.state.loggedIn} />
             <Scene key="app" component={App} title="App"
               initial={this.state.loggedIn} />
+            <Scene key="timeline" component={TimelineContainer} title="Timeline"/>
           </Scene>
         </Router>
 
