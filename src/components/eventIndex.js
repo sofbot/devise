@@ -3,6 +3,7 @@ import { StyleSheet, Image, View, Text, PanResponder } from 'react-native';
 import { Card } from 'react-native-elements';
 import Swiper from 'react-native-swiper';
 import SimpleGesture from 'react-native-simple-gesture';
+import Loading from './loading.js';
 
 export default class EventIndex extends Component {
   constructor(props) {
@@ -55,6 +56,7 @@ export default class EventIndex extends Component {
   render() {
     return (
       <View>
+        <Loading />
         <Swiper {...this._panResponder.panHandlers}>
           <Card
             image={this.state.cards[0].image}
