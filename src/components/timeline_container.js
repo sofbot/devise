@@ -1,8 +1,9 @@
 import { connect } from 'react-redux';
 import Timeline from './timeline';
+import dateCompare from '../reducers/selectors';
 
 const mapStateToProps = state => ({
-  timelineEvents: state.timelineEvents
+  timelineEvents: state.timelineEvents.sort(dateCompare)
 });
 
 
