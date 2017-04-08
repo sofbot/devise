@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup # needed for scraping
 import bs4
 import urllib.request # needed for scraping
 # from django.core.files import File # DEBUGGING, file save
-
+from userevents.models import UserEvent
 
 class EventForm(ModelForm):
     class Meta:
@@ -26,19 +26,19 @@ def get_page(url):
 
 
 def detail_event(event):
-    if 'image_url' not in event:
-        page = get_page(event['url'])
-        event_div = page.find("div", class_="post")
-        image_url = event_div.find("img")['src']
-        if image_url:
-            event['image_url'] = image_url
+    # if 'image_url' not in event:
+    page = get_page(event['url'])
+    event_div = page.find("div", class_="post")
+    image_url = event_div.find("img")['src']
+    if image_url:
+        event['image_url'] = image_url
 
-        # needed
-        # [DONE] image
-        # categories
-        # address
-        # end time
-        # description (optional)
+    # needed
+    # [DONE] image
+    # categories
+    # address
+    # end time
+    # description (optional)
 
     return event
 
@@ -89,6 +89,8 @@ def div_event(div, event, date_str):
         full_date = date_str + start_time
         time = datetime.datetime.strptime(full_date, '%b %d %Y %I:%M %p')
         event['start_time'] = time.time()
+        end_time = time + datetime.timedelta(hours=1)
+        event['end_time'] = end_time.time()
     img_tag = div.find("img")
     if img_tag:
         event["image_url"] = img_tag['src']
@@ -114,6 +116,8 @@ def table_event(div, event, date_str, table_tr):
         full_date = date_str + " " + time_str
         time = datetime.datetime.strptime(full_date, '%b %d %Y %I:%M %p')
         event['start_time'] = time.time()
+        end_time = time + datetime.timedelta(hours=1)
+        event['end_time'] = end_time.time()
     title, location = list(map(str.strip, atag['title'].split("|")))
     event['title'] = title
     event['url'] = atag['href']
@@ -181,12 +185,17 @@ class EventView(View):
             data = [event.dict() for event in events]
             new_query = EventQuery(source='sffc', date=date)
             new_query.save()
-        return data
+            return True
+        else:
+            data = json.dumps(data)
+            return HttpResponse(data, content_type='application/json', status=400)
 
 
-    def get(self, request):
+    def get(self, request, user_id=None):
         date = datetime.date.today()
         today = datetime.date.today()
+        now = datetime.datetime.now().time()
+
         source = "sffc"
         queries = EventQuery.objects.filter(
             source=source,
@@ -198,13 +207,18 @@ class EventView(View):
         if len(queries) == 0:
             print("STORED NEW EVENTS")
             event_dicts = get_event_dicts_sffc(date)
-            data = self.make_data_new_events(event_dicts, date)
+            result = self.make_data_new_events(event_dicts, date)
+            if result != True:
+                return result
         else:
             print("USED DB EVENTS")
-            events = Event.objects.filter(start_date__contains=date)
-            data = [event.dict() for event in events]
 
-        data = json.dumps(data)
+        excluded_ids = []
+        if user_id:
+            excluded_ids = UserEvent.objects.filter(user=user_id, event__start_date=date)
+        print(excluded_ids)
+        events = Event.objects.filter(start_date=date, end_time__gte=now)
+        data = json.dumps([event.dict() for event in events])
         return HttpResponse(data, content_type='application/json')
 
     def post(self, request):
@@ -212,13 +226,16 @@ class EventView(View):
         # pdb.set_trace()
         form = EventForm(request.POST)
         data = {}
+        status = 200
         if form.is_valid():
             try:
                 new_event = form.save()
                 data = json.dumps(new_event.dict())
             except:
             # i.e. Add error message from e to form
+                status = 400
                 data = json.dumps({'errors': form.errors})
         else:
+            status = 400
             data = json.dumps({'errors': form.errors})
-        return HttpResponse(data, content_type='application/json')
+        return HttpResponse(data, content_type='application/json', status=status)
