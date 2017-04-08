@@ -1,55 +1,57 @@
 import React, { Component } from 'react';
-import { StyleSheet, Image, View, Text, PanResponder } from 'react-native';
+import { StyleSheet, Image, View, Text, PanResponder, Animated } from 'react-native';
 import { Card } from 'react-native-elements';
 import Swiper from 'react-native-swiper';
 import SimpleGesture from 'react-native-simple-gesture';
 import Loading from './loading.js';
 
+import { PermissionsUtil } from './permissions';
+
 export default class EventIndex extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
-      current: 0,
-      cards: [
-        {
-          title: 'haus party',
-          image: require('../../images/prty.png'),
-          venue: 'my house',
-          friends: 3,
-          time: '5pm'
-        },
-        {
-          title: 'lisa bday',
-          image: require('../../images/prty.png'),
-          venue: 'your house',
-          friends: 5,
-          time: '10pm'
-        },
-        {
-          title: 'after hrs',
-          image: require('../../images/prty.png'),
-          venue: 'my house',
-          friends: 3,
-          time: '1am'
-        }
-      ]
+      direction: '',
+      currentEvent: {},
+      nextEvent: {}
     };
-
+    this.handleSwipe = this.handleSwipe.bind(this);
   }
 
   componentWillMount() {
+    // fetch 10 events and put into allEvents.
+    // set currentEvent to first fetched event
+    this.props.fetchEvents().then(() => {
+      this.setState({ currentEvent: this.props.swipeEvents[0] });
+      this.setState({ nextEvent: this.props.fetchedEvents[0] });
+    });
+
+    // simplegesture codes - on move, get direction
     this._panResponder = PanResponder.create({
       onMoveShouldSetPanResponder: (e, gs) => {
         let sgs = new SimpleGesture(e, gs);
-        console.log('swiped', sgs.relativeGestureDistance.x*100, '% of the screen horizontallly');
-        const right = sgs.isSwipeRight();
-        const left = sgs.isSwipeLeft();
-        const direction = left ? 'left' : 'right';
-        console.log(direction);
-        return direction;
-      }
+        const direction = sgs.isSwipeLeft() ? 'left' : 'right';
+        this.setState({ direction: direction });
+      },
     });
+  }
+
+  handleSwipe() {
+    if (this.state.direction === 'right') {
+      this.props.addTimelineEvent(this.state.currentEvent);
+    }
+    // send data to backend
+    // add user.id to backend
+    this.props.recordChoice(this.state.direction, this.state.currentEvent);
+
+    // remove from swipeEvents pile and reset currentEvent
+    this.props.removeEvent();
+    this.setState({ currentEvent: this.props.swipeEvents[0] });
+    // add next event to swipeEvents and reset nextEvent
+    this.props.addSwipeEvent(this.state.nextEvent);
+    this.props.shiftEventFromAll();
+    this.setState({ nextEvent: this.props.fetchedEvents[0] });
+    // check length of fetchedEvents. fetch more if >= 5
   }
 
 
@@ -95,13 +97,19 @@ export default class EventIndex extends Component {
 }
 
 const styles = StyleSheet.create({
+  background: {
+    backgroundColor: 'white',
+    height: '100%'
+  },
   container: {
     margin: 30,
-    height: '80%',
-    borderRadius: 3
+    height: 500,
+    borderRadius: 8,
   },
   image: {
-    height: '87%'
+    height: 450,
+    borderTopRightRadius: 8,
+    borderTopLeftRadius: 8
   },
   captionContainer: {
     flexDirection: 'row',
@@ -112,6 +120,10 @@ const styles = StyleSheet.create({
     flexDirection: 'column'
   },
   title: {
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    width: 200
+  },
+  venue: {
+    width: 200
   }
 });
