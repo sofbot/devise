@@ -1,2 +1,3 @@
 build_notes.md
 env/
+*.pyc

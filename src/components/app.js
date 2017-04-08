@@ -2,9 +2,14 @@ import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, Image,
           Navigator, View } from 'react-native';
 import EventIndexContainer from './components/event_index_container';
+  from 'react-native';
 import { Icon, Text } from 'react-native-elements';
 
 export default class App extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
 
     return (
@@ -16,6 +21,7 @@ export default class App extends Component {
         </View>
         <EventIndexContainer />
       </View>
+
     );
   }
 }
