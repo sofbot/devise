@@ -1,5 +1,4 @@
 from django.db import models
-import datetime
 from django.contrib.auth.models import User
 
 
@@ -37,20 +36,10 @@ class Event(models.Model):
 
     def __str__(self):
         fields = [
+            'custom_id',
             'title',
             'custom_id',
-            'image_url',
-            'url',
-            'summary',
-            'source',
-            'description',
-            'location',
-            'address',
-            'free',
-            'start_time',
-            'start_date',
-            'end_time',
-            'end_date']
+            'start_date']
         fields = [field+": "+ str(getattr(self, field)) for field in fields]
         return "\n".join(fields)
 
