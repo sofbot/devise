@@ -1,3 +1,6 @@
 build_notes.md
 env/
 *.pyc
+
+userevents/migrations
+events/migrations

@@ -22,12 +22,11 @@ export default class Navigation extends React.Component {
   }
 
   loggedIn(){
-    // alert("changing logged in");
     this.setState({ loggedIn: true});
   }
 
   render() {
-    alert (!this.state.loggedIn);
+    // alert (!this.state.loggedIn);
     return (
       <View style={{flex:1}}>
         <View style={styles.header}>

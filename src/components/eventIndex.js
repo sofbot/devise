@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { StyleSheet, Image, View, Text, PanResponder, Animated } from 'react-native';
+import { StyleSheet, Image, View, Text,
+        PanResponder, Animated } from 'react-native';
 import { Card } from 'react-native-elements';
 import Swiper from 'react-native-swiper';
 import SimpleGesture from 'react-native-simple-gesture';
@@ -13,17 +14,16 @@ export default class EventIndex extends Component {
     this.state = {
       direction: '',
       currentEvent: {},
-      nextEvent: {}
+      counter: 0
     };
     this.handleSwipe = this.handleSwipe.bind(this);
   }
 
   componentWillMount() {
-    // fetch 10 events and put into allEvents.
+    // fetch 10 events.
     // set currentEvent to first fetched event
     this.props.fetchEvents().then(() => {
-      this.setState({ currentEvent: this.props.swipeEvents[0] });
-      this.setState({ nextEvent: this.props.fetchedEvents[0] });
+      this.setState({ currentEvent: this.props.fetchedEvents[0] });
     });
 
     // simplegesture codes - on move, get direction
@@ -36,56 +36,66 @@ export default class EventIndex extends Component {
     });
   }
 
-  handleSwipe() {
+  handleSwipe(deck) {
     if (this.state.direction === 'right') {
-      this.props.addTimelineEvent(this.state.currentEvent);
+      this.props.addToTimeline(this.state.currentEvent);
     }
     // send data to backend
     // add user.id to backend
-    this.props.recordChoice(this.state.direction, this.state.currentEvent);
+    this.props.recordChoice(this.state.direction, this.state.currentEvent)
+      .then(() => this.props.removeEvent());
 
-    // remove from swipeEvents pile and reset currentEvent
-    this.props.removeEvent();
-    this.setState({ currentEvent: this.props.swipeEvents[0] });
-    // add next event to swipeEvents and reset nextEvent
-    this.props.addSwipeEvent(this.state.nextEvent);
-    this.props.shiftEventFromAll();
-    this.setState({ nextEvent: this.props.fetchedEvents[0] });
-    // check length of fetchedEvents. fetch more if >= 5
+    this.setState({ currentEvent: this.props.fetchedEvents[0] });
+
+    this.setState({ counter: this.state.counter + 1 }, () => {
+      if (this.state.counter % 2 === 1) {
+        setTimeout(() => {
+          this.refs.swiper.scrollBy(1);
+        }, 1000);
+      }
+    });
+
+    // // check length of fetchedEvents. fetch more if >= 5
+    if (this.props.fetchedEvents.length <= 5) {
+      this.props.fetchEvents();
+    }
   }
 
-
   render() {
+    const deck = [
+      <Card
+        key={ this.state.currentEvent.customId }
+        image={{ uri: this.state.currentEvent.imageUrl }}
+        imageStyle={ styles.image }
+        containerStyle={ styles.container }>
+        <View style={ styles.captionContainer }>
+          <View style={ styles.captionText }>
+            <Text style={ styles.title }
+              ellipsizeMode='tail'
+              numberOfLines={1}> { this.state.currentEvent.title} </Text>
+            <Text style={ styles.venue }
+              ellipsizeMode='tail'
+              numberOfLines={1}>{ this.state.currentEvent.venue }</Text>
+          </View>
+          <View style={ styles.captionText }>
+            <Text>{ this.state.currentEvent.time }</Text>
+          </View>
+        </View>
+      </Card>,
+      <View key={ 'msgView' }>
+        <Text>{ this.state.direction }</Text>
+      </View>
+    ];
+
     return (
       <View style={styles.background}>
         <Loading visible={this.state.visible}/>
-          <Swiper {...this._panResponder.panHandlers}
-            onMomentumScrollEnd={ this.handleSwipe }>
-            {
-              this.props.swipeEvents.map((e, idx) => (
-                <Card
-                  key={ idx }
-                  image={{ uri: e.imageUrl }}
-                  imageStyle={ styles.image }
-                  containerStyle={ styles.container }>
-                  <View style={ styles.captionContainer }>
-                    <View style={ styles.captionText }>
-                      <Text style={ styles.title }
-                        ellipsizeMode='tail'
-                        numberOfLines={1}> { e.title} </Text>
-                      <Text style={ styles.venue }
-                        ellipsizeMode='tail'
-                        numberOfLines={1}>{ e.venue }</Text>
-                    </View>
-                    <View style={ styles.captionText }>
-                      <Text>{ e.friends } friends going</Text>
-                      <Text>{ e.time }</Text>
-                    </View>
-                  </View>
-                </Card>
-              ))
-            }
-          </Swiper>
+        <Swiper {...this._panResponder.panHandlers}
+          autoplay={this.state.autoplay}
+          ref='swiper'
+          onMomentumScrollEnd={ this.handleSwipe } >
+          { deck }
+        </Swiper>
       </View>
     );
   }
@@ -103,7 +113,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   },
   image: {
-    height: 450,
+    height: 400,
     borderTopRightRadius: 8,
     borderTopLeftRadius: 8
   },

@@ -1,5 +1,5 @@
 import {
-  ADD_TIMELINE_EVENT
+  ADD_TO_TIMELINE
 } from '../actions/timeline_actions';
 
 const _defaultState = [
@@ -15,7 +15,7 @@ const TimelineReducer = (state = _defaultState, action) => {
   Object.freeze(state);
   let newState = JSON.parse(JSON.stringify(state));
   switch(action.type) {
-    case ADD_TIMELINE_EVENT:
+    case ADD_TO_TIMELINE:
       if (newState[0].title === 'swipe right to add events to your timeline') {
         // replace entire slice with action.events on first load
         return [action.likedEvent];
