@@ -13,12 +13,17 @@ switch(direction) {
     break;
 }
 
+// add user_id 4 reals
 return fetch('http://10.0.2.2:8000/userevents/', {
   method: 'POST',
+  headers: {
+    'Content-Type': 'application/x-www-form-urlencoded'
+  },
   body: JSON.stringify({
-    eventId: swipedEvent.customId,
+    user_id: 1,
+    event: swipedEvent.customId,
     liked: swipedEvent.liked,
-    secondsViewed: 1
+    seconds_viewed: 1
   })
 });
 };
