@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { StyleSheet, Image, View, Text } from 'react-native';
+import { StyleSheet, Image, View, Text, Button } from 'react-native';
 import FacebookButtonContainer from './facebook_button_container.js';
+import { Actions } from 'react-native-router-flux';
 
 class Auth extends Component {
   constructor(props){
@@ -14,6 +15,12 @@ class Auth extends Component {
           style={styles.container}>
           <Text style={styles.header}>Devise</Text>
           <FacebookButtonContainer style={styles.button}/>
+            <Button
+              onPress={ Actions.events }
+              title="Events"
+              color="#841584"
+              accessibilityLabel="Learn more about this purple button"
+            />
         </Image>
       </View>
     );

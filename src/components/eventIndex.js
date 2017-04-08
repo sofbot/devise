@@ -3,7 +3,7 @@ import { StyleSheet, Image, View, Text, PanResponder, Animated } from 'react-nat
 import { Card } from 'react-native-elements';
 import Swiper from 'react-native-swiper';
 import SimpleGesture from 'react-native-simple-gesture';
-import Loading from './loading.js';
+import Loading from './loading';
 
 import { PermissionsUtil } from './permissions';
 
@@ -57,40 +57,35 @@ export default class EventIndex extends Component {
 
   render() {
     return (
-      <View>
-        <Loading />
-        <Swiper {...this._panResponder.panHandlers}>
-          <Card
-            image={this.state.cards[0].image}
-            imageStyle={styles.image}
-            containerStyle={styles.container}>
-            <View style={styles.captionContainer}>
-              <View style={styles.captionText}>
-                <Text style={styles.title}>{this.state.cards[0].title}</Text>
-                <Text style={styles.venue}>{this.state.cards[0].venue}</Text>
-              </View>
-              <View style={styles.captionText}>
-                <Text>{this.state.cards[0].friends} friends going</Text>
-                <Text>{this.state.cards[0].time}</Text>
-              </View>
-            </View>
-          </Card>
-          <Card
-            image={this.state.cards[1].image}
-            imageStyle={styles.image}
-            containerStyle={styles.container}>
-            <View style={styles.captionContainer}>
-              <View style={styles.captionText}>
-                <Text style={styles.title}>{this.state.cards[1].title}</Text>
-                <Text style={styles.venue}>{this.state.cards[1].venue}</Text>
-              </View>
-              <View style={styles.captionText}>
-                <Text>{this.state.cards[1].friends} friends going</Text>
-                <Text>{this.state.cards[1].time}</Text>
-              </View>
-            </View>
-          </Card>
-        </Swiper>
+      <View style={styles.background}>
+        <Loading visible={this.state.visible}/>
+          <Swiper {...this._panResponder.panHandlers}
+            onMomentumScrollEnd={ this.handleSwipe }>
+            {
+              this.props.swipeEvents.map((e, idx) => (
+                <Card
+                  key={ idx }
+                  image={{ uri: e.imageUrl }}
+                  imageStyle={ styles.image }
+                  containerStyle={ styles.container }>
+                  <View style={ styles.captionContainer }>
+                    <View style={ styles.captionText }>
+                      <Text style={ styles.title }
+                        ellipsizeMode='tail'
+                        numberOfLines={1}> { e.title} </Text>
+                      <Text style={ styles.venue }
+                        ellipsizeMode='tail'
+                        numberOfLines={1}>{ e.venue }</Text>
+                    </View>
+                    <View style={ styles.captionText }>
+                      <Text>{ e.friends } friends going</Text>
+                      <Text>{ e.time }</Text>
+                    </View>
+                  </View>
+                </Card>
+              ))
+            }
+          </Swiper>
       </View>
     );
   }
@@ -98,6 +93,7 @@ export default class EventIndex extends Component {
 
 const styles = StyleSheet.create({
   background: {
+    flex: 1,
     backgroundColor: 'white',
     height: '100%'
   },

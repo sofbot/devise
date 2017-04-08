@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { ActivityIndicator, StyleSheet, View } from 'react-native';
-
+import { StyleSheet, View } from 'react-native';
+import { Text } from 'react-native-elements';
+import Spinner from 'react-native-loading-spinner-overlay';
 class Loading extends Component {
 
   constructor(props) {
@@ -11,38 +12,25 @@ class Loading extends Component {
   }
 
   componentDidMount() {
-    this.setToggleTimeout();
-  }
-
-  componentWillUnmount() {
-    clearTimeout(this.timer);
-  }
-
-  setToggleTimeout() {
     this.timer = setTimeout(() => {
-      this.setState({animating: !this.state.animating});
-      this.setToggleTimeout();
-    }, 2000);
+      this.setState({animating: false});
+      console.log("clearing out");
+      clearTimeout(this.timer);
+    }, 5000);
   }
 
   render() {
     return (
-      <ActivityIndicator
-        animating={this.state.animating}
-        style={[styles.centering, {height: 80}]}
-        size="large" color="#0000ff"
-      />
+      <View style={{ flex: 1 }}>
+      <Spinner
+        textContent={"Finding Events Near You"}
+        visible={this.state.animating}
+        textStyle={{color: '#FFF'}}
+        cancelable={true}
+        overlayColor={'rgba(0, 0, 0, 0.25)'}/>
+      </View>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  centering: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 8,
-    backgroundColor: '#cccccc',
-  }
-});
 
 export default Loading;
