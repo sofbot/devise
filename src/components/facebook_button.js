@@ -16,7 +16,6 @@ class FacebookButton extends React.Component {
   }
 
   redirect(){
-    console.log("inside redirect");
     Actions.events();
   }
 
@@ -43,7 +42,6 @@ class FacebookButton extends React.Component {
       // alert('Success fetching data: ' + result.toString());
       this.fbDataOrganizer(result);
       this.props.fetchTimeline(result.id);
-      console.log("pre-redirect");
       this.redirect();
     }
   }
