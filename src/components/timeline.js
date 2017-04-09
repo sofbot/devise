@@ -20,24 +20,23 @@ export default class Timeline extends Component {
 
   renderContent(event) {
 
-    let friends = <View></View>;
-
-    if ( event.content.friends && event.content.friends.length > 0) {
-      const list = event.content.friends.map((friend, i) => (
-        <Text key={i} style={styles.friends}>{friend.name}</Text>
-      ));
-      friends = <View>
-                  <Text style={styles.text}>Friends Attending: </Text>
-                    { list }
-                </View>;
-    }
+    // let friends = <View></View>;
+    //
+    // if ( event.content.friends && event.content.friends.length > 0) {
+    //   const list = event.content.friends.map((friend, i) => (
+    //     <Text key={i} style={styles.friends}>{friend.name}</Text>
+    //   ));
+    //   friends = <View>
+    //               <Text style={styles.text}>Friends Attending: </Text>
+    //                 { list }
+    //             </View>;
+    // }
 
     return (
       <View style={styles.content} key={event.time}>
-        <Text style={styles.text}>Venue: {event.content.venue}</Text>
+        <Text style={styles.text}>Venue: {event.content.location}</Text>
         <Text style={styles.text}>Time: {event.content.time}</Text>
         <Text style={styles.text}>Details: {event.content.description}</Text>
-        { friends }
       </View>
     );
   }
@@ -78,8 +77,8 @@ export default class Timeline extends Component {
 
     if (this.props.timelineEvents) {
       events = this.props.timelineEvents.map((event, idx) => {
-        const formattedTime = this.formatTime(event.time);
-        const formattedDetail = this.formatDetail(event.description);
+        const formattedTime = this.formatTime(event.startTime);
+        const formattedDetail = this.formatDetail(event.summary);
         const formatTitle = this.formatTitle(event.title);
         return {
           title: {
@@ -87,10 +86,9 @@ export default class Timeline extends Component {
             imageUrl: event.imageUrl
           },
           content: {
-            venue: event.venue,
+            location: event.location,
             time: formattedTime,
             description: formattedDetail,
-            friends: event.friends
           }
         };
       });
@@ -119,7 +117,7 @@ const styles = StyleSheet.create({
   },
   header:{
     flexDirection: 'row',
-    backgroundColor: 'aliceblue',
+    backgroundColor: 'white',
     height: 64,
     alignItems: 'center',
     justifyContent: 'flex-start',
@@ -144,11 +142,10 @@ const styles = StyleSheet.create({
     fontSize: 18,
     padding: 7,
     marginLeft: 13
-  },
-  friends: {
-    fontSize: 18,
-    marginLeft: 30,
-    padding: 7
   }
-
+  // friends: {
+  //   fontSize: 18,
+  //   marginLeft: 30,
+  //   padding: 7
+  // }
 });
