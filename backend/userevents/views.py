@@ -33,6 +33,7 @@ class UserEventView(View):
 
     def post(self, request):
         print(request.POST)
+        print(request.body)
         form = UserEventForm(request.POST)
         status = 200
         if form.is_valid():
@@ -48,7 +49,8 @@ class UserEventView(View):
                 data = json.dumps({'errors': form.errors})
             pass
         else:
-            print("Form was not invalid")
+            print("Form was invalid")
+            print(form.errors)
             status = 400
             data = json.dumps({'errors': form.errors})
         return HttpResponse(data, content_type='application/json', status=status)
