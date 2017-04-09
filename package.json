@@ -16,6 +16,7 @@
 		"native-base": "^2.1.0",
 		"react": "16.0.0-alpha.6",
 		"react-native": "0.43.0",
+		"react-native-collapsible": "^0.8.0",
 		"react-native-elements": "^0.10.3",
 		"react-native-fbsdk": "^0.5.0",
 		"react-native-loading-spinner-overlay": "^0.4.4",

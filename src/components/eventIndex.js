@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import { StyleSheet, Image, View, Text,
+import { StyleSheet, Image, View,
         PanResponder, Animated } from 'react-native';
-import { Card } from 'react-native-elements';
+import { Card, Text, Icon } from 'react-native-elements';
 import Swiper from 'react-native-swiper';
 import SimpleGesture from 'react-native-simple-gesture';
 import Loading from './loading';
+import { Actions } from 'react-native-router-flux';
+
 
 import { PermissionsUtil } from './permissions';
 
@@ -114,6 +116,11 @@ export default class EventIndex extends Component {
 
     return (
       <View style={styles.background}>
+        <View style={styles.header}>
+          <Icon name="filter-list" />
+          <Text h4>Devise</Text>
+          <Icon name="timeline" onPress={ Actions.timeline } />
+        </View>
         <Loading visible={this.state.visible}/>
         <Swiper {...this._panResponder.panHandlers}
           autoplay={this.state.autoplay}
@@ -131,6 +138,15 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'white',
     height: '100%'
+  },
+  header: {
+    backgroundColor: 'white',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    alignSelf: 'center',
+    flexDirection: 'row',
+    width: '100%',
+    padding: 10
   },
   container: {
     margin: 30,

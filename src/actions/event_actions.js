@@ -15,5 +15,5 @@ export const fetchEvents = (userId, offset) => dispatch => (
   EventUtil.fetchEvents(userId, offset)
   .then(rawEvents => rawEvents.json())
   .then(events => dispatch(receiveEvents(events)))
-  .catch(err => console.log(err))
+  .catch(err => console.log("err = ", err))
 );
