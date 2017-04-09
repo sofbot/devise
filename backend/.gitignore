@@ -1,7 +1,0 @@
-build_notes.md
-env/
-*.pyc
-.env
-
-userevents/migrations
-events/migrations
