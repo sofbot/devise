@@ -1,5 +1,5 @@
 export const fetchTimeline = userId => (
-  fetch(`http://10.0.2.2:8000/userevents/${userId}`)
+  fetch(`http://devise-live.herokuapp.com/userevents/${userId}`)
 );
 
 // export const sendUserInfo = (user, token) => {
