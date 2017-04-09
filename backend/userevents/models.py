@@ -16,10 +16,16 @@ class UserEvent(models.Model):
     seen_time = models.TimeField(auto_now_add=True)
 
     class Meta:
-        unique_together = ('user_id', 'event')
+        unique_together = ('user_id', 'event', 'liked')
 
     def __str__(self):
-        return self.event.title + ' ' + str(self.user_id)
+        arr = []
+        return "{0} event: {1} user: {2} liked: {3} at: {4}".format(
+        self.id,
+        self.event.title,
+        self.user_id,
+        self.liked,
+        self.seen_time)
 
     def dict(self):
         field_pairs = [
@@ -38,13 +44,13 @@ class UserEvent(models.Model):
         return obj
 
 class Invitation(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    email = models.EmailField()
     userevent = models.ForeignKey(UserEvent, on_delete=models.CASCADE)
     create_date = models.DateField(auto_now_add=True)
     create_time = models.TimeField(auto_now_add=True)
 
     def __str__(self):
-        return str(self.userevent) + ' ' + self.user.email
+        return str(self.userevent) + ' ' + self.email
 
     def dict(self):
         return {'userEmail': self.user.email}
