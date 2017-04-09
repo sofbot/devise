@@ -22,7 +22,6 @@ export default class EventIndex extends Component {
   }
 
   componentDidMount() {
-    debugger;
     this.props.fetchEvents(this.props.user.id, this.state.offset).then(() => {
       this.setState({ currentEvent: this.props.fetchedEvents[0] }, () => {
         this.setState({ offset: this.state.offset + 10});
@@ -31,7 +30,6 @@ export default class EventIndex extends Component {
   }
 
   componentWillMount() {
-
     // simplegesture codes - on move, get direction
     this._panResponder = PanResponder.create({
       onMoveShouldSetPanResponder: (e, gs) => {

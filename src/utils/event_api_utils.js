@@ -2,7 +2,6 @@
     on your development machine)
  */
 export const fetchEvents = (userId, offset) => {
-  debugger;
   const url = `http://10.0.2.2:8000/events/${userId}/${offset}`;
   return fetch(url);
 };
