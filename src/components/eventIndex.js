@@ -34,8 +34,8 @@ export default class EventIndex extends Component {
         let sgs = new SimpleGesture(e, gs);
         const direction = sgs.isSwipeLeft() ? 'left' : 'right';
         const message = sgs.isSwipeLeft() ? 'pass' : 'added to timeline';
-        const msgTxtStyle = sgs.isSwipeLeft() ? {color: 'red'} : { color: 'green'}
-        const msgViewStyle = sgs.isSwipeLeft() ? {left: 170, top: 150, position: 'absolute'} : {left: 50, top: 150, position: 'absolute'}
+        const msgTxtStyle = sgs.isSwipeLeft() ? styles.leftMsgTxt : styles.rightMsgTxt
+        const msgViewStyle = sgs.isSwipeLeft() ? styles.leftMsgView : styles.rightMsgView
         this.setState({ direction: direction });
         this.setState({ message: message });
         this.setState({ msgTxtStyle: msgTxtStyle });
@@ -90,7 +90,8 @@ export default class EventIndex extends Component {
         </View>
       </Card>,
       <View>
-        <View style={this.state.msgViewStyle}>
+        <View>
+          <View style={this.state.msgViewStyle}></View>
           <Text h1 style={this.state.msgTxtStyle}>{ this.state.message }</Text>
         </View>
         <Card
@@ -159,6 +160,44 @@ const styles = StyleSheet.create({
     height: 500,
     borderRadius: 8,
     opacity: 0.2
+  },
+  leftMsgView: {
+    top: 30,
+    left: 30,
+    position: 'absolute',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderRadius: 8,
+    borderColor: 'red',
+    height: 500,
+    width: 350,
+    backgroundColor: 'red',
+    opacity: 0.2
+  },
+  leftMsgTxt: {
+    color: 'red',
+    top: 170,
+    left: 160,
+    position: 'absolute'
+  },
+  rightMsgView: {
+    top: 30,
+    left: 30,
+    position: 'absolute',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderRadius: 8,
+    borderColor: 'green',
+    height: 500,
+    width: 350,
+    backgroundColor: 'green',
+    opacity: 0.2
+  },
+  rightMsgTxt: {
+    color: 'green',
+    top: 170,
+    left: 50,
+    position: 'absolute'
   },
   image: {
     height: 400,
