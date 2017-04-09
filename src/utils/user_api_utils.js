@@ -1,8 +1,5 @@
-
-//This should be http://10.0.2.2:8000/userevents/
-
 export const fetchTimeline = userId => (
-  fetch(`http://127.0.0.1:8000/userevents/${userId}`)
+  fetch(`http://10.0.2.2:8000/userevents/${userId}`)
 );
 
 // export const sendUserInfo = (user, token) => {

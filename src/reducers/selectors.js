@@ -1,4 +1,3 @@
-
 export const dateCompare = (ev1, ev2) => {
   let {startDate, startTime} = ev1;
   let ev1Time = Date.parse(`${startDate} ${startTime}`);

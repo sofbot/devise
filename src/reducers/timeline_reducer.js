@@ -18,10 +18,15 @@ const TimelineReducer = (state = _defaultState, action) => {
   let newState = JSON.parse(JSON.stringify(state));
   switch(action.type) {
     case RECEIVE_TIMELINE:
-      newState = action.timeline;
-      return newState;
+      if (action.timeline.length === 0) {
+        newState = _defaultState;
+        return newState;
+      } else {
+        newState = action.timeline;
+        return newState;
+      }
     case ADD_TO_TIMELINE:
-      if (newState[0].title === 'swipe right to add events to your timeline') {
+      if (newState[0].title === 'Free Admission Day: Museum of Craft and Design') {
         // replace entire slice with action.events on first load
         return [action.likedEvent];
       } else {

@@ -14,7 +14,8 @@ export const receiveTimeline = timeline => ({
 });
 
 export const fetchTimeline = userId => dispatch => (
-  UserAPI.fetchTimeline(userId).then(timeline => {
-    dispatch(receiveTimeline(timeline));
-  }).catch(errors => console.log("errors = ", errors))
+  UserAPI.fetchTimeline(userId)
+    .then(response => response.json())
+    .then(timeline => dispatch(receiveTimeline(timeline)))
+    .catch(errors => console.log("errors = ", errors))
 );
