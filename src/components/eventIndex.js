@@ -7,9 +7,6 @@ import SimpleGesture from 'react-native-simple-gesture';
 import Loading from './loading';
 import { Actions } from 'react-native-router-flux';
 
-
-import { PermissionsUtil } from './permissions';
-
 export default class EventIndex extends Component {
   constructor(props) {
     super(props);
@@ -23,15 +20,15 @@ export default class EventIndex extends Component {
     this.handleSwipe = this.handleSwipe.bind(this);
   }
 
-  componentDidMount() {
+  // componentDidMount() {
+  // }
+
+  componentWillMount() {
     this.props.fetchEvents(this.props.user.id, this.state.offset).then(() => {
       this.setState({ currentEvent: this.props.fetchedEvents[0] }, () => {
         this.setState({ offset: this.state.offset + 10});
       });
     });
-  }
-
-  componentWillMount() {
     // simplegesture codes - on move, get direction
     this._panResponder = PanResponder.create({
       onMoveShouldSetPanResponder: (e, gs) => {
@@ -43,6 +40,9 @@ export default class EventIndex extends Component {
   }
 
   handleSwipe(deck) {
+    this.props.recordChoice(this.state.direction, this.state.currentEvent)
+    .then(() => this.props.removeEvent());
+
     this.setState({ counter: this.state.counter + 1 }, () => {
       if (this.state.counter % 2 === 1) {
         setTimeout(() => {
@@ -54,10 +54,7 @@ export default class EventIndex extends Component {
           this.props.addToTimeline(this.state.currentEvent);
         }
 
-        this.props.recordChoice(this.state.direction, this.state.currentEvent)
-          .then(() => this.props.removeEvent());
       }
-
     });
 
     // // check length of fetchedEvents. fetch more if >= 5
