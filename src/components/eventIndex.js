@@ -14,15 +14,23 @@ export default class EventIndex extends Component {
     this.state = {
       direction: '',
       currentEvent: {},
-      counter: 0
+      counter: 0,
+      offset: 0,
+      userId: this.props.user.id
     };
     this.handleSwipe = this.handleSwipe.bind(this);
   }
 
-  componentWillMount() {
-    this.props.fetchEvents().then(() => {
-      this.setState({ currentEvent: this.props.fetchedEvents[0] });
+  componentDidMount() {
+    debugger;
+    this.props.fetchEvents(this.props.user.id, this.state.offset).then(() => {
+      this.setState({ currentEvent: this.props.fetchedEvents[0] }, () => {
+        this.setState({ offset: this.state.offset + 10});
+      });
     });
+  }
+
+  componentWillMount() {
 
     // simplegesture codes - on move, get direction
     this._panResponder = PanResponder.create({
@@ -54,7 +62,8 @@ export default class EventIndex extends Component {
 
     // // check length of fetchedEvents. fetch more if >= 5
     if (this.props.fetchedEvents.length <= 5) {
-      this.props.fetchEvents();
+      this.props.fetchEvents(this.props.user.id, this.state.offset)
+        .then(() => this.setState({ offset: this.state.offset + 10 }));
     }
   }
 
