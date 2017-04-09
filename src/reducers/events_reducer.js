@@ -10,6 +10,34 @@ const _defaultState = [
     venue: '',
     time: '',
     description: '',
+  },
+  {
+    title: 'Dinner Party',
+    imageUrl: 'http://whalebonemag.com/wp-content/uploads/2015/06/38589-Outdoor-Dinner-Party.jpg',
+    venue: '',
+    time: '',
+    description: '',
+  },
+  {
+    title: 'Dinner Party',
+    imageUrl: 'http://whalebonemag.com/wp-content/uploads/2015/06/38589-Outdoor-Dinner-Party.jpg',
+    venue: '',
+    time: '',
+    description: '',
+  },
+  {
+    title: 'Dinner Party',
+    imageUrl: 'http://whalebonemag.com/wp-content/uploads/2015/06/38589-Outdoor-Dinner-Party.jpg',
+    venue: '',
+    time: '',
+    description: '',
+  },
+  {
+    title: 'Dinner Party',
+    imageUrl: 'http://whalebonemag.com/wp-content/uploads/2015/06/38589-Outdoor-Dinner-Party.jpg',
+    venue: '',
+    time: '',
+    description: '',
   }
 ];
 
