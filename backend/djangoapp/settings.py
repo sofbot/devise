@@ -34,6 +34,7 @@ ALLOWED_HOSTS = ["*"] # allows all incoming hosts
 INSTALLED_APPS = [
     'events.apps.EventsConfig',
     'userevents.apps.UsereventsConfig',
+    'django_extensions',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

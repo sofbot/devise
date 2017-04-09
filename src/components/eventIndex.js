@@ -37,19 +37,19 @@ export default class EventIndex extends Component {
   }
 
   handleSwipe(deck) {
-    if (this.state.direction === 'right') {
-      this.props.addToTimeline(this.state.currentEvent);
-    }
-
-    this.props.recordChoice(this.state.direction, this.state.currentEvent)
-      .then(() => this.props.removeEvent());
-
     this.setState({ counter: this.state.counter + 1 }, () => {
       if (this.state.counter % 2 === 1) {
         setTimeout(() => {
           this.refs.swiper.scrollBy(1);
           this.setState({ currentEvent: this.props.fetchedEvents[0] });
         }, 500);
+      } else {
+        if (this.state.direction === 'right') {
+          this.props.addToTimeline(this.state.currentEvent);
+        }
+
+        this.props.recordChoice(this.state.direction, this.state.currentEvent)
+          .then(() => this.props.removeEvent());
       }
 
     });
@@ -81,9 +81,9 @@ export default class EventIndex extends Component {
           </View>
         </View>
       </Card>,
-      <View key={ this.state.currentEvent.customId }>
-        <View>
-          <Text style={{opacity: 1}}>{ this.state.direction }</Text>
+      <View key={ 'uniq'}>
+        <View style={{ position: 'absolute'}}>
+          <Text>{ this.state.direction }</Text>
         </View>
         <Card
           key={ this.state.currentEvent.customId }
@@ -145,6 +145,12 @@ const styles = StyleSheet.create({
     margin: 30,
     height: 500,
     borderRadius: 8,
+  },
+  overlay: {
+    margin: 30,
+    height: 500,
+    borderRadius: 8,
+    opacity: 0.5
   },
   resultContainer: {
     margin: 30,

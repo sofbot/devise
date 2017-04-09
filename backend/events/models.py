@@ -38,7 +38,6 @@ class Event(models.Model):
         fields = [
             'custom_id',
             'title',
-            'custom_id',
             'start_date']
         fields = [field+": "+ str(getattr(self, field)) for field in fields]
         return "\n".join(fields)

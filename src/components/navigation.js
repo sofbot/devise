@@ -27,7 +27,6 @@ export default class Navigation extends React.Component {
   render() {
     // alert (!this.state.loggedIn);
     return (
-
       <View style={{flex:1}}>
         <Router>
           <Scene key="root" >
