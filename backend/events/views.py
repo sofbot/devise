@@ -191,6 +191,7 @@ class EventView(View):
             return HttpResponse(data, content_type='application/json', status=400)
 
 
+
     def get(self, request, user_id=None, offset=0):
         offset = int(offset)
         date = datetime.date.today()
