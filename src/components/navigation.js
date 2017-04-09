@@ -28,7 +28,7 @@ export default class Navigation extends React.Component {
     // alert (!this.state.loggedIn);
     return (
       <View style={{flex:1}}>
-        <Router>
+        <Router navigationBarStyle={{backgroundColor: 'white'}} titleStyle={{color: 'black', fontWeight: 'bold'}}>
           <Scene key="root" >
             <Scene key="auth" component={ Auth } title="Login"
               initial={!this.state.loggedIn} hideNavBar={true}/>
@@ -38,7 +38,6 @@ export default class Navigation extends React.Component {
           </Scene>
         </Router>
       </View>
-
     );
   }
 }

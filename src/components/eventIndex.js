@@ -119,7 +119,7 @@ export default class EventIndex extends Component {
       <View style={styles.background}>
         <View style={styles.header}>
           <Icon name="filter-list" />
-          <Text h4>Devise</Text>
+          <Text h4 style={{color: 'black'}}>Devise</Text>
           <Icon name="timeline" onPress={ Actions.timeline } />
         </View>
         <Loading visible={this.state.visible}/>
