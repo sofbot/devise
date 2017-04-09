@@ -14,7 +14,6 @@ class Loading extends Component {
   componentDidMount() {
     this.timer = setTimeout(() => {
       this.setState({animating: false});
-      console.log("clearing out");
       clearTimeout(this.timer);
     }, 5000);
   }

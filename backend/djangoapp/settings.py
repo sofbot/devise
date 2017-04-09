@@ -27,6 +27,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = [] #allows only localhost
 ALLOWED_HOSTS = ["*"] # allows all incoming hosts
+# ALLOWED_HOSTS = ["99.108.136.120", "localhost", "127.0.0.1"] # allows all incoming hosts
 
 
 # Application definition
