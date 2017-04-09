@@ -28,6 +28,7 @@ export default class Navigation extends React.Component {
   render() {
     // alert (!this.state.loggedIn);
     return (
+
       <View style={{flex:1}}>
         <View style={styles.header}>
           <Icon name="filter-list" />

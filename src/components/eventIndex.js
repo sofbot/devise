@@ -20,8 +20,6 @@ export default class EventIndex extends Component {
   }
 
   componentWillMount() {
-    // fetch 10 events.
-    // set currentEvent to first fetched event
     this.props.fetchEvents().then(() => {
       this.setState({ currentEvent: this.props.fetchedEvents[0] });
     });
@@ -40,19 +38,18 @@ export default class EventIndex extends Component {
     if (this.state.direction === 'right') {
       this.props.addToTimeline(this.state.currentEvent);
     }
-    // send data to backend
-    // add user.id to backend
+
     this.props.recordChoice(this.state.direction, this.state.currentEvent)
       .then(() => this.props.removeEvent());
-
-    this.setState({ currentEvent: this.props.fetchedEvents[0] });
 
     this.setState({ counter: this.state.counter + 1 }, () => {
       if (this.state.counter % 2 === 1) {
         setTimeout(() => {
           this.refs.swiper.scrollBy(1);
-        }, 1000);
+          this.setState({ currentEvent: this.props.fetchedEvents[0] });
+        }, 500);
       }
+
     });
 
     // // check length of fetchedEvents. fetch more if >= 5
@@ -82,8 +79,29 @@ export default class EventIndex extends Component {
           </View>
         </View>
       </Card>,
-      <View key={ 'msgView' }>
-        <Text>{ this.state.direction }</Text>
+      <View key={ 'uniq'}>
+        <View>
+          <Text style={{opacity: 1}}>{ this.state.direction }</Text>
+        </View>
+        <Card
+          key={ this.state.currentEvent.customId }
+          image={{ uri: this.state.currentEvent.imageUrl }}
+          imageStyle={ styles.image }
+          containerStyle={ styles.resultContainer }>
+          <View style={ styles.captionContainer }>
+            <View style={ styles.captionText }>
+              <Text style={ styles.title }
+                ellipsizeMode='tail'
+                numberOfLines={1}> { this.state.currentEvent.title} </Text>
+              <Text style={ styles.venue }
+                ellipsizeMode='tail'
+                numberOfLines={1}>{ this.state.currentEvent.venue }</Text>
+            </View>
+            <View style={ styles.captionText }>
+              <Text>{ this.state.currentEvent.time }</Text>
+            </View>
+          </View>
+        </Card>
       </View>
     ];
 
@@ -111,6 +129,12 @@ const styles = StyleSheet.create({
     margin: 30,
     height: 500,
     borderRadius: 8,
+  },
+  resultContainer: {
+    margin: 30,
+    height: 500,
+    borderRadius: 8,
+    opacity: 0.5
   },
   image: {
     height: 400,
