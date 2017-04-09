@@ -21,10 +21,13 @@ class UserEventView(View):
         else:
             now = datetime.datetime.now().time()
             today = datetime.date.today()
-            user_events = UserEvent.objects.filter(user_id=user_id, event__end_time__gte=now, event__start_date=today)
-            events = [user_event.event for user_event in user_events]
-            print(now)
-            events = [ e for e in events if (e.start_time > now or e.end_time > now)]
+            user_events = UserEvent.objects.filter(
+                user_id=user_id,
+                event__end_time__gte=now,
+                event__start_date=today,
+                liked=True
+                ).order_by('event__start_date', 'event__start_time').select_related('event')
+            events = [u_event.event for u_event in user_events]
             data = json.dumps([event.dict() for event in events])
         return HttpResponse(data, content_type='application/json')
 
@@ -67,6 +70,7 @@ class InvitationView(View):
         invitation_data['userevent'] = userevent_id
         form = InvitationForm(invitation_data)
         data = {}
+        status = 200
         if form.is_valid():
             try:
                 new_invitation = form.save()
@@ -74,7 +78,9 @@ class InvitationView(View):
             except:
             # i.e. Add error message from e to form
                 data = json.dumps({'errors': form.errors})
+                status = 200
             pass
         else:
             data = json.dumps({'errors': form.errors})
-        return HttpResponse(data, content_type='application/json')
+            status = 200
+        return HttpResponse(data, content_type='application/json', status=status)

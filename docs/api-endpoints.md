@@ -2,30 +2,17 @@
 
 ## JSON API
 
-### Users
+### Events (new events)
 
-- `POST /api/users`
-- `PATCH /api/users`
+- `GET /events/user_id/offset`
+  - returns new events for the user to see
+  - 10 events are returned, offset is the number of the first returned event, use 0,10,20,30 etc
+  - Events are scraped if they are not already in the db
 
-### Session
 
-- `POST /api/session`
-- `DELETE /api/session`
+### Userevents (timeline events)
 
-### Userevents (timeline)
-
-- `POST /api/events`
-  - adds the event with a boolean liked into the database
-- `GET /api/events`
-  - returns the users chosen events (timeline) and rejected events (frontend filtering)
-
-### Event Scraping
-
-- `GET /api/datasource`
-  - Index search route
-  - will take in a POJO filter object and return relevant results
-
-### Invitations
-
-- `POST /api/invitations`
-  - Stores the invitations that the user sent
+- `GET /userevents/user_id`
+  - returns the user's timeline events with end time > now for today
+- `POST /userevents`
+  - stores the liked/rejected event in the backend

@@ -191,7 +191,9 @@ class EventView(View):
             return HttpResponse(data, content_type='application/json', status=400)
 
 
-    def get(self, request, user_id=None):
+
+    def get(self, request, user_id=None, offset=0):
+        offset = int(offset)
         date = datetime.date.today()
         today = datetime.date.today()
         now = datetime.datetime.now().time()
@@ -215,9 +217,10 @@ class EventView(View):
 
         excluded_ids = []
         if user_id:
-            excluded_ids = UserEvent.objects.filter(user=user_id, event__start_date=date)
+            excluded_ids = list(UserEvent.objects.filter(user_id=user_id, event__start_date=date, event__end_time__gte=now, liked=False).values_list('event', flat=True))
+        print("Excluding events with custom_ids of:")
         print(excluded_ids)
-        events = Event.objects.filter(start_date=date, end_time__gte=now)
+        events = Event.objects.filter(start_date=date, end_time__gte=now).order_by('start_time').exclude(custom_id__in=excluded_ids)[offset:offset+10]
         data = json.dumps([event.dict() for event in events])
         return HttpResponse(data, content_type='application/json')
 
