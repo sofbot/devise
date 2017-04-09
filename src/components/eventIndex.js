@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import { StyleSheet, Image, View, Text,
+import { StyleSheet, Image, View,
         PanResponder, Animated } from 'react-native';
-import { Card } from 'react-native-elements';
+import { Card, Text, Icon } from 'react-native-elements';
 import Swiper from 'react-native-swiper';
 import SimpleGesture from 'react-native-simple-gesture';
 import Loading from './loading';
+import { Actions } from 'react-native-router-flux';
+
 
 import { PermissionsUtil } from './permissions';
 
@@ -14,16 +16,22 @@ export default class EventIndex extends Component {
     this.state = {
       direction: '',
       currentEvent: {},
-      counter: 0
+      counter: 0,
+      offset: 0,
+      userId: this.props.user.id
     };
     this.handleSwipe = this.handleSwipe.bind(this);
   }
 
-  componentWillMount() {
-    this.props.fetchEvents().then(() => {
-      this.setState({ currentEvent: this.props.fetchedEvents[0] });
+  componentDidMount() {
+    this.props.fetchEvents(this.props.user.id, this.state.offset).then(() => {
+      this.setState({ currentEvent: this.props.fetchedEvents[0] }, () => {
+        this.setState({ offset: this.state.offset + 10});
+      });
     });
+  }
 
+  componentWillMount() {
     // simplegesture codes - on move, get direction
     this._panResponder = PanResponder.create({
       onMoveShouldSetPanResponder: (e, gs) => {
@@ -54,7 +62,8 @@ export default class EventIndex extends Component {
 
     // // check length of fetchedEvents. fetch more if >= 5
     if (this.props.fetchedEvents.length <= 5) {
-      this.props.fetchEvents();
+      this.props.fetchEvents(this.props.user.id, this.state.offset)
+        .then(() => this.setState({ offset: this.state.offset + 10 }));
     }
   }
 
@@ -107,6 +116,11 @@ export default class EventIndex extends Component {
 
     return (
       <View style={styles.background}>
+        <View style={styles.header}>
+          <Icon name="filter-list" />
+          <Text h4>Devise</Text>
+          <Icon name="timeline" onPress={ Actions.timeline } />
+        </View>
         <Loading visible={this.state.visible}/>
         <Swiper {...this._panResponder.panHandlers}
           autoplay={this.state.autoplay}
@@ -124,6 +138,15 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'white',
     height: '100%'
+  },
+  header: {
+    backgroundColor: 'white',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    alignSelf: 'center',
+    flexDirection: 'row',
+    width: '100%',
+    padding: 10
   },
   container: {
     margin: 30,

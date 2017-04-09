@@ -14,7 +14,7 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
   removeEvent: id => dispatch(removeEvent(id)),
-  fetchEvents: () => dispatch(fetchEvents()),
+  fetchEvents: (userId, offset) => dispatch(fetchEvents(userId, offset)),
   recordChoice: (direction, likedEvent) => recordChoice(direction, likedEvent),
   addToTimeline: likedEvent => dispatch(addToTimeline(likedEvent))
 });

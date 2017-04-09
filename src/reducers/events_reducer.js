@@ -5,7 +5,7 @@ import {
 
 const _defaultState = [
   {
-    title: 'Loading Events...',
+    title: 'Dinner Party',
     imageUrl: 'http://whalebonemag.com/wp-content/uploads/2015/06/38589-Outdoor-Dinner-Party.jpg',
     venue: '',
     time: '',
@@ -18,7 +18,7 @@ const EventsReducer = (state = _defaultState, action) => {
   let newState = JSON.parse(JSON.stringify(state));
   switch(action.type) {
     case RECEIVE_EVENTS:
-      if (newState[0].title === 'Loading Events...') {
+      if (newState[0].title === 'Dinner Party') {
         // replace entire slice with action.events on first load
         return action.events;
       } else {
