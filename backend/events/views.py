@@ -131,7 +131,7 @@ def event_summary_to_Event(div, start_date, source):
     table_tr = div.find("tr")
     event = {
         'source': source,
-        'custom_id': source + "_",
+        'custom_id': source + "_" + str(start_date) + "_",
         'start_date': start_date,
         'end_date': start_date,
         'description': '',
@@ -149,13 +149,30 @@ def event_summary_to_Event(div, start_date, source):
 
 def get_event_dicts_sffc(date):
     source = "sffc"
-    url = "http://sf" + ".f" + "un" + "che" + "ap." + "com/today/"
-    page = get_page(url)
-    holder_top_events = page.find("div", class_="post")
-    event_divs = holder_top_events.find_all("div", class_="tanbox left")
-
+    datestr = "{0:0>4}/{1:0>2}/{2:0>2}/".format(date.year, date.month, date.day)
+    numpages = 1
+    current_page = 1
+    url = "http://{0}.{1}{2}.com/{3}".format("sf", "fun", "cheap", datestr)
+    print(url)
     ad_finder = lambda div: div.find("div", id=re.compile("-ad-"))
-    event_divs = [div for div in event_divs if ad_finder(div) == None]
+    event_divs = []
+    page = get_page(url)
+    pages_span = page.find("span", class_="pages")
+    if pages_span:
+        numpages = int(pages_span.contents[0].split(" ")[-1])
+
+    # loop through the pages for the day
+    while True:
+        holder_top_events = page.find("div", id="content")
+        found_event_divs = holder_top_events.find_all("div", class_="tanbox left")
+        event_divs.extend([div for div in found_event_divs if ad_finder(div) == None])
+        current_page += 1
+        if current_page > numpages:
+            break
+        page_url = "{0}page/{1}".format(url, current_page)
+        print(page_url)
+        page = get_page(page_url)
+
     event_dicts = [event_summary_to_Event(div, date, source) for div in event_divs]
     return event_dicts
 
@@ -221,6 +238,7 @@ class EventView(View):
         print("Excluding events with custom_ids of:")
         print(excluded_ids)
         events = Event.objects.filter(start_date=date, end_time__gte=now).order_by('start_time').exclude(custom_id__in=excluded_ids)[offset:offset+10]
+        print("Events found: "+str(len(events)))
         data = json.dumps([event.dict() for event in events])
         return HttpResponse(data, content_type='application/json')
 

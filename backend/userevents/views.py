@@ -32,9 +32,17 @@ class UserEventView(View):
         return HttpResponse(data, content_type='application/json')
 
     def post(self, request):
+        body_unicode = request.body.decode('utf-8')
+        data = json.loads(body_unicode)
+        print('normal post')
         print(request.POST)
-        print(request.body)
-        form = UserEventForm(request.POST)
+        # print('body')
+        # print(request.body)
+        # print('decoded body')
+        # print(body_unicode)
+        print('body to json')
+        print(data)
+        form = UserEventForm(data)
         status = 200
         if form.is_valid():
             try:
@@ -44,13 +52,12 @@ class UserEventView(View):
                 print ("UserEvent data was stored as json")
             except:
             # i.e. Add error message from e to form
-                print("Form save failed")
+                print("Form save FAILED")
                 status = 400
                 data = json.dumps({'errors': form.errors})
             pass
         else:
-            print("Form was invalid")
-            print(form.errors)
+            print("Form was INVALID")
             status = 400
             data = json.dumps({'errors': form.errors})
         return HttpResponse(data, content_type='application/json', status=status)
