@@ -27,7 +27,7 @@ figure {
   position: fixed;
   top: -5vh;
   left: -5vh;
-  background-image: url('../images/hipster-friends-intrepid.jpg');
+  background-image: url('images/hipster-friends-intrepid.jpg');
   background-size: cover;
   -webkit-filter: blur(6px);
   -moz-filter: blur(6px);
@@ -37,7 +37,7 @@ figure {
 }
 
 .demo {
-  background-image: url('../images/events.jpg');
+  background-image: url('images/events.jpg');
 }
 
 .content {
@@ -103,7 +103,7 @@ span {
 }
 
 .demo-header {
-  background-image: url(../images/github.png);
+  background-image: url('images/github.png');
   height: 50px;
   width: 50px;
   background-size: cover;
