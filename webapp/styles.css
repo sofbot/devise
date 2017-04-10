@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: "BentonSans Regular","Helvetica Neue",Helvetica,Arial,"Sans-Serif";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  width: 300px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.background-image {
+  height: 110vh;
+  width: 110vw;
+  position: fixed;
+  top: -5vh;
+  left: -5vh;
+  background-image: url('../images/hipster-friends-intrepid.jpg');
+  background-size: cover;
+  -webkit-filter: blur(6px);
+  -moz-filter: blur(6px);
+  -o-filter: blur(6px);
+  -ms-filter: blur(6px);
+  filter: blur(6px);
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  top: 50px;
+}
+
+.splash-txt {
+  color: white;
+  width: 300px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.splash-btns {
+  margin-top: 35px;
+}
+
+span {
+  padding: 15px;
+  background-color: #3b5998;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  color: white;
+  margin-right: 5px;
+}
+
+.header {
+  position: absolute;
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: white;
+  right: 40px;
+  top: 40px;
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 8px;
+}
