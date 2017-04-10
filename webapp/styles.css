@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+figure {
+  margin-top: 0;
+}
+
 .btn {
   cursor: pointer;
 }
@@ -32,13 +36,17 @@ a {
   filter: blur(6px);
 }
 
+.demo {
+  background-image: url('../images/events.jpg');
+}
+
 .content {
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100vw;
-  top: 50px;
+  top: 90px;
 }
 
 .splash-txt {
@@ -66,9 +74,40 @@ span {
   line-height: 1.5;
   text-transform: uppercase;
   color: white;
-  right: 40px;
-  top: 40px;
+  top: 50px;
   padding: 8px;
   border: 1px solid;
   border-radius: 8px;
+}
+
+.splash-header {
+  right: 50px;
+}
+
+
+.demo-btn {
+  width: 235px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.demo-btn:hover {
+  background-color: #3b5998;
+  border-color: transparent;
+}
+
+.demo-header {
+  background-image: url(../images/github.png);
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+}
+
+.demo-left {
+  position: relative;
+  top: -45px;
 }
