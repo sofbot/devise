@@ -98,20 +98,22 @@ android {
         }
     }
     signingConfigs {
-       release {
-           storeFile file(MYAPP_RELEASE_STORE_FILE)
-           storePassword MYAPP_RELEASE_STORE_PASSWORD
-           keyAlias MYAPP_RELEASE_KEY_ALIAS
-           keyPassword MYAPP_RELEASE_KEY_PASSWORD
-       }
-   }
-    splits {
-        abi {
-            reset()
-            enable enableSeparateBuildPerCPUArchitecture
-            universalApk false  // If true, also generate a universal APK
-            include "armeabi-v7a", "x86"
+      release {
+        if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
+          storeFile file(MYAPP_RELEASE_STORE_FILE)
+          storePassword MYAPP_RELEASE_STORE_PASSWORD
+          keyAlias MYAPP_RELEASE_KEY_ALIAS
+          keyPassword MYAPP_RELEASE_KEY_PASSWORD
         }
+      }
+    }
+    splits {
+      abi {
+          reset()
+          enable enableSeparateBuildPerCPUArchitecture
+          universalApk false  // If true, also generate a universal APK
+          include "armeabi-v7a", "x86"
+      }
     }
     buildTypes {
         release {
