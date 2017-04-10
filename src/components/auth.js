@@ -13,7 +13,7 @@ class Auth extends Component {
       <View style={{flex: 1}}>
         <Image source={require('../../images/landing.jpg')}
           style={styles.container}>
-          <Text style={styles.header}>Devise</Text>
+          <Text style={styles.header}>devise</Text>
           <FacebookButtonContainer style={styles.button}/>
         </Image>
       </View>
@@ -40,7 +40,8 @@ const styles = StyleSheet.create({
     fontSize: 75,
     fontWeight: "900",
     marginTop: 20,
-    color: 'floralwhite'
+    color: 'floralwhite',
+    fontFamily: "BentonSans Regular"
   }
 
 });
