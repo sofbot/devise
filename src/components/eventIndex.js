@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { StyleSheet, Image, View,
-        PanResponder, Animated } from 'react-native';
+import { StyleSheet, Image, View, TouchableOpacity,
+        PanResponder, Animated, Button } from 'react-native';
 import { Card, Text, Icon } from 'react-native-elements';
 import Swiper from 'react-native-swiper';
 import SimpleGesture from 'react-native-simple-gesture';
@@ -34,8 +34,8 @@ export default class EventIndex extends Component {
         let sgs = new SimpleGesture(e, gs);
         const direction = sgs.isSwipeLeft() ? 'left' : 'right';
         const message = sgs.isSwipeLeft() ? 'pass' : 'added to timeline';
-        const msgTxtStyle = sgs.isSwipeLeft() ? styles.leftMsgTxt : styles.rightMsgTxt
-        const msgViewStyle = sgs.isSwipeLeft() ? styles.leftMsgView : styles.rightMsgView
+        const msgTxtStyle = sgs.isSwipeLeft() ? styles.leftMsgTxt : styles.rightMsgTxt;
+        const msgViewStyle = sgs.isSwipeLeft() ? styles.leftMsgView : styles.rightMsgView;
         this.setState({ direction: direction });
         this.setState({ message: message });
         this.setState({ msgTxtStyle: msgTxtStyle });
@@ -71,7 +71,7 @@ export default class EventIndex extends Component {
   render() {
     const deck = [
       <Card
-        key={ this.state.currentEvent.customId }
+        key={ this.state.currentEvent }
         image={{ uri: this.state.currentEvent.imageUrl }}
         imageStyle={ styles.image }
         containerStyle={ styles.container }>
@@ -89,7 +89,7 @@ export default class EventIndex extends Component {
           </View>
         </View>
       </Card>,
-      <View>
+      <View key={this.state.currentEvent.customId + "234823"}>
         <View>
           <View style={this.state.msgViewStyle}></View>
           <Text h1 style={this.state.msgTxtStyle}>{ this.state.message }</Text>
@@ -119,9 +119,13 @@ export default class EventIndex extends Component {
     return (
       <View style={styles.background}>
         <View style={styles.header}>
-          <Icon name="filter-list" />
+          <Text style={styles.placeholder}></Text>
           <Text h4 style={{color: 'black'}}>Devise</Text>
-          <Icon name="timeline" onPress={ Actions.timeline } />
+          <TouchableOpacity onPress={ Actions.timeline }>
+            <View >
+              <Text style={styles.timeline}>&#9202;</Text>
+            </View>
+          </TouchableOpacity>
         </View>
         <Loading visible={this.state.visible}/>
         <Swiper {...this._panResponder.panHandlers}
@@ -140,6 +144,9 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'white',
     height: '100%'
+  },
+  placeholder:{
+    marginLeft: 50
   },
   header: {
     backgroundColor: 'white',
@@ -198,6 +205,18 @@ const styles = StyleSheet.create({
     top: 200,
     left: 50,
     position: 'absolute'
+  },
+  button: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 50,
+    width: 50,
+    borderRadius: 100,
+  },
+  timeline: {
+    fontSize: 50,
+    marginBottom: 10,
+    marginRight: 20
   },
   image: {
     height: 400,

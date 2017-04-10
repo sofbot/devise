@@ -16,8 +16,8 @@ export default class Navigation extends React.Component {
     if (this.props.user && this.props.user.id) {
       this.loggedIn();
     }
-    BackAndroid.addEventListener('hardwareBackPress',
-    () => alert("pressed back", this.props.title));
+    // BackAndroid.addEventListener('hardwareBackPress',
+    // () => alert("pressed back", this.props.title));
   }
 
   loggedIn(){
