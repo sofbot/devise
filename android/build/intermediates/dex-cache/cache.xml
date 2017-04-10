@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_56fad48d20b818f8d69cea8e14fabe5ceef99565.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_eab2cf2f6f4725807f2c3bb7aa887f0880450494.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_c291a9f7bb81ec412b5c3f033d6a616beaa33d1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_aa88662d682cf8d7e923aff007c56eeda1c15b73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_852a62c8ddb70d74a2a626c7652f740642cf216c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_9f199c3df301d29431a9e1de24720d439919d3fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_61644ba55d2711f164695d5440824648ea2cb4d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/Devise/react-native-fbsdk/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ac6965f038f9100d9814b3456ca35f2fd50e559f">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/Devise-react-native-fbsdk-unspecified_f4ffcf4bec228ceb4c4d8d27ff1f3546dca66c57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_34a67e9c469f909bf77c87f26c8c5fffaefbc9e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_9edb093e538db760e3cef5a9907b738a70d17747.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_e44d0c06daeddf727a30cdd6e243b0951b7ab7aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_7b045f3a833ea2626861bdde236f67e498cc3928.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_215518887bbea0603a4b051300e7cefad1d4b124.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_a1348215bdeb5ba4dbca01615fc01f40c45fbe12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_b4295426cf15952b0f91a211e440042af33effe7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_ad669a0cca5edbcb50cbe22cfb77e56be257568b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_2abd4364fb07d6dd5b32f19bcf3bbd7085427923.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_334260deac70506967d5af9d3ae3ebeae25e1d24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_9ad861472841ae0ecfd98aeed26bf155fc25e37c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_e51b4a227799fa8f11e79aead28b5865c4fd8ff5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_1f249b08da422936b71e838bb6e1a2cdd1e58f5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.21.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6a70160a70685ce25bda1c6e094c73676a399039">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.21.1_8a44aa57759c8b7c6279bd7827db4765ac3d7e21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_29fe1a8e7933f6eded3229b49d072e9697d136ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_e1b9c28f493654634af21e7b05738a260d348ad4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-25.0.0_11c24dcd8d78dfa62c6c690aa0e0a41d9e8ac863.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_e08ae353de1ce8ff6a4386f4b832715fc8e5d6e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_6690b91254da35b1582d64966e6ac799832300ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_b199c636bd182b6f692a8bab55943f1a040ced64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_3bedd00767586242b9a288f7221e5ac79aab6211.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.0_070165fb71a76c845a8fe03dd8f43d5f648ca986.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_79d90cc31ec6f406ffd7d52a9c077b2f01b89230.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f66dccf471b94d5d28c54a6b8ca9e1668b0fb0ce">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.43.0_e62e353d83d5367d2ef352ef546b5e1b8023f512.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_deed0caca74fe65af619b1103f249f4e3950b479.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_ee0af347f888c381449fc66c438a086ddd9080f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_e92c5ca986331e478e9ebf428b6bf094a0fe74da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_733d845f95683284ce5a381c1539f27985ebffe7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_15a32bedd95253e716005fc1bc456286dd46c059.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_163d1bf3f8ec999185b137261fd0b7720e1340da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/justin/Desktop/devise/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/justin/Desktop/devise/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_eeeb30d0f2efa80ef2c8454b7001451e9d33489a.jar" />
+    </item>
+
+</items>
