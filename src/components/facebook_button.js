@@ -66,19 +66,20 @@ class FacebookButton extends React.Component {
               if (error) {
                 alert("Login failed with error: " + result.error);
               } else if (result.isCancelled) {
-                alert("Login was cancelled");
+                // alert("Login was cancelled");
               } else {
                   AccessToken.getCurrentAccessToken().then(res => {
                   this.fBRequest();
                 });
               }
             }
-          }
-          onLogoutFinished={() => alert("User logged out")}/>
+          } />
       </View>
     );
   }
 }
+
+// onLogoutFinished={() => alert("User logged out")}
 
 export default FacebookButton;
 
