@@ -176,7 +176,7 @@ const styles = StyleSheet.create({
   },
   leftMsgTxt: {
     color: 'red',
-    top: 170,
+    top: 200,
     left: 160,
     position: 'absolute'
   },
@@ -195,7 +195,7 @@ const styles = StyleSheet.create({
   },
   rightMsgTxt: {
     color: 'green',
-    top: 170,
+    top: 200,
     left: 50,
     position: 'absolute'
   },
