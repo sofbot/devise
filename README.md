@@ -1,6 +1,6 @@
 # Devise
 
-[Devise](https://github.com/sofbot/devise) is an easy-to-use, mobile application for finding things to do. 
+[Devise](https://sofbot.github.io/devise/) is an easy-to-use, mobile application for finding things to do. 
 
 ## The Problem
 
@@ -8,7 +8,7 @@ Devise was inspired by the challenge of finding fun, local events via mobile. Cu
 
 ## The Solution
 
-Devise does the hard work -- scouring the corners the internet and bringing back events in an easily digestible form. All the user has to do is swipe right if they like an event, or swipe left if they don't. Think of it as the 'Tinder' of event apps. When the user is finished, they simply checkout their Timeline to see their plans for the day and head out the door. 
+Devise does the hard work -- scouring the corners the internet and bringing back events in an easily digestible form. All the user has to do is swipe right if they like an event, or swipe left if they don't. Think of it as the 'Tinder' of event apps. When the user is finished, they simply checkout their Timeline to see their plans for the day and head out the door.
 
 ## Technical Specs and APIs
 
@@ -16,7 +16,7 @@ Frontend: React-Native framework for Android
 
 Backend: Python and Django
 
-* Database: PostgreSQL 
+* Database: PostgreSQL
 * Authentication: Facebook
 * Event Data: BeautifulSoup data extraction
 * Yarn: Node package manager
@@ -84,7 +84,7 @@ This allows users to pull events directly from the devise database.
 
 ## Future Goals
 
-Features to come very soon: 
+Features to come very soon:
 * Add events to phone calendar
 * Filter events by category or location
 * See friends who also liked the same events
@@ -97,4 +97,3 @@ Features to come very soon:
 - Sofie Chen - Software Engineer | [Github](http://github.com/sofbot) | [LinkedIn](http://progress.appacademy.io/me/students)
 - Fariba Massah - Software Engineer | [Github](http://github.com/fafafariba) | [LinkedIn](http://progress.appacademy.io/me/students)
 - Justin Black - Software Engineer | [Github](http://github.com/spacether) | [LinkedIn](http://progress.appacademy.io/me/students)
-

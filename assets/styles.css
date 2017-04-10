@@ -113,7 +113,7 @@ span {
 }
 
 .google-play {
-  background-image: url(../images/google-play.png);
+  background-image: url('images/google-play.png');
   height: 50px;
   width: 50px;
   background-size: cover;
