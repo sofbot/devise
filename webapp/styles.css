@@ -84,6 +84,10 @@ span {
   right: 50px;
 }
 
+.splash-header:hover {
+  color: #3b5998;
+}
+
 
 .demo-btn {
   width: 235px;
