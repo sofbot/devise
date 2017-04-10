@@ -15,12 +15,6 @@ class Auth extends Component {
           style={styles.container}>
           <Text style={styles.header}>Devise</Text>
           <FacebookButtonContainer style={styles.button}/>
-            <Button
-              onPress={ Actions.events }
-              title="Events"
-              color="#841584"
-              accessibilityLabel="Learn more about this purple button"
-            />
         </Image>
       </View>
     );

@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: "BentonSans Regular","Helvetica Neue",Helvetica,Arial,"Sans-Serif";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  width: 300px;
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  margin-top: 0;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.background-image {
+  height: 110vh;
+  width: 110vw;
+  position: fixed;
+  top: -5vh;
+  left: -5vh;
+  background-image: url('../images/hipster-friends-intrepid.jpg');
+  background-size: cover;
+  -webkit-filter: blur(6px);
+  -moz-filter: blur(6px);
+  -o-filter: blur(6px);
+  -ms-filter: blur(6px);
+  filter: blur(6px);
+}
+
+.demo {
+  background-image: url('../images/events.jpg');
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  top: 90px;
+}
+
+.splash-txt {
+  color: white;
+  width: 300px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.splash-btns {
+  margin-top: 35px;
+}
+
+span {
+  padding: 15px;
+  background-color: #3b5998;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  color: white;
+  margin-right: 5px;
+}
+
+.header {
+  position: absolute;
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: white;
+  top: 50px;
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+.splash-header {
+  right: 50px;
+}
+
+
+.demo-btn {
+  width: 235px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.demo-btn:hover {
+  background-color: #3b5998;
+  border-color: transparent;
+}
+
+.demo-header {
+  background-image: url(../images/github.png);
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+}
+
+.demo-left {
+  position: relative;
+  top: -45px;
+}

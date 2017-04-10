@@ -220,27 +220,3 @@ const styles = StyleSheet.create({
     width: 200
   }
 });
-
-
-// <Card
-//   key={ this.state.currentEvent.customId }
-//   image={{ uri: this.state.currentEvent.imageUrl }}
-//   imageStyle={ styles.image }
-//   containerStyle={ styles.resultContainer }>
-//   <View style={ styles.captionContainer }>
-//     <View style={ styles.captionText }>
-//       <Text style={ styles.title }
-//         ellipsizeMode='tail'
-//         numberOfLines={1}> { this.state.currentEvent.title} </Text>
-//       <Text style={ styles.venue }
-//         ellipsizeMode='tail'
-//         numberOfLines={1}>{ this.state.currentEvent.venue }</Text>
-//     </View>
-//     <View style={ styles.captionText }>
-//       <Text>{ this.state.currentEvent.time }</Text>
-//     </View>
-//   </View>
-// </Card>
-// <View style={styles.overlay}>
-//   <Text style={{position: 'absolute'}}>{ this.state.direction }</Text>
-// </View>
