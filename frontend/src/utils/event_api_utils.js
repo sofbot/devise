@@ -2,7 +2,7 @@
     on your development machine)
  */
 export const fetchEvents = (userId, offset) => {
-  const url = `http://10.0.2.2:8000/events/${userId}/${offset}`;
+  const url = `http://devise-live.herokuapp.com/events/${userId}/${offset}`;
   return fetch(url);
 };
 
@@ -17,7 +17,7 @@ export const recordChoice = (direction, swipedEvent) => {
   }
 
   // add user_id 4 reals
-  return fetch('http://10.0.2.2:8000/userevents/', {
+  return fetch('http://devise-live.herokuapp.com/userevents/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded'
