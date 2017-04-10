@@ -57,6 +57,8 @@ figure {
 
 .splash-btns {
   margin-top: 35px;
+  display: flex;
+  opacity: 0.7
 }
 
 span {
@@ -84,9 +86,6 @@ span {
   right: 50px;
 }
 
-.splash-header:hover {
-  color: #3b5998;
-}
 
 
 .demo-btn {
@@ -101,16 +100,25 @@ span {
   text-transform: uppercase;
 }
 
-.demo-btn:hover {
+.demo-btn:hover, .splash-header:hover {
   background-color: #3b5998;
   border-color: transparent;
 }
 
-.demo-header {
+
+.github {
   background-image: url(../images/github.png);
   height: 50px;
   width: 50px;
   background-size: cover;
+}
+
+.google-play {
+  background-image: url(../images/google-play.png);
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  margin-right: 25px;
 }
 
 .demo-left {

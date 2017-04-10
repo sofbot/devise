@@ -159,7 +159,7 @@ const styles = StyleSheet.create({
     margin: 30,
     height: 500,
     borderRadius: 8,
-    opacity: 0.2
+    opacity: 0.2,
   },
   leftMsgView: {
     top: 30,
@@ -172,13 +172,15 @@ const styles = StyleSheet.create({
     height: 500,
     width: 350,
     backgroundColor: 'red',
-    opacity: 0.2
+    opacity: 0.2,
   },
   leftMsgTxt: {
     color: 'red',
     top: 200,
     left: 160,
-    position: 'absolute'
+    position: 'absolute',
+    transform: [{ rotate: '20deg'}],
+    fontFamily: "BentonSans Regular"
   },
   rightMsgView: {
     top: 30,
@@ -191,13 +193,14 @@ const styles = StyleSheet.create({
     height: 500,
     width: 350,
     backgroundColor: 'green',
-    opacity: 0.2
+    opacity: 0.2,
   },
   rightMsgTxt: {
     color: 'green',
     top: 200,
-    left: 50,
-    position: 'absolute'
+    left: 40,
+    position: 'absolute',
+    transform: [{ rotate: '-25deg'}]
   },
   image: {
     height: 400,
