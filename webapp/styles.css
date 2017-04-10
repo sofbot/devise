@@ -92,7 +92,9 @@ span {
   border: 1px solid white;
   color: white;
   border-radius: 4px;
-  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: uppercase;
 }
 
 .demo-btn:hover {
