@@ -1,3 +1,13 @@
+build_notes.md
+env/
+*.pyc
+.env
+
+
+
+
+
+
 # OSX
 #
 .DS_Store
