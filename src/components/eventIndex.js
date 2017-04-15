@@ -155,10 +155,13 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     flexDirection: 'row',
     width: '100%',
-    padding: 10
+    paddingLeft: 10,
+    paddingRight: 10
   },
   container: {
-    margin: 30,
+    marginLeft: 30,
+    marginRight: 30,
+    marginBottom: 30,
     height: 500,
     borderRadius: 8,
   },

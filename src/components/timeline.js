@@ -73,39 +73,49 @@ export default class Timeline extends Component {
 
   render() {
 
-    let events = <View></View>;
+    let events; 
 
-    if (this.props.timelineEvents) {
-      events = this.props.timelineEvents.map((event, idx) => {
-        const formattedTime = this.formatTime(event.startTime);
-        const formattedDetail = this.formatDetail(event.summary);
-        const formatTitle = this.formatTitle(event.title);
-        return {
-          title: {
-            title: formatTitle,
-            imageUrl: event.imageUrl
-          },
-          content: {
-            location: event.location,
-            time: formattedTime,
-            description: formattedDetail,
-          }
-        };
-      });
-    }
+      let timeline = <View><Text style={styles.text}>Swipe Right to Add
+        Events to Your Timeline</Text></View>;
+      console.log(this.props.timelineEvents.title);
 
-    return(
-      <View style={styles.background}>
-        <ScrollView>
+      if (this.props.timelineEvents[0].title) {
+        console.log(this.props.timelineEvents);
+        events = this.props.timelineEvents.map((event, idx) => {
+          const formattedTime = this.formatTime(event.startTime);
+          const formattedDetail = this.formatDetail(event.summary);
+          const formatTitle = this.formatTitle(event.title);
+          return {
+            title: {
+              title: formatTitle,
+              imageUrl: event.imageUrl
+            },
+            content: {
+              location: event.location,
+              time: formattedTime,
+              description: formattedDetail,
+            }
+          };
+        });
+
+        timeline = (
           <Accordion
           style={styles.container}
           sections={events}
           renderHeader={this.renderHeader}
           renderContent={this.renderContent}
           />
-        </ScrollView>
-      </View>
-    );
+        );
+      }
+
+
+      return(
+        <View style={styles.background}>
+          <ScrollView>
+            {timeline}
+          </ScrollView>
+        </View>
+      );
   }
 }
 

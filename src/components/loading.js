@@ -15,7 +15,7 @@ class Loading extends Component {
     this.timer = setTimeout(() => {
       this.setState({animating: false});
       clearTimeout(this.timer);
-    }, 5000);
+    }, 3000);
   }
 
   render() {
@@ -26,7 +26,7 @@ class Loading extends Component {
         visible={this.state.animating}
         textStyle={{color: '#FFF'}}
         cancelable={true}
-        overlayColor={'rgba(0, 0, 0, 0.5)'}/>
+        overlayColor={'#CDDC39'}/>
       </View>
     );
   }
