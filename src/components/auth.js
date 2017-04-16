@@ -21,8 +21,6 @@ class Auth extends Component {
   }
 }
 
-// <Text style={styles.description}>Discover new and interesting events near by</Text>
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,

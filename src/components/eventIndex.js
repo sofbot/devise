@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Image, View, TouchableOpacity,
-        PanResponder, Animated, Button } from 'react-native';
+        PanResponder, Animated, ScrollView } from 'react-native';
 import { Card, Text, Icon } from 'react-native-elements';
 import Swiper from 'react-native-swiper';
 import SimpleGesture from 'react-native-simple-gesture';
@@ -70,25 +70,28 @@ export default class EventIndex extends Component {
 
   render() {
     const deck = [
-      <Card
-        key={ this.state.currentEvent }
-        image={{ uri: this.state.currentEvent.imageUrl }}
-        imageStyle={ styles.image }
-        containerStyle={ styles.container }>
-        <View style={ styles.captionContainer }>
-          <View style={ styles.captionText }>
-            <Text style={ styles.title }
-              ellipsizeMode='tail'
-              numberOfLines={1}> { this.state.currentEvent.title} </Text>
-            <Text style={ styles.venue }
-              ellipsizeMode='tail'
-              numberOfLines={1}>{ this.state.currentEvent.venue }</Text>
+      <View key={ this.state.currentEvent } style={ styles.container } >
+        <Image source={{ uri: this.state.currentEvent.imageUrl }}
+          style={ styles.image } />
+        <View style={ styles.columnContainer }>
+          <View style={ styles.rowContainer }>
+            <View style={ styles.columnContainer }>
+              <Text style={ styles.title }
+                ellipsizeMode='tail'
+                numberOfLines={1}> { this.state.currentEvent.title} </Text>
+              <Text style={ styles.venue }
+                ellipsizeMode='tail'
+                numberOfLines={1}>{ this.state.currentEvent.venue }</Text>
+            </View>
+            <View style={ styles.captionText }>
+              <Text>{ this.state.currentEvent.time }</Text>
+            </View>
           </View>
-          <View style={ styles.captionText }>
-            <Text>{ this.state.currentEvent.time }</Text>
+          <View style={{ overflow: 'scroll'}}>
+            <Text>{ this.state.currentEvent.summary }</Text>
           </View>
         </View>
-      </Card>,
+      </View>,
       <View key={this.state.currentEvent.customId + "234823"}>
         <View>
           <View style={this.state.msgViewStyle}></View>
@@ -99,7 +102,7 @@ export default class EventIndex extends Component {
           image={{ uri: this.state.currentEvent.imageUrl }}
           imageStyle={ styles.image }
           containerStyle={ styles.resultContainer }>
-          <View style={ styles.captionContainer }>
+          <View style={ styles.rowContainer }>
             <View style={ styles.captionText }>
               <Text style={ styles.title }
                 ellipsizeMode='tail'
@@ -117,20 +120,19 @@ export default class EventIndex extends Component {
     ];
 
     return (
-      <View style={styles.background}>
-        <View style={styles.header}>
-          <Text style={styles.placeholder}></Text>
-          <Text h4 style={{color: 'black'}}>Devise</Text>
+      <View>
+        <Loading visible={this.state.visible}/>
+        <View style={ styles.header }>
+          <Text h4 style={ styles.headerTxt }>Devise</Text>
           <TouchableOpacity onPress={ Actions.timeline }>
             <View >
               <Text style={styles.timeline}>&#9202;</Text>
             </View>
           </TouchableOpacity>
         </View>
-        <Loading visible={this.state.visible}/>
         <Swiper {...this._panResponder.panHandlers}
-          autoplay={this.state.autoplay}
           ref='swiper'
+          showsPagination={false}
           onMomentumScrollEnd={ this.handleSwipe } >
           { deck }
         </Swiper>
@@ -140,31 +142,28 @@ export default class EventIndex extends Component {
 }
 
 const styles = StyleSheet.create({
-  background: {
-    flex: 1,
-    backgroundColor: 'white',
-    height: '100%'
-  },
-  placeholder:{
-    marginLeft: 50
+  headerTxt: {
+    color: 'black',
+    marginLeft: '40%',
+    fontFamily: "BentonSans Regular"
   },
   header: {
     backgroundColor: 'white',
     justifyContent: 'space-between',
     alignItems: 'center',
-    alignSelf: 'center',
     flexDirection: 'row',
     width: '100%',
-    padding: 10
+    height: '10%'
   },
   container: {
-    margin: 30,
-    height: 500,
+    height: '80%',
+    width: '90%',
+    marginLeft: '5%',
     borderRadius: 8,
+    elevation: 3,
   },
   resultContainer: {
-    margin: 30,
-    height: 500,
+    height: '80%',
     borderRadius: 8,
     opacity: 0.2,
   },
@@ -209,36 +208,56 @@ const styles = StyleSheet.create({
     position: 'absolute',
     transform: [{ rotate: '-25deg'}]
   },
-  button: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: 50,
-    width: 50,
-    borderRadius: 100,
-  },
   timeline: {
-    fontSize: 50,
+    fontSize: 40,
     marginBottom: 10,
     marginRight: 20
   },
   image: {
-    height: 400,
+    height: '75%',
     borderTopRightRadius: 8,
     borderTopLeftRadius: 8
   },
-  captionContainer: {
+  rowContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center'
+    alignItems: 'center',
   },
-  captionText: {
+  columnContainer: {
     flexDirection: 'column'
   },
   title: {
     fontWeight: 'bold',
-    width: 200
+    width: '75%'
   },
   venue: {
-    width: 200
+    width: '75%'
   }
 });
+
+
+
+// <Card
+//   key={ this.state.currentEvent }
+//   image={{ uri: this.state.currentEvent.imageUrl }}
+//   imageStyle={ styles.image }
+//   containerStyle={ styles.container }>
+//   <View style={ styles.columnContainer }>
+//     <View style={ styles.rowContainer }>
+//       <View style={ styles.columnContainer }>
+//         <Text style={ styles.title }
+//           ellipsizeMode='tail'
+//           numberOfLines={1}> { this.state.currentEvent.title} </Text>
+//         <Text style={ styles.venue }
+//           ellipsizeMode='tail'
+//           numberOfLines={1}>{ this.state.currentEvent.venue }</Text>
+//       </View>
+//       <View style={ styles.captionText }>
+//         <Text>{ this.state.currentEvent.time }</Text>
+//       </View>
+//     </View>
+//     <View style={{ overflow: 'scroll'}}>
+//       <Text>{ this.state.currentEvent.summary }</Text>
+//     </View>
+//   </View>
+// </Card>,
