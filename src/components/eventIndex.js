@@ -253,30 +253,3 @@ const styles = StyleSheet.create({
     overflow: 'scroll'
   }
 });
-
-
-
-// <Card
-//   key={ this.state.currentEvent }
-//   image={{ uri: this.state.currentEvent.imageUrl }}
-//   imageStyle={ styles.image }
-//   containerStyle={ styles.container }>
-//   <View style={ styles.columnContainer }>
-//     <View style={ styles.rowContainer }>
-//       <View style={ styles.columnContainer }>
-//         <Text style={ styles.title }
-//           ellipsizeMode='tail'
-//           numberOfLines={1}> { this.state.currentEvent.title} </Text>
-//         <Text style={ styles.venue }
-//           ellipsizeMode='tail'
-//           numberOfLines={1}>{ this.state.currentEvent.venue }</Text>
-//       </View>
-//       <View style={ styles.captionText }>
-//         <Text>{ this.state.currentEvent.time }</Text>
-//       </View>
-//     </View>
-//     <View style={{ overflow: 'scroll'}}>
-//       <Text>{ this.state.currentEvent.summary }</Text>
-//     </View>
-//   </View>
-// </Card>,
