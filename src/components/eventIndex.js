@@ -6,6 +6,7 @@ import Swiper from 'react-native-swiper';
 import SimpleGesture from 'react-native-simple-gesture';
 import Loading from './loading';
 import { Actions } from 'react-native-router-flux';
+import EmptyEvent from './empty_event.js';
 
 export default class EventIndex extends Component {
   constructor(props) {
@@ -25,9 +26,10 @@ export default class EventIndex extends Component {
   componentWillMount() {
     this.props.fetchEvents(this.props.user.id, this.state.offset).then(() => {
       this.setState({ currentEvent: this.props.fetchedEvents[0] }, () => {
-        this.setState({ offset: this.state.offset + 10});
+        this.setState({ offset: this.state.offset + 10 });
       });
     });
+
     // simplegesture codes - on move, get direction
     this._panResponder = PanResponder.create({
       onMoveShouldSetPanResponder: (e, gs) => {
@@ -36,16 +38,14 @@ export default class EventIndex extends Component {
         const message = sgs.isSwipeLeft() ? 'pass' : 'added to timeline';
         const msgTxtStyle = sgs.isSwipeLeft() ? styles.leftMsgTxt : styles.rightMsgTxt;
         const msgViewStyle = sgs.isSwipeLeft() ? styles.leftMsgView : styles.rightMsgView;
-        this.setState({ direction: direction });
-        this.setState({ message: message });
-        this.setState({ msgTxtStyle: msgTxtStyle });
-        this.setState({ msgViewStyle: msgViewStyle });
+        this.setState({ direction: direction, message: message, msgTxtStyle: msgTxtStyle, 
+          msgViewStyle: msgViewStyle });
       },
     });
   }
 
   handleSwipe(deck) {
-    this.props.recordChoice(this.state.direction, this.state.currentEvent)
+    this.props.recordChoice(this.state.direction, this.state.currentEvent, this.props.user.id)
     .then(() => this.props.removeEvent());
 
     this.setState({ counter: this.state.counter + 1 }, () => {
@@ -61,43 +61,28 @@ export default class EventIndex extends Component {
       }
     });
 
-    // // check length of fetchedEvents. fetch more if >= 5
+
+    // check length of fetchedEvents. 
+    
+    //fetch more if >= 5
+    console.log("length: ", this.props.fetchedEvents.length);
+    
+    
     if (this.props.fetchedEvents.length <= 5) {
+      console.log("length is under 5");
       this.props.fetchEvents(this.props.user.id, this.state.offset)
         .then(() => this.setState({ offset: this.state.offset + 10 }));
     }
   }
 
   render() {
-    const deck = [
-      <View key={ this.state.currentEvent } style={ styles.container } >
-        <Image source={{ uri: this.state.currentEvent.imageUrl }}
-          style={ styles.image } />
-        <View style={ styles.columnContainer }>
-          <View style={ styles.columnContainer }>
-            <Text style={ styles.captionHeader }
-              ellipsizeMode='tail'
-              numberOfLines={1}> { this.state.currentEvent.title} </Text>
-            <Text style={ styles.captionText }
-              ellipsizeMode='tail'
-              numberOfLines={1}>{ this.state.currentEvent.location }</Text>
-          </View>
-          <View>
-            <Text style={ styles.captionText }>
-              {
-                this.state.currentEvent.startTime === '00:01:00' ?
-                  'All Day' : this.state.currentEvent.startTime
-              }
-            </Text>
-          </View>
-        </View>
-      </View>,
-      <View key={this.state.currentEvent.customId + "234823"} style={ styles.container }>
-        <View style={ styles.overlay }>
-          <View style={this.state.msgViewStyle}></View>
-          <Text h1 style={this.state.msgTxtStyle}>{ this.state.message }</Text>
-        </View>
-        <View key={ this.state.currentEvent } style={ styles.resultContainer } >
+    console.log("rerendering");
+
+    let deck, content;
+
+    if (this.props.fetchedEvents.length > 0) {
+       deck = [
+        <View key={ this.state.currentEvent } style={ styles.container } >
           <Image source={{ uri: this.state.currentEvent.imageUrl }}
             style={ styles.image } />
           <View style={ styles.columnContainer }>
@@ -118,9 +103,50 @@ export default class EventIndex extends Component {
               </Text>
             </View>
           </View>
+        </View>,
+        <View key={this.state.currentEvent.customId + "234823"} style={ styles.container }>
+          <View style={ styles.overlay }>
+            <View style={this.state.msgViewStyle}></View>
+            <Text h1 style={this.state.msgTxtStyle}>{ this.state.message }</Text>
+          </View>
+          <View key={ this.state.currentEvent } style={ styles.resultContainer } >
+            <Image source={{ uri: this.state.currentEvent.imageUrl }}
+              style={ styles.image } />
+            <View style={ styles.columnContainer }>
+              <View style={ styles.columnContainer }>
+                <Text style={ styles.captionHeader }
+                  ellipsizeMode='tail'
+                  numberOfLines={1}> { this.state.currentEvent.title} </Text>
+                <Text style={ styles.captionText }
+                  ellipsizeMode='tail'
+                  numberOfLines={1}>{ this.state.currentEvent.location }</Text>
+              </View>
+              <View>
+                <Text style={ styles.captionText }>
+                  {
+                    this.state.currentEvent.startTime === '00:01:00' ?
+                      'All Day' : this.state.currentEvent.startTime
+                  }
+                </Text>
+              </View>
+            </View>
+          </View>
         </View>
-      </View>
-    ];
+      ];
+    }
+
+    if (this.props.fetchedEvents.length === 0) {
+      content = <EmptyEvent />;
+    } else {
+      content = 
+          <Swiper {...this._panResponder.panHandlers}
+            ref='swiper'
+            showsPagination={false}
+            onMomentumScrollEnd={ this.handleSwipe } >
+            { deck }
+          </Swiper>;
+    }
+
 
     return (
       <View>
@@ -133,13 +159,8 @@ export default class EventIndex extends Component {
             </View>
           </TouchableOpacity>
         </View>
-        <Swiper {...this._panResponder.panHandlers}
-          ref='swiper'
-          showsPagination={false}
-          onMomentumScrollEnd={ this.handleSwipe } >
-          { deck }
-        </Swiper>
-      </View>
+      {content}      
+    </View>
     );
   }
 }
