@@ -6,6 +6,19 @@ import { Actions } from 'react-native-router-flux';
 class Auth extends Component {
   constructor(props){
     super(props);
+    this.demoLogin = this.demoLogin.bind(this);
+  }
+
+  demoLogin(){
+    this.props.fetchUser({
+      id: "1",
+      firstName: "Guest",
+      lastName: "User",
+      email: null,
+      imageUrl: null,
+      friends: []
+    });
+    Actions.events({user: {id: "1"}});
   }
 
   render(){
@@ -15,6 +28,10 @@ class Auth extends Component {
           style={styles.container}>
           <Text style={styles.header}>devise</Text>
           <FacebookButtonContainer style={styles.button}/>
+            <View style={styles.demoButton}>
+              <Button onPress={this.demoLogin} title="Continue as a Guest"
+                color='crimson' />
+            </View>
         </Image>
       </View>
     );
@@ -40,6 +57,15 @@ const styles = StyleSheet.create({
     marginTop: 20,
     color: 'floralwhite',
     fontFamily: "BentonSans Regular"
+  },
+  demoButton: {
+    // alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 20,
+    // paddingLeft: 10,
+    // paddingRight: 10,
+    width: 180,
+    height: 17,
   }
 
 });
