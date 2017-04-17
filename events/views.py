@@ -177,20 +177,18 @@ def get_event_dicts_sffc(date):
     return event_dicts
 
 class EventView(View):
-    def make_data_new_events(self, event_dicts, date):
-        events = []
+    def make_data_new_events(self, event_dicts, query, date):
         success = True
         for event_dict in event_dicts:
             try:
                 # check to see if we already have the event in the db
                 found_event = Event.objects.get(custom_id=event_dict['custom_id'])
-                events.append(found_event)
             except:
                 event_dict = detail_event(event_dict)
+                event_dict['query'] = query.id
                 form = EventForm(event_dict)
                 try:
                     new_event = form.save()
-                    events.append(new_event)
                 except:
                     print("ERROR in making event")
                     event_dict = Event(**event_dict).dict()
@@ -199,9 +197,6 @@ class EventView(View):
                     break
 
         if success:
-            data = [event.dict() for event in events]
-            new_query = EventQuery(source='sffc', date=date)
-            new_query.save()
             return True
         else:
             data = json.dumps(data)
@@ -226,7 +221,9 @@ class EventView(View):
         if len(queries) == 0:
             print("STORED NEW EVENTS")
             event_dicts = get_event_dicts_sffc(date)
-            result = self.make_data_new_events(event_dicts, date)
+            new_query = EventQuery(source='sffc', date=date)
+            new_query.save()
+            result = self.make_data_new_events(event_dicts, new_query, date)
             if result != True:
                 return result
         else:

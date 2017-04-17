@@ -17,9 +17,9 @@ class EventQuery(models.Model):
 
 
 class Event(models.Model):
-    source = models.CharField(max_length=100)
+    query = models.ForeignKey(EventQuery, on_delete=models.CASCADE)
     custom_id = models.CharField(max_length=100, unique=True, primary_key=True)
-    image_url = models.CharField(max_length=200, null=True, blank=True)
+    image_url = models.CharField(max_length=400, null=True, blank=True)
     url = models.CharField(max_length=200)
     title = models.CharField(max_length=100)
     location = models.CharField(max_length=100)
