@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Image, View, TouchableOpacity,
-        PanResponder, Animated, Button } from 'react-native';
+        PanResponder, Animated, ScrollView } from 'react-native';
 import { Card, Text, Icon } from 'react-native-elements';
 import Swiper from 'react-native-swiper';
 import SimpleGesture from 'react-native-simple-gesture';
@@ -70,67 +70,72 @@ export default class EventIndex extends Component {
 
   render() {
     const deck = [
-      <Card
-        key={ this.state.currentEvent }
-        image={{ uri: this.state.currentEvent.imageUrl }}
-        imageStyle={ styles.image }
-        containerStyle={ styles.container }>
-        <View style={ styles.captionContainer }>
-          <View style={ styles.captionText }>
-            <Text style={ styles.title }
+      <View key={ this.state.currentEvent } style={ styles.container } >
+        <Image source={{ uri: this.state.currentEvent.imageUrl }}
+          style={ styles.image } />
+        <View style={ styles.columnContainer }>
+          <View style={ styles.columnContainer }>
+            <Text style={ styles.captionHeader }
               ellipsizeMode='tail'
               numberOfLines={1}> { this.state.currentEvent.title} </Text>
-            <Text style={ styles.venue }
+            <Text style={ styles.captionText }
               ellipsizeMode='tail'
-              numberOfLines={1}>{ this.state.currentEvent.venue }</Text>
+              numberOfLines={1}>{ this.state.currentEvent.location }</Text>
           </View>
-          <View style={ styles.captionText }>
-            <Text>{ this.state.currentEvent.time }</Text>
+          <View>
+            <Text style={ styles.captionText }>
+              {
+                this.state.currentEvent.startTime === '00:01:00' ?
+                  'All Day' : this.state.currentEvent.startTime
+              }
+            </Text>
           </View>
         </View>
-      </Card>,
-      <View key={this.state.currentEvent.customId + "234823"}>
-        <View>
+      </View>,
+      <View key={this.state.currentEvent.customId + "234823"} style={ styles.container }>
+        <View style={ styles.overlay }>
           <View style={this.state.msgViewStyle}></View>
           <Text h1 style={this.state.msgTxtStyle}>{ this.state.message }</Text>
         </View>
-        <Card
-          key={ this.state.currentEvent.customId }
-          image={{ uri: this.state.currentEvent.imageUrl }}
-          imageStyle={ styles.image }
-          containerStyle={ styles.resultContainer }>
-          <View style={ styles.captionContainer }>
-            <View style={ styles.captionText }>
-              <Text style={ styles.title }
+        <View key={ this.state.currentEvent } style={ styles.resultContainer } >
+          <Image source={{ uri: this.state.currentEvent.imageUrl }}
+            style={ styles.image } />
+          <View style={ styles.columnContainer }>
+            <View style={ styles.columnContainer }>
+              <Text style={ styles.captionHeader }
                 ellipsizeMode='tail'
                 numberOfLines={1}> { this.state.currentEvent.title} </Text>
-              <Text style={ styles.venue }
+              <Text style={ styles.captionText }
                 ellipsizeMode='tail'
-                numberOfLines={1}>{ this.state.currentEvent.venue }</Text>
+                numberOfLines={1}>{ this.state.currentEvent.location }</Text>
             </View>
-            <View style={ styles.captionText }>
-              <Text>{ this.state.currentEvent.time }</Text>
+            <View>
+              <Text style={ styles.captionText }>
+                {
+                  this.state.currentEvent.startTime === '00:01:00' ?
+                    'All Day' : this.state.currentEvent.startTime
+                }
+              </Text>
             </View>
           </View>
-        </Card>
+        </View>
       </View>
     ];
 
     return (
-      <View style={styles.background}>
-        <View style={styles.header}>
-          <Text style={styles.placeholder}></Text>
-          <Text h4 style={{color: 'black'}}>Devise</Text>
+      <View>
+        <Loading visible={this.state.visible}/>
+        <View style={ styles.header }>
+          <Text h4 style={ styles.headerTxt }>Devise</Text>
           <TouchableOpacity onPress={ Actions.timeline }>
             <View >
               <Text style={styles.timeline}>&#9202;</Text>
             </View>
           </TouchableOpacity>
         </View>
-        <Loading visible={this.state.visible}/>
         <Swiper {...this._panResponder.panHandlers}
-          autoplay={this.state.autoplay}
           ref='swiper'
+          showsPagination={false}
           onMomentumScrollEnd={ this.handleSwipe } >
           { deck }
         </Swiper>
@@ -140,108 +145,111 @@ export default class EventIndex extends Component {
 }
 
 const styles = StyleSheet.create({
-  background: {
-    flex: 1,
-    backgroundColor: 'white',
-    height: '100%'
-  },
-  placeholder:{
-    marginLeft: 50
+  headerTxt: {
+    color: 'black',
+    marginLeft: '40%',
+    fontFamily: "BentonSans Regular"
   },
   header: {
     backgroundColor: 'white',
     justifyContent: 'space-between',
     alignItems: 'center',
-    alignSelf: 'center',
     flexDirection: 'row',
     width: '100%',
-    paddingLeft: 10,
-    paddingRight: 10
+    height: '10%'
   },
   container: {
-    marginLeft: 30,
-    marginRight: 30,
-    marginBottom: 30,
-    height: 500,
+    height: '80%',
+    width: '90%',
+    marginLeft: '5%',
     borderRadius: 8,
+    elevation: 1
   },
   resultContainer: {
-    margin: 30,
-    height: 500,
+    height: '100%',
+    width: '100%',
     borderRadius: 8,
-    opacity: 0.2,
+    elevation: 1
+  },
+  overlay: {
+    borderRadius: 8,
+    position: 'absolute',
+    height: '100%',
+    width: '100%',
+    elevation: 2,
   },
   leftMsgView: {
-    top: 30,
-    left: 30,
     position: 'absolute',
     alignItems: 'center',
     borderWidth: 1,
     borderRadius: 8,
     borderColor: 'red',
-    height: 500,
-    width: 350,
+    height: '100%',
+    width: '100%',
     backgroundColor: 'red',
-    opacity: 0.2,
+    opacity: 0.2
   },
   leftMsgTxt: {
     color: 'red',
-    top: 200,
-    left: 160,
+    top: '30%',
+    left: '40%',
     position: 'absolute',
     transform: [{ rotate: '20deg'}],
     fontFamily: "BentonSans Regular"
   },
   rightMsgView: {
-    top: 30,
-    left: 30,
     position: 'absolute',
     alignItems: 'center',
     borderWidth: 1,
     borderRadius: 8,
     borderColor: 'green',
-    height: 500,
-    width: 350,
     backgroundColor: 'green',
-    opacity: 0.2,
+    height: '100%',
+    width: '100%',
+    opacity: 0.2
   },
   rightMsgTxt: {
     color: 'green',
-    top: 200,
-    left: 40,
+    top: '35%',
+    left: '3%',
     position: 'absolute',
     transform: [{ rotate: '-25deg'}]
   },
-  button: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: 50,
-    width: 50,
-    borderRadius: 100,
-  },
   timeline: {
-    fontSize: 50,
+    fontSize: 40,
     marginBottom: 10,
     marginRight: 20
   },
   image: {
-    height: 400,
+    height: '75%',
     borderTopRightRadius: 8,
     borderTopLeftRadius: 8
   },
-  captionContainer: {
+  rowContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center'
+    alignItems: 'center',
   },
-  captionText: {
+  columnContainer: {
     flexDirection: 'column'
   },
-  title: {
+  captionHeader: {
     fontWeight: 'bold',
-    width: 200
+    width: '90%',
+    marginLeft: '5%',
+    marginTop: 5,
+    marginBottom: 5,
+    paddingLeft: 10,
+    paddingTop: 10,
+    paddingBottom: 5,
+    textAlign: 'left',
+    lineHeight: 20,
+    borderBottomWidth: 2,
+    borderBottomColor: '#eeeeee'
   },
-  venue: {
-    width: 200
+  captionText: {
+    paddingLeft: 25,
+    paddingRight: 10,
+    overflow: 'scroll'
   }
 });

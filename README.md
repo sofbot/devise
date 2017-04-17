@@ -94,6 +94,6 @@ Features to come very soon:
 
 ## Authors
 
-- Sofie Chen - Software Engineer | [Github](http://github.com/sofbot) | [LinkedIn](http://progress.appacademy.io/me/students)
-- Fariba Massah - Software Engineer | [Github](http://github.com/fafafariba) | [LinkedIn](http://progress.appacademy.io/me/students)
-- Justin Black - Software Engineer | [Github](http://github.com/spacether) | [LinkedIn](http://progress.appacademy.io/me/students)
+- Sofie Chen - Software Engineer | [Github](http://github.com/sofbot) | [LinkedIn](https://www.linkedin.com/in/sofia-chen/)
+- Fariba Massah - Software Engineer | [Github](http://github.com/fafafariba) | [LinkedIn](https://www.linkedin.com/in/fafafariba/)
+- Justin Black - Software Engineer | [Github](http://github.com/spacether) | [LinkedIn](https://www.linkedin.com/in/justin-black-81343352/)
