@@ -74,48 +74,51 @@ export default class EventIndex extends Component {
         <Image source={{ uri: this.state.currentEvent.imageUrl }}
           style={ styles.image } />
         <View style={ styles.columnContainer }>
-          <View style={ styles.rowContainer }>
-            <View style={ styles.columnContainer }>
-              <Text style={ styles.title }
-                ellipsizeMode='tail'
-                numberOfLines={1}> { this.state.currentEvent.title} </Text>
-              <Text style={ styles.venue }
-                ellipsizeMode='tail'
-                numberOfLines={1}>{ this.state.currentEvent.venue }</Text>
-            </View>
-            <View style={ styles.captionText }>
-              <Text>{ this.state.currentEvent.time }</Text>
-            </View>
+          <View style={ styles.columnContainer }>
+            <Text style={ styles.captionHeader }
+              ellipsizeMode='tail'
+              numberOfLines={1}> { this.state.currentEvent.title} </Text>
+            <Text style={ styles.captionText }
+              ellipsizeMode='tail'
+              numberOfLines={1}>{ this.state.currentEvent.location }</Text>
           </View>
-          <View style={{ overflow: 'scroll'}}>
-            <Text>{ this.state.currentEvent.summary }</Text>
+          <View>
+            <Text style={ styles.captionText }>
+              {
+                this.state.currentEvent.startTime === '00:01:00' ?
+                  'All Day' : this.state.currentEvent.startTime
+              }
+            </Text>
           </View>
         </View>
       </View>,
-      <View key={this.state.currentEvent.customId + "234823"}>
-        <View>
+      <View key={this.state.currentEvent.customId + "234823"} style={ styles.container }>
+        <View style={ styles.overlay }>
           <View style={this.state.msgViewStyle}></View>
           <Text h1 style={this.state.msgTxtStyle}>{ this.state.message }</Text>
         </View>
-        <Card
-          key={ this.state.currentEvent.customId }
-          image={{ uri: this.state.currentEvent.imageUrl }}
-          imageStyle={ styles.image }
-          containerStyle={ styles.resultContainer }>
-          <View style={ styles.rowContainer }>
-            <View style={ styles.captionText }>
-              <Text style={ styles.title }
+        <View key={ this.state.currentEvent } style={ styles.resultContainer } >
+          <Image source={{ uri: this.state.currentEvent.imageUrl }}
+            style={ styles.image } />
+          <View style={ styles.columnContainer }>
+            <View style={ styles.columnContainer }>
+              <Text style={ styles.captionHeader }
                 ellipsizeMode='tail'
                 numberOfLines={1}> { this.state.currentEvent.title} </Text>
-              <Text style={ styles.venue }
+              <Text style={ styles.captionText }
                 ellipsizeMode='tail'
-                numberOfLines={1}>{ this.state.currentEvent.venue }</Text>
+                numberOfLines={1}>{ this.state.currentEvent.location }</Text>
             </View>
-            <View style={ styles.captionText }>
-              <Text>{ this.state.currentEvent.time }</Text>
+            <View>
+              <Text style={ styles.captionText }>
+                {
+                  this.state.currentEvent.startTime === '00:01:00' ?
+                    'All Day' : this.state.currentEvent.startTime
+                }
+              </Text>
             </View>
           </View>
-        </Card>
+        </View>
       </View>
     ];
 
@@ -160,51 +163,55 @@ const styles = StyleSheet.create({
     width: '90%',
     marginLeft: '5%',
     borderRadius: 8,
-    elevation: 3,
+    elevation: 1
   },
   resultContainer: {
-    height: '80%',
+    height: '100%',
+    width: '100%',
     borderRadius: 8,
-    opacity: 0.2,
+    elevation: 1
+  },
+  overlay: {
+    borderRadius: 8,
+    position: 'absolute',
+    height: '100%',
+    width: '100%',
+    elevation: 2,
   },
   leftMsgView: {
-    top: 30,
-    left: 30,
     position: 'absolute',
     alignItems: 'center',
     borderWidth: 1,
     borderRadius: 8,
     borderColor: 'red',
-    height: 500,
-    width: 350,
+    height: '100%',
+    width: '100%',
     backgroundColor: 'red',
-    opacity: 0.2,
+    opacity: 0.2
   },
   leftMsgTxt: {
     color: 'red',
-    top: 200,
-    left: 160,
+    top: '30%',
+    left: '40%',
     position: 'absolute',
     transform: [{ rotate: '20deg'}],
     fontFamily: "BentonSans Regular"
   },
   rightMsgView: {
-    top: 30,
-    left: 30,
     position: 'absolute',
     alignItems: 'center',
     borderWidth: 1,
     borderRadius: 8,
     borderColor: 'green',
-    height: 500,
-    width: 350,
     backgroundColor: 'green',
-    opacity: 0.2,
+    height: '100%',
+    width: '100%',
+    opacity: 0.2
   },
   rightMsgTxt: {
     color: 'green',
-    top: 200,
-    left: 40,
+    top: '35%',
+    left: '3%',
     position: 'absolute',
     transform: [{ rotate: '-25deg'}]
   },
@@ -226,12 +233,24 @@ const styles = StyleSheet.create({
   columnContainer: {
     flexDirection: 'column'
   },
-  title: {
+  captionHeader: {
     fontWeight: 'bold',
-    width: '75%'
+    width: '90%',
+    marginLeft: '5%',
+    marginTop: 5,
+    marginBottom: 5,
+    paddingLeft: 10,
+    paddingTop: 10,
+    paddingBottom: 5,
+    textAlign: 'left',
+    lineHeight: 20,
+    borderBottomWidth: 2,
+    borderBottomColor: '#eeeeee'
   },
-  venue: {
-    width: '75%'
+  captionText: {
+    paddingLeft: 25,
+    paddingRight: 10,
+    overflow: 'scroll'
   }
 });
 
