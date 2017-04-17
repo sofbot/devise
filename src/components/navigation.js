@@ -43,7 +43,7 @@ export default class Navigation extends React.Component {
       else if (this.props.title === "Navigation" && this.props.user
       && this.props.user.id) {
         console.log("Popping");
-        Actions.events();
+        BackAndroid.exitApp();
         return true;
       }
 
