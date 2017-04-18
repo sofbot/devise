@@ -11,7 +11,7 @@ class Auth extends Component {
   render(){
     return (
       <View style={{flex: 1}}>
-        <Image source={require('../../images/landing.jpg')}
+        <Image source={require('../../images/gif.gif')}
           style={styles.container}>
           <Text style={styles.header}>devise</Text>
           <FacebookButtonContainer style={styles.button}/>
