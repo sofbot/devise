@@ -6,7 +6,7 @@ export const fetchEvents = (userId, offset) => {
   return fetch(url);
 };
 
-export const recordChoice = (direction, swipedEvent) => {
+export const recordChoice = (direction, swipedEvent, userId) => {
   switch(direction) {
     case 'right':
       swipedEvent.liked = true;
@@ -16,14 +16,13 @@ export const recordChoice = (direction, swipedEvent) => {
       break;
   }
 
-  // add user_id 4 reals
   return fetch('http://devise-live.herokuapp.com/userevents/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded'
       },
       body: JSON.stringify({
-        user_id: '1',
+        user_id: `${userId}`,
         event: swipedEvent.customId,
         liked: `${swipedEvent.liked}`,
         seconds_viewed: '1'
