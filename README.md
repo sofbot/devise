@@ -1,6 +1,6 @@
 # Devise
 
-[Devise](https://sofbot.github.io/devise/) is an easy-to-use, mobile application for finding things to do. 
+[Devise](https://sofbot.github.io/devise/) is an easy-to-use, mobile application for finding things to do.
 
 ## The Problem
 
@@ -94,6 +94,6 @@ Features to come very soon:
 
 ## Authors
 
-- Sofie Chen - Software Engineer | [Github](http://github.com/sofbot) | [LinkedIn](https://www.linkedin.com/in/sofia-chen/)
+- Sofia Chen - Software Engineer | [Github](http://github.com/sofbot) | [LinkedIn](https://www.linkedin.com/in/sofia-chen/)
 - Fariba Massah - Software Engineer | [Github](http://github.com/fafafariba) | [LinkedIn](https://www.linkedin.com/in/fafafariba/)
 - Justin Black - Software Engineer | [Github](http://github.com/spacether) | [LinkedIn](https://www.linkedin.com/in/justin-black-81343352/)
