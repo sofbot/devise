@@ -38,46 +38,44 @@ export default class EventIndex extends Component {
         const message = sgs.isSwipeLeft() ? 'pass' : 'added to timeline';
         const msgTxtStyle = sgs.isSwipeLeft() ? styles.leftMsgTxt : styles.rightMsgTxt;
         const msgViewStyle = sgs.isSwipeLeft() ? styles.leftMsgView : styles.rightMsgView;
-        this.setState({ direction: direction, message: message, msgTxtStyle: msgTxtStyle, 
+
+        this.setState({ direction: direction, message: message, msgTxtStyle: msgTxtStyle,
           msgViewStyle: msgViewStyle });
       },
     });
   }
 
-  handleSwipe(deck) {
-    this.props.recordChoice(this.state.direction, this.state.currentEvent, this.props.user.id)
-    .then(() => this.props.removeEvent());
+  handleSwipe() {
+    if (this.state.counter % 2 === 0) {
+      this.props.recordChoice(this.state.direction, this.state.currentEvent, this.props.user.id)
+      .then(() => this.props.removeEvent());
+
+      if (this.state.direction === 'right') {
+        this.props.addToTimeline(this.state.currentEvent);
+      }
+    }
 
     this.setState({ counter: this.state.counter + 1 }, () => {
       if (this.state.counter % 2 === 1) {
-        setTimeout(() => {
-          this.refs.swiper.scrollBy(1);
-          this.setState({ currentEvent: this.props.fetchedEvents[0] });
-        }, 500);
-      } else {
-        if (this.state.direction === 'right') {
-          this.props.addToTimeline(this.state.currentEvent);
+        if (this.props.fetchedEvents.length === 1) {
+          return;
+        } else {
+          setTimeout(() => {
+            this.refs.swiper.scrollBy(1);
+            this.setState({ currentEvent: this.props.fetchedEvents[0] });
+          }, 500);
         }
       }
     });
 
-
-    // check length of fetchedEvents. 
-    
-    //fetch more if >= 5
-    console.log("length: ", this.props.fetchedEvents.length);
-    
-    
+    // check length of fetchedEvents. Fetch more if >= 5
     if (this.props.fetchedEvents.length <= 5) {
-      console.log("length is under 5");
       this.props.fetchEvents(this.props.user.id, this.state.offset)
         .then(() => this.setState({ offset: this.state.offset + 10 }));
     }
   }
 
   render() {
-    console.log("rerendering");
-
     let deck, content;
 
     if (this.props.fetchedEvents.length > 0) {
@@ -138,15 +136,14 @@ export default class EventIndex extends Component {
     if (this.props.fetchedEvents.length === 0) {
       content = <EmptyEvent />;
     } else {
-      content = 
-          <Swiper {...this._panResponder.panHandlers}
-            ref='swiper'
-            showsPagination={false}
-            onMomentumScrollEnd={ this.handleSwipe } >
-            { deck }
-          </Swiper>;
+      content =
+        <Swiper {...this._panResponder.panHandlers}
+          ref='swiper'
+          showsPagination={false}
+          onMomentumScrollEnd={ this.handleSwipe } >
+          { deck }
+        </Swiper>;
     }
-
 
     return (
       <View>
@@ -159,7 +156,7 @@ export default class EventIndex extends Component {
             </View>
           </TouchableOpacity>
         </View>
-      {content}      
+      {content}
     </View>
     );
   }
