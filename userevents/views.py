@@ -44,7 +44,10 @@ class UserEventView(View):
         print(data)
         form = UserEventForm(data)
         status = 200
-        if form.is_valid():
+        if data['user_id'] == '-1':
+            print("ignoring DEMO USER")
+            data = json.dumps({'not_saved': data})
+        elif form.is_valid():
             try:
                 new_userevent = form.save()
                 print ("UserEvent was saved")

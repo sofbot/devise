@@ -11,7 +11,7 @@ class Auth extends Component {
 
   demoLogin(){
     this.props.fetchUser({
-      id: "2",
+      id: "-1",
       firstName: "Guest",
       lastName: "User",
       email: null,
