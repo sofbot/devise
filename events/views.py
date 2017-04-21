@@ -130,7 +130,6 @@ def table_event(div, event, date_str, table_tr):
 def event_summary_to_Event(div, start_date, source):
     table_tr = div.find("tr")
     event = {
-        'source': source,
         'custom_id': source + "_" + str(start_date) + "_",
         'start_date': start_date,
         'end_date': start_date,
