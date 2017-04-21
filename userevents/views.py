@@ -56,11 +56,13 @@ class UserEventView(View):
             except:
             # i.e. Add error message from e to form
                 print("Form save FAILED")
+                print (form.errors)
                 status = 400
                 data = json.dumps({'errors': form.errors})
             pass
         else:
             print("Form was INVALID")
+            print (form.errors)
             status = 400
             data = json.dumps({'errors': form.errors})
         return HttpResponse(data, content_type='application/json', status=status)
