@@ -8,7 +8,7 @@ from events.models import Event
 # Create your models here.
 class UserEvent(models.Model):
     # user = models.ForeignKey(User, on_delete=models.CASCADE)
-    user_id = models.IntegerField(default=-1)
+    user_id = models.CharField(max_length=100)
     event = models.ForeignKey(Event, on_delete=models.CASCADE)
     liked = models.BooleanField()
     seconds_viewed = models.IntegerField(default=-1)
