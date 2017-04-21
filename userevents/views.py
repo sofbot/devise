@@ -44,7 +44,7 @@ class UserEventView(View):
         print(data)
         form = UserEventForm(data)
         status = 200
-        if data['user_id'] == '-1':
+        if data['user_id'] == '0':
             print("ignoring DEMO USER")
             data = json.dumps({'not_saved': data})
         elif form.is_valid():
