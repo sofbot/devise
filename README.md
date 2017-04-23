@@ -98,4 +98,4 @@ Features to come very soon:
 - Fariba Massah - Software Engineer | [Github](http://github.com/fafafariba) | [LinkedIn](https://www.linkedin.com/in/fafafariba/)
 - Justin Black - Software Engineer | [Github](http://github.com/spacether) | [LinkedIn](https://www.linkedin.com/in/justin-black-81343352/)
 
-![Justin Analytics](https://ga-beacon.appspot.com/UA-97855011-1/devise?pixel)
+![Justin Analytics](https://ga-beacon.appspot.com/UA-97855011-1/devise_github?pixel)
