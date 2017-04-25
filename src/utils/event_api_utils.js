@@ -6,7 +6,7 @@ export const fetchEvents = (userId, offset) => {
   return fetch(url);
 };
 
-export const recordChoice = (direction, swipedEvent, userId) => {
+export const recordChoice = (direction, swipedEvent, userId, secs) => {
   switch(direction) {
     case 'right':
       swipedEvent.liked = true;
@@ -25,7 +25,7 @@ export const recordChoice = (direction, swipedEvent, userId) => {
         user_id: `${userId}`,
         event: swipedEvent.customId,
         liked: `${swipedEvent.liked}`,
-        seconds_viewed: '1'
+        seconds_viewed: `${secs}`
       })
     });
 };

@@ -48,7 +48,7 @@ export default class EventIndex extends Component {
 
   handleSwipe() {
     if (this.state.counter % 2 === 0) {
-      this.props.recordChoice(this.state.direction, this.state.currentEvent, this.props.user.id)
+      this.props.recordChoice(this.state.direction, this.state.currentEvent, this.props.user.id, 1)
       .then(() => this.props.removeEvent());
 
       if (this.state.direction === 'right') {

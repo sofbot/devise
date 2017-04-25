@@ -130,7 +130,6 @@ def table_event(div, event, date_str, table_tr):
 def event_summary_to_Event(div, start_date, source):
     table_tr = div.find("tr")
     event = {
-        'source': source,
         'custom_id': source + "_" + str(start_date) + "_",
         'start_date': start_date,
         'end_date': start_date,
@@ -231,7 +230,9 @@ class EventView(View):
 
         excluded_ids = []
         if user_id:
-            excluded_ids = list(UserEvent.objects.filter(user_id=user_id, event__start_date=date, event__end_time__gte=now, liked=False).values_list('event', flat=True))
+            print("Finding events to omit for user: "+str(user_id))
+            excluded_ids = list(UserEvent.objects.filter(user_id=user_id, event__start_date=date, event__end_time__gte=now).values_list('event', flat=True))
+        print("Excluded event count: "+str(len(excluded_ids)))
         print("Excluding events with custom_ids of:")
         print(excluded_ids)
         events = Event.objects.filter(start_date=date, end_time__gte=now).order_by('start_time').exclude(custom_id__in=excluded_ids)[offset:offset+10]
