@@ -7,6 +7,7 @@ import SimpleGesture from 'react-native-simple-gesture';
 import Loading from './loading';
 import { Actions } from 'react-native-router-flux';
 import EmptyEvent from './empty_event.js';
+import SwipeResult from './swipe_result';
 
 export default class EventIndex extends Component {
   constructor(props) {
@@ -102,34 +103,7 @@ export default class EventIndex extends Component {
             </View>
           </View>
         </View>,
-        <View key={this.state.currentEvent.customId + "234823"} style={ styles.container }>
-          <View style={ styles.overlay }>
-            <View style={this.state.msgViewStyle}></View>
-            <Text h1 style={this.state.msgTxtStyle}>{ this.state.message }</Text>
-          </View>
-          <View key={ this.state.currentEvent } style={ styles.resultContainer } >
-            <Image source={{ uri: this.state.currentEvent.imageUrl }}
-              style={ styles.image } />
-            <View style={ styles.columnContainer }>
-              <View style={ styles.columnContainer }>
-                <Text style={ styles.captionHeader }
-                  ellipsizeMode='tail'
-                  numberOfLines={1}> { this.state.currentEvent.title} </Text>
-                <Text style={ styles.captionText }
-                  ellipsizeMode='tail'
-                  numberOfLines={1}>{ this.state.currentEvent.location }</Text>
-              </View>
-              <View>
-                <Text style={ styles.captionText }>
-                  {
-                    this.state.currentEvent.startTime === '00:01:00' ?
-                      'All Day' : this.state.currentEvent.startTime
-                  }
-                </Text>
-              </View>
-            </View>
-          </View>
-        </View>
+        <SwipeResult />
       ];
     }
 
@@ -162,7 +136,7 @@ export default class EventIndex extends Component {
   }
 }
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
   headerTxt: {
     color: 'black',
     marginLeft: '40%',

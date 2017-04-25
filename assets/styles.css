@@ -13,8 +13,17 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+  line-height: 20px
+}
+
 figure {
   margin-top: 0;
+}
+
+.indent {
+  margin-left: 5px
 }
 
 .btn {
@@ -46,7 +55,7 @@ figure {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  top: 90px;
+  top: 15px;
 }
 
 .splash-txt {
