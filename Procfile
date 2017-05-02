@@ -1,1 +1,1 @@
-web: gunicorn djangoapp.wsgi
+web: newrelic-admin run-program gunicorn djangoapp.wsgi
