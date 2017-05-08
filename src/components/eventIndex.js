@@ -72,7 +72,14 @@ export default class EventIndex extends Component {
     // check length of fetchedEvents. Fetch more if >= 5
     if (this.props.fetchedEvents.length <= 5) {
       this.props.fetchEvents(this.props.user.id, this.state.offset)
-        .then(() => this.setState({ offset: this.state.offset + 10 }));
+        .then(() => {
+
+          // reset offset if user is guest
+          if (this.props.user.id === "0" && this.props.fetchedEvents < 10) {
+            this.setState({ offset: 0 });
+          } else {
+            this.setState({ offset: this.state.offset + 10 });
+        }});
     }
   }
 
