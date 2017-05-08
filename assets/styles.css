@@ -67,7 +67,9 @@ figure {
 .splash-btns {
   margin-top: 35px;
   display: flex;
-  opacity: 0.7
+  opacity: 0.7;
+  justify-content: center;
+  width: 220px;
 }
 
 span {
@@ -97,20 +99,25 @@ span {
 
 
 
-.demo-btn {
-  width: 235px;
+#demo-btn {
+  /*position: absolute;*/
+  background-color: #3b5998;
+  width: 200px;
   text-align: center;
   padding: 10px;
-  border: 1px solid white;
+  border: none;
   color: white;
   border-radius: 4px;
   font-size: 18px;
+  font-weight: bold;
   line-height: 1.5;
   text-transform: uppercase;
+  /*z-index: 1;*/
+  box-shadow: 5px 5px 10px rgba(7, 7, 7, 0.78);
 }
 
-.demo-btn:hover, .splash-header:hover {
-  background-color: #3b5998;
+#demo-btn:hover, .splash-header:hover {
+  background-color: crimson;
   border-color: transparent;
 }
 
