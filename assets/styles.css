@@ -1,8 +1,10 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: "BentonSans Regular","Helvetica Neue",Helvetica,Arial,"Sans-Serif";
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -31,22 +33,39 @@ figure {
 }
 
 .background-image {
-  height: 110vh;
-  width: 110vw;
-  position: fixed;
-  top: -5vh;
-  left: -5vh;
-  background-image: url('images/hipster-friends-intrepid.jpg');
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.9)
+    ),
+  url('images/hipster-friends-intrepid.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: blur(6px);
-  -moz-filter: blur(6px);
-  -o-filter: blur(6px);
-  -ms-filter: blur(6px);
-  filter: blur(6px);
 }
 
 .demo {
-  background-image: url('images/events.jpg');
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.9)
+    ),
+  url('images/events.jpg');
+  /*position: relative;*/
+  /*min-height: 100vh;
+  width: 100vw;*/
+  background-attachment: none;
+  /*background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+.wrapper {
+  position: relative;
 }
 
 .content {
@@ -54,20 +73,40 @@ figure {
   display: flex;
   align-items: center;
   justify-content: center;
+  top: 15px;
+  width: 100vw;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+/*.content-demo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100vw;
   top: 15px;
+}*/
+
+.demo-right{
+  /*position: relative;*/
 }
 
 .splash-txt {
   color: white;
   width: 300px;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 2px 2px 1px darkslategray;
 }
 
 .splash-btns {
   margin-top: 35px;
   display: flex;
-  opacity: 0.7
+  opacity: 0.7;
+  justify-content: center;
+  width: 220px;
 }
 
 span {
@@ -97,20 +136,23 @@ span {
 
 
 
-.demo-btn {
-  width: 235px;
+#demo-btn {
+  background-color: #3b5998;
+  width: 200px;
   text-align: center;
   padding: 10px;
-  border: 1px solid white;
+  border: none;
   color: white;
   border-radius: 4px;
   font-size: 18px;
+  font-weight: bold;
   line-height: 1.5;
   text-transform: uppercase;
+  box-shadow: 5px 5px 10px rgba(7, 7, 7, 0.78);
 }
 
-.demo-btn:hover, .splash-header:hover {
-  background-color: #3b5998;
+#demo-btn:hover, .splash-header:hover {
+  background-color: crimson;
   border-color: transparent;
 }
 
@@ -121,7 +163,7 @@ span {
   background-size: cover;
 }
 
-.google-play {
+#google-play {
   background-image: url('images/google-play.png');
   height: 50px;
   width: 50px;
