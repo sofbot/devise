@@ -7,7 +7,7 @@ body {
   scroll-behavior: smooth;
 }
 
-img {
+figure > img {
   width: 300px;
 }
 
@@ -48,6 +48,48 @@ figure {
   background-size: cover;
 }
 
+.divider {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #292c30;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider h1 {
+  margin: 50px;
+  text-align: center;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #292c30;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.logos img {
+  height: 200px;
+  margin-right: 50px;
+}
+
 .demo {
   background:
     linear-gradient(
@@ -56,9 +98,7 @@ figure {
     ),
   url('images/events.jpg');
   /*position: relative;*/
-  /*min-height: 100vh;
-  width: 100vw;*/
-  background-attachment: none;
+  background-attachment: fixed;
   /*background-position: center;
   background-repeat: no-repeat;
   background-size: cover;*/
@@ -97,7 +137,7 @@ figure {
 
 .splash-txt {
   color: white;
-  width: 300px;
+  width: 450px;
   text-shadow: 2px 2px 1px darkslategray;
 }
 
@@ -134,8 +174,6 @@ span {
   right: 50px;
 }
 
-
-
 #demo-btn {
   background-color: #3b5998;
   width: 200px;
@@ -156,18 +194,24 @@ span {
   border-color: transparent;
 }
 
-.github {
-  background-image: url('images/github.png');
-  height: 50px;
-  width: 50px;
-  background-size: cover;
+.github a {
+  height: 57.6px;
+  width: 201px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:black;
+  border: 1px solid #A6A6A6;
+  border-radius: 7px;
 }
 
-#google-play {
-  background-image: url('images/google-play.png');
-  height: 50px;
-  width: 50px;
-  background-size: cover;
+.github img {
+  width: 168px;
+  margin-bottom: 4.5px;
+}
+
+#google-play img{
+  height: 60px;
   margin-right: 25px;
 }
 
