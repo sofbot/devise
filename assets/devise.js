@@ -5,6 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   const demoButton = document.getElementById('demo-btn');
   const demo = document.getElementById('demo');
-  demoButton.onclick = () => window.scrollBy(0, window.innerHeight);
-  // demoButton.onclick = () => demo.scrollIntoView({ behavior: 'smooth' });
+  // demoButton.onclick = () => window.scrollBy(0, window.innerHeight);
+  demoButton.onclick = () => demo.scrollIntoView({ behavior: 'smooth' });
 });
